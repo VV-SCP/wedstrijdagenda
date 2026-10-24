@@ -18,9 +18,18 @@ OUTPUT = Path("scp-1.ics")
 TZ = ZoneInfo("Europe/Amsterdam")
 
 MONTHS = {
-    "jan": 1, "feb": 2, "mrt": 3, "apr": 4,
-    "mei": 5, "jun": 6, "jul": 7, "aug": 8,
-    "sep": 9, "okt": 10, "nov": 11, "dec": 12,
+    "jan": 1,
+    "feb": 2,
+    "mrt": 3,
+    "apr": 4,
+    "mei": 5,
+    "jun": 6,
+    "jul": 7,
+    "aug": 8,
+    "sep": 9,
+    "okt": 10,
+    "nov": 11,
+    "dec": 12,
 }
 
 TYPE_NAMES = {
@@ -57,14 +66,18 @@ def escape(value: str) -> str:
 
 
 def fold(line: str, limit: int = 73) -> str:
-    """Breek lange iCalendar-regels af."""
+    """Breek lange iCalendar-regels correct af."""
     parts = []
+
     while len(line.encode("utf-8")) > limit:
         cut = min(limit, len(line))
+
         while len(line[:cut].encode("utf-8")) > limit:
             cut -= 1
+
         parts.append(line[:cut])
         line = " " + line[cut:]
+
     parts.append(line)
     return "\r\n".join(parts)
 
@@ -79,46 +92,75 @@ def season_year(month: int) -> int:
 def normalise_postcode(postcode: str) -> str:
     """Zet een postcode om naar de vorm 1234 AB."""
     postcode = postcode.upper().replace(" ", "")
+
     if len(postcode) == 6:
         return f"{postcode[:4]} {postcode[4:]}"
+
     return postcode
 
 
 def normalise_result(value: str) -> str:
-    """Geef alleen een echte numerieke uitslag terug, bijvoorbeeld 3 - 1."""
+    """Geef alleen een echte numerieke uitslag terug."""
     value = " ".join(value.split())
-    match = re.fullmatch(r"(\d+)\s*-\s*(\d+)", value)
-    if not match:
+    result_match = re.fullmatch(r"(\d+)\s*-\s*(\d+)", value)
+
+    if not result_match:
         return ""
-    return f"{match.group(1)} - {match.group(2)}"
+
+    return f"{result_match.group(1)} - {result_match.group(2)}"
 
 
-def detail_location(url: str) -> tuple[str, str]:
-    """Haal indien mogelijk adres en accommodatie van de detailpagina."""
+def detect_match_status(page_text: str) -> str:
+    """Herken een bijzondere wedstrijdstatus op de detailpagina."""
+    text = " ".join(page_text.lower().split())
+
+    if "deze wedstrijd is afgelast" in text or re.search(r"\bafgelast\b", text):
+        return "afgelast"
+
+    if "deze wedstrijd is uitgesteld" in text or re.search(r"\buitgesteld\b", text):
+        return "uitgesteld"
+
+    if "deze wedstrijd is gestaakt" in text or re.search(r"\bgestaakt\b", text):
+        return "gestaakt"
+
+    if "deze wedstrijd is vervallen" in text or re.search(r"\bvervallen\b", text):
+        return "vervallen"
+
+    return ""
+
+
+def detail_data(url: str) -> tuple[str, str, str]:
+    """Haal adres, accommodatie en wedstrijdstatus van de detailpagina."""
     try:
         response = requests.get(url, headers=HEADERS, timeout=20)
         response.raise_for_status()
     except requests.RequestException:
-        return "", ""
+        return "", "", ""
 
-    text = BeautifulSoup(response.text, "html.parser").get_text(" ", strip=True)
-    match = re.search(
+    soup = BeautifulSoup(response.text, "html.parser")
+    page_text = soup.get_text(" ", strip=True)
+    match_status = detect_match_status(page_text)
+
+    location_match = re.search(
         r"Accommodatie\s+(.+?)\s+"
         r"([A-Za-zÀ-ÿ' .-]+\s+\d+[A-Za-z]?)\s+"
         r"(\d{4}\s?[A-Z]{2})\s+"
         r"([A-Za-zÀ-ÿ' .-]+?)"
         r"(?:\s+tel\.|\s+Toon routebeschrijving)",
-        text,
+        page_text,
         flags=re.IGNORECASE,
     )
-    if not match:
-        return "", ""
 
-    accommodation = " ".join(match.group(1).split())
-    street = " ".join(match.group(2).split())
-    postcode = normalise_postcode(match.group(3))
-    place = " ".join(match.group(4).split()).title()
-    return f"{street}, {postcode} {place}", accommodation
+    if not location_match:
+        return "", "", match_status
+
+    accommodation = " ".join(location_match.group(1).split())
+    street = " ".join(location_match.group(2).split())
+    postcode = normalise_postcode(location_match.group(3))
+    place = " ".join(location_match.group(4).split()).title()
+    address = f"{street}, {postcode} {place}"
+
+    return address, accommodation, match_status
 
 
 def create_uid(season_start: int, home: str, away: str, kind: str) -> str:
@@ -129,18 +171,22 @@ def create_uid(season_start: int, home: str, away: str, kind: str) -> str:
 
 
 def fetch_matches() -> list[dict]:
-    """Lees programma en uitslagen van SCP 1."""
+    """Lees programma, uitslagen en statussen van SCP 1."""
     response = requests.get(PROGRAM_URL, headers=HEADERS, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
 
     program_table = None
+
     for candidate in soup.find_all("table"):
-        headers = [
+        table_headers = [
             heading.get_text(" ", strip=True).lower()
             for heading in candidate.find_all("th")
         ]
-        if {"datum", "tijd", "thuis", "uit", "uitslag"}.issubset(set(headers)):
+
+        required_headers = {"datum", "tijd", "thuis", "uit", "uitslag"}
+
+        if required_headers.issubset(set(table_headers)):
             program_table = candidate
             break
 
@@ -150,19 +196,27 @@ def fetch_matches() -> list[dict]:
         )
 
     matches = []
+
     for row in program_table.find_all("tr"):
         cells = row.find_all(["td", "th"])
+
         if len(cells) < 6 or cells[0].name == "th":
             continue
 
         values = [cell.get_text(" ", strip=True) for cell in cells]
-        date_match = re.fullmatch(r"(\d{1,2})\s+([A-Za-z]{3})", values[0].lower())
+
+        date_match = re.fullmatch(
+            r"(\d{1,2})\s+([A-Za-z]{3})",
+            values[0].lower(),
+        )
         time_match = re.fullmatch(r"(\d{1,2})[.:](\d{2})", values[1])
+
         if not date_match or not time_match:
             continue
 
         day = int(date_match.group(1))
         month = MONTHS.get(date_match.group(2))
+
         if not month:
             continue
 
@@ -182,20 +236,25 @@ def fetch_matches() -> list[dict]:
         result = normalise_result(values[5])
 
         detail_url = ""
+
         for link in row.find_all("a", href=True):
             href = link.get("href", "")
+
             if "wedstrijd" in href.lower():
                 detail_url = urljoin(PROGRAM_URL, href)
                 break
 
         address = ""
         accommodation = ""
+        match_status = ""
+
         if detail_url:
-            address, accommodation = detail_location(detail_url)
+            address, accommodation, match_status = detail_data(detail_url)
 
         if home.upper().startswith("SCP 1"):
             if not address:
                 address = HOME_LOCATION
+
             if not accommodation:
                 accommodation = HOME_ACCOMMODATION
 
@@ -209,6 +268,7 @@ def fetch_matches() -> list[dict]:
                 "away": away,
                 "kind": kind,
                 "result": result,
+                "match_status": match_status,
                 "url": detail_url or PROGRAM_URL,
                 "address": address,
                 "accommodation": accommodation,
@@ -220,11 +280,12 @@ def fetch_matches() -> list[dict]:
         raise RuntimeError(
             "Geen wedstrijden gevonden. Het bestaande kalenderbestand blijft behouden."
         )
+
     return matches
 
 
 def build_calendar(matches: list[dict]) -> str:
-    """Zet wedstrijden en bekende uitslagen om naar iCalendar."""
+    """Zet wedstrijden, uitslagen en statussen om naar iCalendar."""
     timestamp = datetime.now(TZ).strftime("%Y%m%dT000000Z")
     lines = [
         "BEGIN:VCALENDAR",
@@ -241,18 +302,29 @@ def build_calendar(matches: list[dict]) -> str:
     for match in sorted(matches, key=lambda item: item["start"]):
         start = match["start"]
         end = start + timedelta(hours=2)
+        match_status = match["match_status"]
         title = f"{match['home']} - {match['away']}"
-        if match["result"]:
+
+        if match_status:
+            title = f"{match_status.upper()}: {title}"
+        elif match["result"]:
             title += f" ({match['result']})"
 
         description = [match["kind"]]
-        if match["result"]:
+
+        if match_status:
+            description.insert(0, f"Status: {match_status}")
+        elif match["result"]:
             description.append(f"Eindstand: {match['result']}")
+
         if match["accommodation"]:
             description.append(f"Accommodatie: {match['accommodation']}")
+
         description.append(
             "Controleer bij last-minute wijzigingen altijd Voetbal.nl."
         )
+
+        ical_status = "CANCELLED" if match_status in {"afgelast", "vervallen"} else "CONFIRMED"
 
         lines.extend(
             [
@@ -270,12 +342,14 @@ def build_calendar(matches: list[dict]) -> str:
                 f"SUMMARY:{escape(title)}",
                 f"DESCRIPTION:{escape(chr(10).join(description))}",
                 f"URL:{match['url']}",
-                "STATUS:CONFIRMED",
+                f"STATUS:{ical_status}",
                 "SEQUENCE:0",
             ]
         )
+
         if match["address"]:
             lines.append(f"LOCATION:{escape(match['address'])}")
+
         lines.append("END:VEVENT")
 
     lines.append("END:VCALENDAR")
