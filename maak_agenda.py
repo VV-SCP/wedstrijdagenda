@@ -39,6 +39,7 @@ OUTPUT_OVERRIDES = {
     "SCP 1": "scp-1.ics",
     "SCP 2": "scp-2.ics",
     "SCP 3": "scp-3.ics",
+    "SCP Zaterdag 2": "scp-zaterdag-2.ics",
     "SCP Dames 1": "scp-dames-1.ics",
     "SCP 35+1": "scp-35-plus-1.ics",
     "SCP 35+2": "scp-35-plus-2.ics",
@@ -91,7 +92,7 @@ def clean_text(value: object) -> str:
 
 
 def clean_team_name(value: object) -> str:
-    """Normaliseer een teamnaam uit de API."""
+    """Normaliseer een teamnaam voor weergave in de agenda."""
     name = clean_text(value)
     name = re.sub(r"\s*\((?:zon|zat)\)\s*$", "", name, flags=re.IGNORECASE)
     name = name.replace("SJO SCP/DSZ -DIO'3...", "SJO SCP/DSZ-DIO'30")
@@ -100,34 +101,47 @@ def clean_team_name(value: object) -> str:
 
 def is_scp_team(name: str) -> bool:
     """Controleer of een teamnaam bij SCP of het SCP-samenwerkingsverband hoort."""
-    upper = name.upper()
+    upper = clean_text(name).upper()
     return upper.startswith("SCP ") or upper.startswith("SJO SCP/DSZ")
 
 
 def canonical_scp_team(match: dict) -> str:
-    """Bepaal de SCP-teamnaam van een wedstrijd."""
-    home = clean_team_name(match.get("thuisClubEnTeamNaamFriendly"))
-    away = clean_team_name(match.get("uitClubEnTeamNaamFriendly"))
+    """Bepaal een korte, vaste SCP-teamnaam voor bestandsnaam en agenda."""
+    home_raw = clean_text(match.get("thuisClubEnTeamNaamFriendly"))
+    away_raw = clean_text(match.get("uitClubEnTeamNaamFriendly"))
 
-    if is_scp_team(home):
-        raw = home
-    elif is_scp_team(away):
-        raw = away
+    if is_scp_team(home_raw):
+        raw = home_raw
+    elif is_scp_team(away_raw):
+        raw = away_raw
     else:
         return ""
 
     category = clean_text(match.get("categorie")).lower()
-    age = match.get("leeftijd")
+    age = clean_text(match.get("leeftijd"))
     team_number = clean_text(match.get("team"))
 
-    # Jeugdteamnamen uit leeftijd + teamnummer zijn betrouwbaarder dan afgekorte labels.
-    if category in {"junioren", "pupillen"} and str(age).isdigit() and team_number:
+    # Voor jeugd zijn leeftijd en teamnummer betrouwbaarder dan soms afgekorte labels.
+    if category in {"junioren", "pupillen"} and age.isdigit() and team_number:
         age_number = int(age)
         if age_number == 19 and team_number == "2":
             return "SJO SCP/DSZ-DIO'30 O19-2"
         return f"SJO SCP/DSZ O{age_number}-{team_number}"
 
-    return raw
+    cleaned = clean_team_name(raw)
+
+    # Houd zaterdag- en zondagteams uit elkaar, ook als beide hetzelfde nummer hebben.
+    if "(zat)" in raw.lower() or bool(match.get("bevatZaterdagteam")):
+        number = re.search(r"\b(\d+)\b", cleaned)
+        if number:
+            return f"SCP Zaterdag {number.group(1)}"
+
+    if "(zon)" in raw.lower() or bool(match.get("bevatZondagteam")):
+        number = re.search(r"\b(\d+)\b", cleaned)
+        if number:
+            return f"SCP {number.group(1)}"
+
+    return cleaned
 
 
 def slugify(value: str) -> str:
