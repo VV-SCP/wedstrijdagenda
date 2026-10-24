@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VV SCP//Wedstrijdagenda SJO SCP/DSZ O17-1//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SJO SCP/DSZ O17-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:wedstrijd-32648@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T121500
+DTEND;TZID=Europe/Amsterdam:20260905T141500
+SUMMARY:SJO SCP/DSZ O17-1 - Lienden O17-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 1\nScheidsrechter:
+  S.W.L. Smits\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32648/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32647@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T123000
+DTEND;TZID=Europe/Amsterdam:20260912T143000
+SUMMARY:SVHA O17-1 - SJO SCP/DSZ O17-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2\nScheidsrechter:
+  EWJA Scholten\nControleer bij last-minute wijzigingen altijd Voetbal.nl
+ .
+URL:https://www.vv-scp.nl/524/32647/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Zandakkers De Zandakkers 43\, 6674 DH Herveld
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32649@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260921T201500
+DTEND;TZID=Europe/Amsterdam:20260921T221500
+SUMMARY:SJO SCP/DSZ O17-1 - Leones O17-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 1\nScheidsrechter:
+  T.J.H.M. Beck\nControleer bij last-minute wijzigingen altijd Voetbal.nl
+ .
+URL:https://www.vv-scp.nl/524/32649/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32642@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T103000
+DTEND;TZID=Europe/Amsterdam:20260926T123000
+SUMMARY:SJO SCP/DSZ O17-1 - Blauw Wit O17-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2\nScheidsrechter:
+  W. Hol\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32642/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32650@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T123000
+DTEND;TZID=Europe/Amsterdam:20261003T143000
+SUMMARY:Woezik O17-2 - SJO SCP/DSZ O17-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 3\nScheidsrechter:
+  P.A. van der Burgt\nControleer bij last-minute wijzigingen altijd Voetb
+ al.nl.
+URL:https://www.vv-scp.nl/524/32650/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Woezik Suikerbergseweg 6\, 6604 AE Wijchen
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32859@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T130000
+DTEND;TZID=Europe/Amsterdam:20261024T150000
+SUMMARY:Trekvogels O17-1 - SJO SCP/DSZ O17-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2 - Kunstgras\nSch
+ eidsrechter: J. Stoppels\nControleer bij last-minute wijzigingen altijd 
+ Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32859/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Kwakkenberg Luciaweg 9\, 6523 NK Nijmegen
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33212@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T151500
+DTEND;TZID=Europe/Amsterdam:20261031T171500
+SUMMARY:SJO SCP/DSZ O17-1 - DIO '30 O17-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33212/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33202@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T143000
+DTEND;TZID=Europe/Amsterdam:20261107T163000
+SUMMARY:Juliana '31 O17-3 - SJO SCP/DSZ O17-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 - Hoofdveld
+ \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33202/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Broeklanden Broekkant 39\, 6581 AC Malden
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33200@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T124000
+DTEND;TZID=Europe/Amsterdam:20261121T144000
+SUMMARY:SJO SCP/DSZ O17-1 - Orion O17-3
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33200/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33208@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T150000
+DTEND;TZID=Europe/Amsterdam:20261128T170000
+SUMMARY:DVSG O17-1JM - SJO SCP/DSZ O17-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Horst (Groesb.)\nVeld:
+  veld 1 - Hoofdveld\nControleer bij last-minute wijzigingen altijd Voetb
+ al.nl.
+URL:https://www.vv-scp.nl/524/33208/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Hoge Horst 54\, 6562 LE Groesbeek
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33211@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T130000
+DTEND;TZID=Europe/Amsterdam:20261205T150000
+SUMMARY:SJO SCP/DSZ O17-1 - ST VDS'25-Batavia O17-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33211/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+END:VCALENDAR

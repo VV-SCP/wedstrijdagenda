@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VV SCP//Wedstrijdagenda SJO SCP/DSZ O10-1//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SJO SCP/DSZ O10-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:wedstrijd-33082@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T083000
+DTEND;TZID=Europe/Amsterdam:20261031T103000
+SUMMARY:SJO SCP/DSZ O10-1 - Aquila O10-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B1\nControl
+ eer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33082/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33072@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T083000
+DTEND;TZID=Europe/Amsterdam:20261107T103000
+SUMMARY:Lienden O10-2 - SJO SCP/DSZ O10-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A2\nControl
+ eer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33072/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Abdijhof Molenstraat 18\, 4033 AV Lienden
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33081@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T083000
+DTEND;TZID=Europe/Amsterdam:20261114T103000
+SUMMARY:SJO SCP/DSZ O10-1 - AAC-Olympia O10-1JM
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B2\nControl
+ eer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33081/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33070@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T103000
+DTEND;TZID=Europe/Amsterdam:20261121T123000
+SUMMARY:SJO SCP/DSZ O10-1 - Dodewaard O10-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1\nControl
+ eer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33070/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33086@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T100000
+DTEND;TZID=Europe/Amsterdam:20261128T120000
+SUMMARY:Unitas '28 O10-1JM - SJO SCP/DSZ O10-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Parken (Unitas '28)\nV
+ eld: veld 1 B1\nControleer bij last-minute wijzigingen altijd Voetbal.nl
+ .
+URL:https://www.vv-scp.nl/524/33086/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Parkenstraat 0\, 6659 BD Wamel
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33083@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T083000
+DTEND;TZID=Europe/Amsterdam:20261205T103000
+SUMMARY:SJO SCP/DSZ O10-1 - ST VDS'25/Batavia O10-1GJM
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B2\nControl
+ eer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33083/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,180 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VV SCP//Wedstrijdagenda SJO SCP/DSZ-DIO'30 O19-2//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SJO SCP/DSZ-DIO'30 O19-2
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:wedstrijd-32472@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T140000
+DTEND;TZID=Europe/Amsterdam:20260829T160000
+SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - SV DCS Zevenaar O19
+DESCRIPTION:Vriendschappelijk\nVeld: 2\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32472/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32566@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T130000
+DTEND;TZID=Europe/Amsterdam:20260905T150000
+SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - Uchta O19-1JM
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2\nScheidsrechter:
+  J.M.J.G van de Kamp\nControleer bij last-minute wijzigingen altijd Voet
+ bal.nl.
+URL:https://www.vv-scp.nl/524/32566/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32561@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T130000
+DTEND;TZID=Europe/Amsterdam:20260912T150000
+SUMMARY:Excelsior Z. O19-3 - SJO SCP/DSZ -DIO'30 O19-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 1\nScheidsrechter:
+  M. Aghamir\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32561/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Leijgraaf Leigraafseweg 8\, 6671 MC Zetten
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32567@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T130000
+DTEND;TZID=Europe/Amsterdam:20260919T150000
+SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - Union O19-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: Hoofdveld\nScheids
+ rechter: A.J. Jansen\nControleer bij last-minute wijzigingen altijd Voet
+ bal.nl.
+URL:https://www.vv-scp.nl/524/32567/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32564@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T130000
+DTEND;TZID=Europe/Amsterdam:20260926T150000
+SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - SC Bemmel O19-3
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2\nScheidsrechter:
+  A.J. Jansen\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32564/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32565@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T120000
+DTEND;TZID=Europe/Amsterdam:20261003T140000
+SUMMARY:Kesteren O19-1 - SJO SCP/DSZ -DIO'30 O19-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 1 - Hoofdgras\nSch
+ eidsrechter: M.C. Jansen Cosio Martinez\nControleer bij last-minute wijz
+ igingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32565/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Leede Joachim van Hoemenstraat 2\, 4041 GT Kesteren
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32741@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T150000
+DTEND;TZID=Europe/Amsterdam:20261024T170000
+SUMMARY:Quick 1888 O19-2 - SJO SCP/DSZ -DIO'30 O19-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 3\nScheidsrechter:
+  S. Inan\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32741/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Dennen Dennenstraat 25\, 6543 JP Nijmegen
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32795@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T161500
+DTEND;TZID=Europe/Amsterdam:20261031T181500
+SUMMARY:SJO SCP/DSZ-DIO'30 O19-2 - RODA '28 O19-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32795/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32793@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T171500
+DTEND;TZID=Europe/Amsterdam:20261107T191500
+SUMMARY:Spero O19-4 - SJO SCP/DSZ-DIO'30 O19-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2-Spero veld 
+ 2\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32793/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Pas De Pas 3\, 6662 BK Elst
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32791@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T151500
+DTEND;TZID=Europe/Amsterdam:20261114T171500
+SUMMARY:SJO SCP/DSZ-DIO'30 O19-2 - Kesteren O19-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32791/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32792@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T153000
+DTEND;TZID=Europe/Amsterdam:20261121T173000
+SUMMARY:Bennekom O19-3 - SJO SCP/DSZ-DIO'30 O19-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 4\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32792/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Eikelhof Achterstraat 7\, 6721 VM Bennekom
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32814@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T111500
+DTEND;TZID=Europe/Amsterdam:20261128T131500
+SUMMARY:SJO SCP/DSZ-DIO'30 O19-2 - Elistha O19-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32814/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32813@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T153000
+DTEND;TZID=Europe/Amsterdam:20261205T173000
+SUMMARY:SC Bemmel O19-3 - SJO SCP/DSZ-DIO'30 O19-2
+DESCRIPTION:Competitie\nVeld: veld 5\nControleer bij last-minute wijzigin
+ gen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32813/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
