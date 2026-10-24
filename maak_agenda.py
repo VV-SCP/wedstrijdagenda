@@ -313,7 +313,8 @@ def fetch_matches() -> list[dict]:
             values[1],
         )
 
-        if not date_match or not       continue
+            if not date_match or not time_match:
+            continue
 
         day = int(
             date_match.group(1)
