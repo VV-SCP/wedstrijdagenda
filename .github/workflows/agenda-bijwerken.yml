@@ -1,1 +1,41 @@
+name: Werk alle wedstrijdagenda's bij
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-calendars:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository ophalen
+        uses: actions/checkout@v4
+
+      - name: Python instellen
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Benodigdheden installeren
+        run: pip install -r requirements.txt
+
+      - name: Alle agenda's maken
+        run: python maak_agenda.py
+
+      - name: Alleen echte wijzigingen opslaan
+        run: |
+          git config user.name "VV SCP Agenda Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A -- '*.ics' index.html
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen in de agenda's."
+            exit 0
+          fi
+          git commit -m "Werk wedstrijdagenda's VV SCP bij"
+          git push
