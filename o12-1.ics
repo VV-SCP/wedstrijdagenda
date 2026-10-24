@@ -13,12 +13,13 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T100000
 DTEND;TZID=Europe/Amsterdam:20260905T120000
 SUMMARY:SJO SCP/DSZ O12-1 - Woezik O12-2JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 1 A\nScheidsrechte
- r: E. Aalbers\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 1 A\nS
+ cheidsrechter: E. Aalbers\nControleer bij last-minute wijzigingen altijd
+  Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32558/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32555@vv-scp.nl
@@ -26,12 +27,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T083000
 DTEND;TZID=Europe/Amsterdam:20260912T103000
 SUMMARY:AWC O12-2 - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 6 B\nControleer bi
- j last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 6 B\nControleer bij last-minute wijzigingen
+  altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32555/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32551@vv-scp.nl
@@ -39,13 +39,13 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T083000
 DTEND;TZID=Europe/Amsterdam:20260919T103000
 SUMMARY:SJO SCP/DSZ O12-1 - Leones O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: Hoofdveld A\nSchei
- dsrechter: R.S. Baars\nControleer bij last-minute wijzigingen altijd Voe
- tbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
+ eld A\nScheidsrechter: R.S. Baars\nControleer bij last-minute wijziginge
+ n altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32551/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32557@vv-scp.nl
@@ -53,13 +53,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T100000
 DTEND;TZID=Europe/Amsterdam:20260926T120000
 SUMMARY:vv Ewijk O12-1 - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2 A\nScheidsrechte
- r: S.T.H. Hendriks\nControleer bij last-minute wijzigingen altijd Voetba
- l.nl.
+DESCRIPTION:Competitie\nVeld: 2 A\nScheidsrechter: S.T.H. Hendriks\nContr
+ oleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32557/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Blatenplak Blatenplak 49\, 6644 CH Ewijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32546@vv-scp.nl
@@ -67,13 +65,13 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T120000
 DTEND;TZID=Europe/Amsterdam:20261003T140000
 SUMMARY:SJO SCP/DSZ O12-1 - Beuningse Boys O12-2JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: Hoofdveld A\nSchei
- dsrechter: R.S. Baars\nControleer bij last-minute wijzigingen altijd Voe
- tbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
+ eld A\nScheidsrechter: R.S. Baars\nControleer bij last-minute wijziginge
+ n altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32546/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32884@vv-scp.nl
@@ -81,12 +79,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T103000
 DTEND;TZID=Europe/Amsterdam:20261031T123000
 SUMMARY:SJO SCP/DSZ O12-1 - Woezik O12-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 2
+  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32884/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32882@vv-scp.nl
@@ -94,12 +92,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T103000
 DTEND;TZID=Europe/Amsterdam:20261107T123000
 SUMMARY:SJO SCP/DSZ O12-1 - Juliana '31 O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32882/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32871@vv-scp.nl
@@ -107,12 +105,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T113000
 DTEND;TZID=Europe/Amsterdam:20261114T133000
 SUMMARY:NEC O12-2JM - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nAccommodatie: De\nVeld: veld 5 A\nControleer bij 
- last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 5 A\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32871/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Goffert complex De Eendracht Steinweglaan 3\, 6532 AE Nijmegen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32875@vv-scp.nl
@@ -120,12 +117,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T124000
 DTEND;TZID=Europe/Amsterdam:20261121T144000
 SUMMARY:SJO SCP/DSZ O12-1 - Quick 1888 O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 2
+  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32875/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32876@vv-scp.nl
@@ -133,12 +130,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T123000
 DTEND;TZID=Europe/Amsterdam:20261128T143000
 SUMMARY:De Treffers O12-2 - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Zuid (Groesbeek)\nVeld: v
- eld 1 B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 1 B\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32876/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Nijerf 1\, 6562 KW Groesbeek
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32874@vv-scp.nl
@@ -146,12 +142,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T103000
 DTEND;TZID=Europe/Amsterdam:20261205T123000
 SUMMARY:SJO SCP/DSZ O12-1 - DIO '30 O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32874/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32858@vv-scp.nl
@@ -159,11 +155,10 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T083000
 DTEND;TZID=Europe/Amsterdam:20261212T103000
 SUMMARY:Blauw Wit O12-1 - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: Veld 2- Blauw Wit 
- A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: Veld 2- Blauw Wit A\nControleer bij last-mi
+ nute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32858/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Schoonhorst Energieweg 45\, 6541 CW Nijmegen
 END:VEVENT
 END:VCALENDAR

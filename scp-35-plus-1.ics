@@ -13,12 +13,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T200000
 DTEND;TZID=Europe/Amsterdam:20260918T220000
 SUMMARY:DSZ 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 1 A\nScheidsrechte
- r: Anoniem\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 1 A\nScheidsrechter: Anoniem\nControleer bi
+ j last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32458/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32439@vv-scp.nl
@@ -26,12 +25,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T203000
 DTEND;TZID=Europe/Amsterdam:20260918T223000
 SUMMARY:DIO '30 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 1 A\nScheidsrechte
- r: D.J Vink\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 1 A\nScheidsrechter: D.J Vink\nControleer b
+ ij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32439/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32426@vv-scp.nl
@@ -39,12 +37,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T210000
 DTEND;TZID=Europe/Amsterdam:20260918T230000
 SUMMARY:SCP 35+1 - Victoria '25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 1 B\nScheidsrechte
- r: Anoniem\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 1 B\nScheidsrechter: Anoniem\nControleer bi
+ j last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32426/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32448@vv-scp.nl
@@ -52,12 +49,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T220000
 DTEND;TZID=Europe/Amsterdam:20260919T000000
 SUMMARY:Uchta 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 1 B\nScheidsrechte
- r: D.J Vink\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 1 B\nScheidsrechter: D.J Vink\nControleer b
+ ij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32448/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32466@vv-scp.nl
@@ -65,12 +61,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T193000
 DTEND;TZID=Europe/Amsterdam:20261002T213000
 SUMMARY:DIO '30 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2 A\nControleer bi
- j last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 2 A\nControleer bij last-minute wijzigingen
+  altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32466/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32469@vv-scp.nl
@@ -78,12 +73,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T200000
 DTEND;TZID=Europe/Amsterdam:20261002T220000
 SUMMARY:DSZ 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2 A\nControleer bi
- j last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 2 A\nControleer bij last-minute wijzigingen
+  altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32469/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32455@vv-scp.nl
@@ -91,12 +85,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T210000
 DTEND;TZID=Europe/Amsterdam:20261002T230000
 SUMMARY:Uchta 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2 B\nControleer bi
- j last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 2 B\nControleer bij last-minute wijzigingen
+  altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32455/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32431@vv-scp.nl
@@ -104,12 +97,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T213000
 DTEND;TZID=Europe/Amsterdam:20261002T233000
 SUMMARY:SCP 35+1 - Victoria '25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2 B\nControleer bi
- j last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 2 B\nControleer bij last-minute wijzigingen
+  altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32431/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32446@vv-scp.nl
@@ -117,12 +109,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T200000
 DTEND;TZID=Europe/Amsterdam:20261030T220000
 SUMMARY:SCP 35+1 - Victoria '25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 1 A\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32446/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Ringelenberg Schriksestraat 22\, 6654 AN Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32450@vv-scp.nl
@@ -130,12 +121,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T210000
 DTEND;TZID=Europe/Amsterdam:20261030T230000
 SUMMARY:Uchta 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 1 B\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32450/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Ringelenberg Schriksestraat 22\, 6654 AN Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32449@vv-scp.nl
@@ -143,12 +133,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T213000
 DTEND;TZID=Europe/Amsterdam:20261030T233000
 SUMMARY:DIO '30 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 1 A\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32449/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Ringelenberg Schriksestraat 22\, 6654 AN Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32430@vv-scp.nl
@@ -156,12 +145,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T220000
 DTEND;TZID=Europe/Amsterdam:20261031T000000
 SUMMARY:DSZ 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 1 A\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32430/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Ringelenberg Schriksestraat 22\, 6654 AN Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32468@vv-scp.nl
@@ -169,12 +157,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T203000
 DTEND;TZID=Europe/Amsterdam:20261113T223000
 SUMMARY:Uchta 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 2 B\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32468/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoeken Keizerstraat 102\, 4053 HK Ijzendoorn
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32462@vv-scp.nl
@@ -182,12 +169,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T210000
 DTEND;TZID=Europe/Amsterdam:20261113T230000
 SUMMARY:DSZ 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 2 A\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32462/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoeken Keizerstraat 102\, 4053 HK Ijzendoorn
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32442@vv-scp.nl
@@ -195,12 +181,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T213000
 DTEND;TZID=Europe/Amsterdam:20261113T233000
 SUMMARY:SCP 35+1 - Victoria '25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 2 B\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32442/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoeken Keizerstraat 102\, 4053 HK Ijzendoorn
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32423@vv-scp.nl
@@ -208,12 +193,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T220000
 DTEND;TZID=Europe/Amsterdam:20261114T000000
 SUMMARY:DIO '30 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 2 A\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32423/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoeken Keizerstraat 102\, 4053 HK Ijzendoorn
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32453@vv-scp.nl
@@ -221,12 +205,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T200000
 DTEND;TZID=Europe/Amsterdam:20261127T220000
 SUMMARY:Uchta 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32453/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32445@vv-scp.nl
@@ -234,12 +218,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T203000
 DTEND;TZID=Europe/Amsterdam:20261127T223000
 SUMMARY:SCP 35+1 - Victoria '25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32445/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32438@vv-scp.nl
@@ -247,12 +231,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T210000
 DTEND;TZID=Europe/Amsterdam:20261127T230000
 SUMMARY:DIO '30 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32438/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32422@vv-scp.nl
@@ -260,11 +244,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T213000
 DTEND;TZID=Europe/Amsterdam:20261127T233000
 SUMMARY:DSZ 35+1 - SCP 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32422/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 END:VCALENDAR

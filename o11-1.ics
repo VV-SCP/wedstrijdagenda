@@ -13,13 +13,13 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T101500
 DTEND;TZID=Europe/Amsterdam:20260905T121500
 SUMMARY:SJO SCP/DSZ O11-1 - Leones O11-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2 B\nScheidsrechte
- r: H.J.M. Claassen\nControleer bij last-minute wijzigingen altijd Voetba
- l.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2 B\nS
+ cheidsrechter: H.J.M. Claassen\nControleer bij last-minute wijzigingen a
+ ltijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32657/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32654@vv-scp.nl
@@ -27,12 +27,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T110000
 DTEND;TZID=Europe/Amsterdam:20260912T130000
 SUMMARY:SKV O11-4JM - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: F-SKV B\nControlee
- r bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: F-SKV B\nControleer bij last-minute wijzigi
+ ngen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32654/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Zoom Zoomweg 4\, 6704 PE Wageningen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32661@vv-scp.nl
@@ -40,13 +39,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260921T183000
 DTEND;TZID=Europe/Amsterdam:20260921T203000
 SUMMARY:Unitas '28 O11-1JM - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Parken (Unitas '28)\nV
- eld: 2 A\nScheidsrechter: S. van Kessel\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 2 A\nScheidsrechter: S. van Kessel\nControl
+ eer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32661/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Parkenstraat 0\, 6659 BD Wamel
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32663@vv-scp.nl
@@ -54,13 +51,13 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T103000
 DTEND;TZID=Europe/Amsterdam:20260926T123000
 SUMMARY:SJO SCP/DSZ O11-1 - Kesteren O11-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: Hoofdveld B\nSchei
- dsrechter: H.J.M. Claassen\nControleer bij last-minute wijzigingen altij
- d Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
+ eld B\nScheidsrechter: H.J.M. Claassen\nControleer bij last-minute wijzi
+ gingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32663/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32655@vv-scp.nl
@@ -68,13 +65,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T100000
 DTEND;TZID=Europe/Amsterdam:20261003T120000
 SUMMARY:Uchta O11-2 - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: 2 A\nScheidsrechte
- r: T. Hoogenes\nControleer bij last-minute wijzigingen altijd Voetbal.nl
- .
+DESCRIPTION:Competitie\nVeld: 2 A\nScheidsrechter: T. Hoogenes\nControlee
+ r bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32655/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoeken Keizerstraat 102\, 4053 HK Ijzendoorn
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32748@vv-scp.nl
@@ -82,13 +77,13 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T083000
 DTEND;TZID=Europe/Amsterdam:20261024T103000
 SUMMARY:SJO SCP/DSZ O11-1 - Bennekom O11-5JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: Hoofdveld A\nSchei
- dsrechter: H.J.M. Claassen\nControleer bij last-minute wijzigingen altij
- d Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
+ eld A\nScheidsrechter: H.J.M. Claassen\nControleer bij last-minute wijzi
+ gingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32748/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32988@vv-scp.nl
@@ -96,12 +91,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T114500
 DTEND;TZID=Europe/Amsterdam:20261031T134500
 SUMMARY:RKSV Driel O11-3 - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 B - Veld B\
- nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 2 B - Veld B\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32988/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Driel Dorpsstraat 13\, 6665 CB Driel
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33001@vv-scp.nl
@@ -109,12 +103,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T103000
 DTEND;TZID=Europe/Amsterdam:20261107T123000
 SUMMARY:SJO SCP/DSZ O11-1 - Kesteren O11-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33001/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32996@vv-scp.nl
@@ -122,13 +116,11 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T104500
 DTEND;TZID=Europe/Amsterdam:20261114T124500
 SUMMARY:SC Valburg O11-1 - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nScheidsr
- echter: M. Wilke\nControleer bij last-minute wijzigingen altijd Voetbal.
- nl.
+DESCRIPTION:Competitie\nVeld: veld 1 A\nScheidsrechter: M. Wilke\nControl
+ eer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32996/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:'t Kasteel Stationsstraat 30\, 6675 AW Valburg
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32989@vv-scp.nl
@@ -136,12 +128,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T103000
 DTEND;TZID=Europe/Amsterdam:20261121T123000
 SUMMARY:SJO SCP/DSZ O11-1 - Excelsior Z. O11-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32989/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33008@vv-scp.nl
@@ -149,12 +141,12 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T102500
 DTEND;TZID=Europe/Amsterdam:20261128T122500
 SUMMARY:SJO SCP/DSZ O11-1 - SKV O11-2JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 2
+  B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33008/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32997@vv-scp.nl
@@ -162,11 +154,10 @@ DTSTAMP:20261024T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T113000
 DTEND;TZID=Europe/Amsterdam:20261205T133000
 SUMMARY:SDOO O11-1 - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 3 C A\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 3 C A\nControleer bij last-minute wijz
+ igingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32997/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Bretagne Polderstraat 22\, 6666 LD Heteren
 END:VEVENT
 END:VCALENDAR
