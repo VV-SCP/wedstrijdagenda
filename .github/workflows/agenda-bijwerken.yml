@@ -26,7 +26,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Kalender maken
-        run: python scripts/maak_agenda.py
+        run: python maak_agenda.py
 
       - name: Alleen echte wijzigingen opslaan
         run: |
