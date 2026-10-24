@@ -1,0 +1,361 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VV SCP//Wedstrijdagenda SCP ZON 1 Competitie Beker Topscorers W
+ edstrijdverslagen Laatste Uitslagen//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SCP ZON 1 Competitie Beker Topscorers Wedstrijdverslagen Laa
+ tste Uitslagen
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:003c93e4a40a58d27a64@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260830T140000
+DTEND;TZID=Europe/Amsterdam:20260830T160000
+SUMMARY:SCP 1 - AAC-Olympia 1 (5 - 0)
+DESCRIPTION:Beker\nEindstand: 5 - 0\nAccommodatie: Sportpark\nControleer 
+ bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/31961/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:c8daa813711a6b033a64@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260906T140000
+DTEND;TZID=Europe/Amsterdam:20260906T160000
+SUMMARY:Victoria '25 1 - SCP 1 (3 - 0)
+DESCRIPTION:Beker\nEindstand: 3 - 0\nAccommodatie: Sportpark\nControleer 
+ bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/31963/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Ringelenberg Schriksestraat 22\, 6654 AN Afferden
+END:VEVENT
+BEGIN:VEVENT
+UID:d41d4bd589078584ba98@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T143000
+DTEND;TZID=Europe/Amsterdam:20260913T163000
+SUMMARY:Krayenhoff 1 - SCP 1 (5 - 0)
+DESCRIPTION:Beker\nEindstand: 5 - 0\nAccommodatie: Sportpark\nControleer 
+ bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/31959/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Schoonhorst Energieweg 49\, 6541 CW Nijmegen
+END:VEVENT
+BEGIN:VEVENT
+UID:a3d9e1a1a9613afe0892@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T140000
+DTEND;TZID=Europe/Amsterdam:20260920T160000
+SUMMARY:RODA '28 1 - SCP 1 (1 - 1)
+DESCRIPTION:Competitie\nEindstand: 1 - 1\nAccommodatie: Sportpark\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32241/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Boshof Plakstraat 6\, 6645 KL Winssen
+END:VEVENT
+BEGIN:VEVENT
+UID:72013d0f3a08c53bb766@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T140000
+DTEND;TZID=Europe/Amsterdam:20260927T160000
+SUMMARY:SCP 1 - Alverna 1 (2 - 3)
+DESCRIPTION:Competitie\nEindstand: 2 - 3\nAccommodatie: Sportpark\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32180/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:c13e3887e973ca5b2993@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T140000
+DTEND;TZID=Europe/Amsterdam:20261004T160000
+SUMMARY:Niftrik 1 - SCP 1 (4 - 1)
+DESCRIPTION:Competitie\nEindstand: 4 - 1\nAccommodatie: Sportpark De Eik 
+ (Niftrik)\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32116/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Lagestraat 19\, 6606 AB Niftrik
+END:VEVENT
+BEGIN:VEVENT
+UID:a14f262149c95a8653ac@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T140000
+DTEND;TZID=Europe/Amsterdam:20261011T160000
+SUMMARY:SCP 1 - AVIOS/DBV 1 (1 - 1)
+DESCRIPTION:Competitie\nEindstand: 1 - 1\nAccommodatie: Sportpark\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32197/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:bbab234f929359f57150@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261025T140000
+DTEND;TZID=Europe/Amsterdam:20261025T160000
+SUMMARY:AAC-Olympia 1 - SCP 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32193/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Polenkamp Bredestraat 3\, 6631 BC Horssen
+END:VEVENT
+BEGIN:VEVENT
+UID:da970c18f83e928209ba@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T140000
+DTEND;TZID=Europe/Amsterdam:20261101T160000
+SUMMARY:SCP 1 - DIOSA 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32117/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:1dff900a8d2e701188db@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T140000
+DTEND;TZID=Europe/Amsterdam:20261108T160000
+SUMMARY:Aquila 1 - SCP 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32240/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Zeven Morgen Nieuwstraat 14\, 6621 KV Dreumel
+END:VEVENT
+BEGIN:VEVENT
+UID:d0d8327b3abe003d043f@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T140000
+DTEND;TZID=Europe/Amsterdam:20261115T160000
+SUMMARY:SCP 1 - Nijmegen 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32249/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:9fb8fedd6254cd209aab@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T140000
+DTEND;TZID=Europe/Amsterdam:20261122T160000
+SUMMARY:SCP 1 - SV Waalstad 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32209/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:18c417370b8e1528bf3f@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T140000
+DTEND;TZID=Europe/Amsterdam:20261129T160000
+SUMMARY:SCD '33 1 - SCP 1
+DESCRIPTION:Competitie\nControleer bij last-minute wijzigingen altijd Voe
+ tbal.nl.
+URL:https://www.vv-scp.nl/524/32258/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:d2b6e9b7eecc063205bb@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T140000
+DTEND;TZID=Europe/Amsterdam:20261206T160000
+SUMMARY:SCP 1 - Unitas '28 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32228/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:8de150b9d311120e506a@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270124T143000
+DTEND;TZID=Europe/Amsterdam:20270124T163000
+SUMMARY:Alverna 1 - SCP 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32248/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Bospad Bospad 5\, 6603 AR Wijchen
+END:VEVENT
+BEGIN:VEVENT
+UID:f62bdda339fe8fcaf09f@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270131T140000
+DTEND;TZID=Europe/Amsterdam:20270131T160000
+SUMMARY:SCP 1 - RODA '28 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32163/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:401ed7cdb84404aa20ef@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270214T140000
+DTEND;TZID=Europe/Amsterdam:20270214T160000
+SUMMARY:NEC 1 - SCP 1
+DESCRIPTION:Competitie\nAccommodatie: De\nControleer bij last-minute wijz
+ igingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32119/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Goffert complex De Eendracht Steinweglaan 3\, 6532 AE Nijmegen
+END:VEVENT
+BEGIN:VEVENT
+UID:63beaf7a77d0c370eb87@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270228T140000
+DTEND;TZID=Europe/Amsterdam:20270228T160000
+SUMMARY:AVIOS/DBV 1 - SCP 1
+DESCRIPTION:Competitie\nControleer bij last-minute wijzigingen altijd Voe
+ tbal.nl.
+URL:https://www.vv-scp.nl/524/32152/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cc370d2fa044c8e1f0fc@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270307T140000
+DTEND;TZID=Europe/Amsterdam:20270307T160000
+SUMMARY:SCP 1 - Niftrik 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32219/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:c386db08350653ee9576@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270314T143000
+DTEND;TZID=Europe/Amsterdam:20270314T163000
+SUMMARY:DIOSA 1 - SCP 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32192/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:De Wissen Eindsestraat 43\, 6613 AR Balgoij
+END:VEVENT
+BEGIN:VEVENT
+UID:98fbf8e9e1e399b4b590@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270321T140000
+DTEND;TZID=Europe/Amsterdam:20270321T160000
+SUMMARY:SCP 1 - AAC-Olympia 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32126/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:cfdf4f3eda8279703408@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270404T140000
+DTEND;TZID=Europe/Amsterdam:20270404T160000
+SUMMARY:Nijmegen 1 - SCP 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32214/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Oscar Carre Oscar Carrestraat 102\, 6542 VB Nijmegen
+END:VEVENT
+BEGIN:VEVENT
+UID:e34169492d469bfda6d2@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270411T140000
+DTEND;TZID=Europe/Amsterdam:20270411T160000
+SUMMARY:SCP 1 - Aquila 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32174/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:19cf523511d55e21303d@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270418T140000
+DTEND;TZID=Europe/Amsterdam:20270418T160000
+SUMMARY:SCP 1 - SCD '33 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32124/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:3389c4ee228960bc7659@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270425T140000
+DTEND;TZID=Europe/Amsterdam:20270425T160000
+SUMMARY:SV Waalstad 1 - SCP 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32221/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Stadijk-Zuid Staddijk 35\, 6537 TW Nijmegen
+END:VEVENT
+BEGIN:VEVENT
+UID:9650aa7138ab62ccab51@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270509T140000
+DTEND;TZID=Europe/Amsterdam:20270509T160000
+SUMMARY:SCP 1 - NEC 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32222/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:07803351ae9256361e05@vv-scp.nl
+DTSTAMP:20261024T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270517T140000
+DTEND;TZID=Europe/Amsterdam:20270517T160000
+SUMMARY:Unitas '28 1 - SCP 1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Parken (Unitas '28)\nC
+ ontroleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32160/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Parkenstraat 0\, 6659 BD Wamel
+END:VEVENT
+END:VCALENDAR
