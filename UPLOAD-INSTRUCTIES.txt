@@ -1,0 +1,1 @@
+Upload de bestanden met behoud van mappenstructuur naar VV-SCP/wedstrijdagenda. Start daarna onder Actions de workflow 'Werk wedstrijdagenda bij' via Run workflow.
