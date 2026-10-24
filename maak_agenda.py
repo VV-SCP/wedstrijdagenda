@@ -64,7 +64,7 @@ def clean_team(value: str) -> str:
 
 
 def escape(value: str) -> str:
-    """Maak tekst geschikt voor gebruik in een iCalendar-bestand."""
+    """Maak tekst geschikt voor iCalendar."""
 
     return (
         value.replace("\\", "\\\\")
@@ -75,7 +75,7 @@ def escape(value: str) -> str:
 
 
 def fold(line: str, limit: int = 73) -> str:
-    """Breek lange iCalendar-regels af volgens de iCalendar-standaard."""
+    """Breek lange iCalendar-regels af."""
 
     parts = []
 
@@ -94,24 +94,15 @@ def fold(line: str, limit: int = 73) -> str:
 
 
 def season_year(month: int) -> int:
-    """
-    Bepaal het kalenderjaar binnen het actuele voetbalseizoen.
-
-    Wanneer de huidige datum tussen juli en december valt:
-    - juli tot en met december vallen in het huidige jaar;
-    - januari tot en met juni vallen in het volgende jaar.
-
-    Wanneer de huidige datum tussen januari en juni valt:
-    - juli tot en met december vallen in het vorige jaar;
-    - januari tot en met juni vallen in het huidige jaar.
-    """
+    """Bepaal het kalenderjaar binnen het actuele voetbalseizoen."""
 
     now = datetime.now(TZ)
 
-    if now.month >= 7:
-        season_start = now.year
-    else:
-        season_start = now.year - 1
+    season_start = (
+        now.year
+        if now.month >= 7
+        else now.year - 1
+    )
 
     if month >= 7:
         return season_start
@@ -130,12 +121,38 @@ def normalise_postcode(postcode: str) -> str:
     return postcode
 
 
-def detail_location(url: str) -> tuple[str, str]:
+def normalise_result(value: str) -> str:
     """
-    Haal het adres en de naam van de accommodatie op.
+    Geef alleen een echte numerieke uitslag terug.
 
-    Geeft een lege locatie terug als de details niet betrouwbaar
-    uit de wedstrijdpagina kunnen worden gehaald.
+    Voorbeelden:
+    3 - 1 wordt 3 - 1
+    3-1 wordt 3 - 1
+    - wordt leeg
+    """
+
+    value = " ".join(value.split())
+
+    match = re.fullmatch(
+        r"(\d+)\s*-\s*(\d+)",
+        value,
+    )
+
+    if not match:
+        return ""
+
+    return (
+        f"{match.group(1)} - "
+        f"{match.group(2)}"
+    )
+
+
+def detail_location(
+    url: str,
+) -> tuple[str, str]:
+    """
+    Haal indien mogelijk het adres en de accommodatie
+    van de detailpagina van de wedstrijd.
     """
 
     try:
@@ -145,13 +162,16 @@ def detail_location(url: str) -> tuple[str, str]:
             timeout=20,
         )
         response.raise_for_status()
+
     except requests.RequestException:
         return "", ""
 
-    soup = BeautifulSoup(response.text, "html.parser")
-    text = soup.get_text(" ", strip=True)
+    text = BeautifulSoup(
+        response.text,
+        "html.parser",
+    ).get_text(" ", strip=True)
 
-    accommodation_match = re.search(
+    match = re.search(
         r"Accommodatie\s+(.+?)\s+"
         r"([A-Za-zÀ-ÿ' .-]+\s+\d+[A-Za-z]?)\s+"
         r"(\d{4}\s?[A-Z]{2})\s+"
@@ -161,26 +181,30 @@ def detail_location(url: str) -> tuple[str, str]:
         flags=re.IGNORECASE,
     )
 
-    if not accommodation_match:
+    if not match:
         return "", ""
 
     accommodation = " ".join(
-        accommodation_match.group(1).split()
+        match.group(1).split()
     )
 
     street = " ".join(
-        accommodation_match.group(2).split()
+        match.group(2).split()
     )
 
     postcode = normalise_postcode(
-        accommodation_match.group(3)
+        match.group(3)
     )
 
     place = " ".join(
-        accommodation_match.group(4).split()
+        match.group(4).split()
     ).title()
 
-    address = f"{street}, {postcode} {place}"
+    address = (
+        f"{street}, "
+        f"{postcode} "
+        f"{place}"
+    )
 
     return address, accommodation
 
@@ -192,13 +216,19 @@ def create_uid(
     kind: str,
 ) -> str:
     """
-    Maak een vaste identificatie voor een wedstrijd.
+    Maak een vaste wedstrijd-ID.
 
-    Datum en tijd maken bewust geen onderdeel uit van deze sleutel.
-    Daardoor blijft bij een verplaatsing dezelfde agenda-afspraak bestaan.
+    De datum en tijd zitten bewust niet in de ID.
+    Daardoor blijft bij een verplaatsing dezelfde
+    agenda-afspraak bestaan.
     """
 
-    raw_id = f"{season_start}|{home}|{away}|{kind}"
+    raw_id = (
+        f"{season_start}|"
+        f"{home}|"
+        f"{away}|"
+        f"{kind}"
+    )
 
     match_hash = hashlib.sha256(
         raw_id.encode("utf-8")
@@ -208,22 +238,29 @@ def create_uid(
 
 
 def fetch_matches() -> list[dict]:
-    """Lees alle wedstrijden van SCP 1 van de programmapagina."""
+    """Lees het programma en de uitslagen van SCP 1."""
 
     response = requests.get(
         PROGRAM_URL,
         headers=HEADERS,
         timeout=30,
     )
+
     response.raise_for_status()
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser",
+    )
 
     program_table = None
 
     for candidate in soup.find_all("table"):
         headers = [
-            heading.get_text(" ", strip=True).lower()
+            heading.get_text(
+                " ",
+                strip=True,
+            ).lower()
             for heading in candidate.find_all("th")
         ]
 
@@ -232,6 +269,7 @@ def fetch_matches() -> list[dict]:
             "tijd",
             "thuis",
             "uit",
+            "uitslag",
         }
 
         if required_headers.issubset(set(headers)):
@@ -247,16 +285,21 @@ def fetch_matches() -> list[dict]:
     matches = []
 
     for row in program_table.find_all("tr"):
-        cells = row.find_all(["td", "th"])
+        cells = row.find_all(
+            ["td", "th"]
+        )
 
-        if len(cells) < 5:
+        if len(cells) < 6:
             continue
 
         if cells[0].name == "th":
             continue
 
         values = [
-            cell.get_text(" ", strip=True)
+            cell.get_text(
+                " ",
+                strip=True,
+            )
             for cell in cells
         ]
 
@@ -270,17 +313,24 @@ def fetch_matches() -> list[dict]:
             values[1],
         )
 
-        if not date_match or not time_match:
-            continue
+        if not date_match or not       continue
 
-        day = int(date_match.group(1))
+        day = int(
+            date_match.group(1)
+        )
+
         month_name = date_match.group(2)
-        month = MONTHS.get(month_name)
+
+        month = MONTHS.get(
+            month_name
+        )
 
         if not month:
             continue
 
-        year = season_year(month)
+        year = season_year(
+            month
+        )
 
         start = datetime(
             year,
@@ -291,8 +341,13 @@ def fetch_matches() -> list[dict]:
             tzinfo=TZ,
         )
 
-        home = clean_team(values[2])
-        away = clean_team(values[3])
+        home = clean_team(
+            values[2]
+        )
+
+        away = clean_team(
+            values[3]
+        )
 
         kind_code = values[4].lower()
 
@@ -301,10 +356,20 @@ def fetch_matches() -> list[dict]:
             values[4] or "Wedstrijd",
         )
 
+        result = normalise_result(
+            values[5]
+        )
+
         detail_url = ""
 
-        for link in row.find_all("a", href=True):
-            href = link.get("href", "")
+        for link in row.find_all(
+            "a",
+            href=True,
+        ):
+            href = link.get(
+                "href",
+                "",
+            )
 
             if "wedstrijd" in href.lower():
                 detail_url = urljoin(
@@ -317,8 +382,10 @@ def fetch_matches() -> list[dict]:
         accommodation = ""
 
         if detail_url:
-            address, accommodation = detail_location(
-                detail_url
+            address, accommodation = (
+                detail_location(
+                    detail_url
+                )
             )
 
         if home.upper().startswith("SCP 1"):
@@ -326,7 +393,9 @@ def fetch_matches() -> list[dict]:
                 address = HOME_LOCATION
 
             if not accommodation:
-                accommodation = HOME_ACCOMMODATION
+                accommodation = (
+                    HOME_ACCOMMODATION
+                )
 
         season_start = (
             year
@@ -347,52 +416,90 @@ def fetch_matches() -> list[dict]:
                 "home": home,
                 "away": away,
                 "kind": kind,
-                "url": detail_url or PROGRAM_URL,
+                "result": result,
+                "url": (
+                    detail_url
+                    or PROGRAM_URL
+                ),
                 "address": address,
                 "accommodation": accommodation,
                 "uid": uid,
-           if not matches:
+            }
+        )
+
+    if not matches:
         raise RuntimeError(
             "Geen wedstrijden gevonden. "
-            "Het bestaande kalenderbestand blijft behouden."
+            "Het bestaande kalenderbestand "
+            "blijft behouden."
         )
 
     return matches
 
 
-def build_calendar(matches: list[dict]) -> str:
-    """Zet de gevonden wedstrijden om naar een iCalendar-bestand."""
+def build_calendar(
+    matches: list[dict],
+) -> str:
+    """
+    Zet de wedstrijden en bekende uitslagen
+    om naar een iCalendar-bestand.
+    """
 
-    timestamp = datetime.now(TZ).strftime(
+    timestamp = datetime.now(
+        TZ
+    ).strftime(
         "%Y%m%dT000000Z"
     )
 
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//VV SCP//Wedstrijdagenda SCP 1//NL",
+        (
+            "PRODID:-//VV SCP//"
+            "Wedstrijdagenda SCP 1//NL"
+        ),
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         "X-WR-CALNAME:VV SCP 1",
         "X-WR-TIMEZONE:Europe/Amsterdam",
-        "REFRESH-INTERVAL;VALUE=DURATION:PT1H",
+        (
+            "REFRESH-INTERVAL;"
+            "VALUE=DURATION:PT1H"
+        ),
         "X-PUBLISHED-TTL:PT1H",
     ]
 
-    for match in sorted(
+    sorted_matches = sorted(
         matches,
         key=lambda item: item["start"],
-    ):
+    )
+
+    for match in sorted_matches:
         start = match["start"]
-        end = start + timedelta(hours=2)
+
+        end = start + timedelta(
+            hours=2
+        )
 
         title = (
-            f"{match['home']} - {match['away']}"
+            f"{match['home']} - "
+            f"{match['away']}"
         )
+
+        if match["result"]:
+            title += (
+                f" ({match['result']})"
+            )
 
         description = [
             match["kind"],
         ]
+
+        if match["result"]:
+            description.append(
+                f"Eindstand: "
+                f"{match['result']}"
+            )
 
         if match["accommodation"]:
             description.append(
@@ -401,8 +508,8 @@ def build_calendar(matches: list[dict]) -> str:
             )
 
         description.append(
-            "Controleer bij last-minute wijzigingen "
-            "altijd Voetbal.nl."
+            "Controleer bij last-minute "
+            "wijzigingen altijd Voetbal.nl."
         )
 
         lines.extend(
@@ -411,17 +518,30 @@ def build_calendar(matches: list[dict]) -> str:
                 f"UID:{match['uid']}",
                 f"DTSTAMP:{timestamp}",
                 (
-                    "DTSTART;TZID=Europe/Amsterdam:"
-                    f"{start.strftime('%Y%m%dT%H%M%S')}"
+                    "DTSTART;"
+                    "TZID=Europe/Amsterdam:"
+                    f"{start.strftime(
+                        '%Y%m%dT%H%M%S'
+                    )}"
                 ),
                 (
-                    "DTEND;TZID=Europe/Amsterdam:"
-                    f"{end.strftime('%Y%m%dT%H%M%S')}"
+                    "DTEND;"
+                    "TZID=Europe/Amsterdam:"
+                    f"{end.strftime(
+                        '%Y%m%dT%H%M%S'
+                    )}"
                 ),
-                f"SUMMARY:{escape(title)}",
+                (
+                    "SUMMARY:"
+                    f"{escape(title)}"
+                ),
                 (
                     "DESCRIPTION:"
-                    f"{escape(chr(10).join(description))}"
+                    f"{escape(
+                        chr(10).join(
+                            description
+                        )
+                    )}"
                 ),
                 f"URL:{match['url']}",
                 "STATUS:CONFIRMED",
@@ -431,12 +551,19 @@ def build_calendar(matches: list[dict]) -> str:
 
         if match["address"]:
             lines.append(
-                f"LOCATION:{escape(match['address'])}"
+                "LOCATION:"
+                f"{escape(
+                    match['address']
+                )}"
             )
 
-        lines.append("END:VEVENT")
+        lines.append(
+            "END:VEVENT"
+        )
 
-    lines.append("END:VCALENDAR")
+    lines.append(
+        "END:VCALENDAR"
+    )
 
     return (
         "\r\n".join(
@@ -448,10 +575,13 @@ def build_calendar(matches: list[dict]) -> str:
 
 
 def main() -> None:
-    """Haal de wedstrijden op en schrijf het kalenderbestand."""
+    """Maak en bewaar de agenda."""
 
     matches = fetch_matches()
-    calendar = build_calendar(matches)
+
+    calendar = build_calendar(
+        matches
+    )
 
     OUTPUT.write_text(
         calendar,
@@ -460,8 +590,8 @@ def main() -> None:
     )
 
     print(
-        f"{len(matches)} wedstrijden geschreven "
-        f"naar {OUTPUT}"
+        f"{len(matches)} wedstrijden "
+        f"geschreven naar {OUTPUT}"
     )
 
 
