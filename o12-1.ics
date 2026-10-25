@@ -12,10 +12,10 @@ UID:wedstrijd-32558@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T100000
 DTEND;TZID=Europe/Amsterdam:20260905T120000
-SUMMARY:SJO SCP/DSZ O12-1 - Woezik O12-2JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 1 A\nS
- cheidsrechter: E. Aalbers\nControleer bij last-minute wijzigingen altijd
-  Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O12-1 - Woezik O12-2JM (6 - 2)
+DESCRIPTION:Competitie\nEindstand: 6 - 2\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: 1 A\nScheidsrechter: E. Aalbers\nControleer bij last-minute 
+ wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32558/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -26,9 +26,9 @@ UID:wedstrijd-32555@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T083000
 DTEND;TZID=Europe/Amsterdam:20260912T103000
-SUMMARY:AWC O12-2 - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nVeld: 6 B\nControleer bij last-minute wijzigingen
-  altijd Voetbal.nl.
+SUMMARY:AWC O12-2 - SJO SCP/DSZ O12-1 (2 - 6)
+DESCRIPTION:Competitie\nEindstand: 2 - 6\nVeld: 6 B\nControleer bij last-
+ minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32555/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,10 +38,10 @@ UID:wedstrijd-32551@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T083000
 DTEND;TZID=Europe/Amsterdam:20260919T103000
-SUMMARY:SJO SCP/DSZ O12-1 - Leones O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld A\nScheidsrechter: R.S. Baars\nControleer bij last-minute wijziginge
- n altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O12-1 - Leones O12-1 (15 - 0)
+DESCRIPTION:Competitie\nEindstand: 15 - 0\nAccommodatie: Sportpark Schrav
+ enhof\nVeld: Hoofdveld A\nScheidsrechter: R.S. Baars\nControleer bij las
+ t-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32551/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -52,9 +52,9 @@ UID:wedstrijd-32557@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T100000
 DTEND;TZID=Europe/Amsterdam:20260926T120000
-SUMMARY:vv Ewijk O12-1 - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nVeld: 2 A\nScheidsrechter: S.T.H. Hendriks\nContr
- oleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:vv Ewijk O12-1 - SJO SCP/DSZ O12-1 (3 - 12)
+DESCRIPTION:Competitie\nEindstand: 3 - 12\nVeld: 2 A\nScheidsrechter: S.T
+ .H. Hendriks\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32557/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -64,10 +64,10 @@ UID:wedstrijd-32546@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T120000
 DTEND;TZID=Europe/Amsterdam:20261003T140000
-SUMMARY:SJO SCP/DSZ O12-1 - Beuningse Boys O12-2JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld A\nScheidsrechter: R.S. Baars\nControleer bij last-minute wijziginge
- n altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O12-1 - Beuningse Boys O12-2JM (11 - 1)
+DESCRIPTION:Competitie\nEindstand: 11 - 1\nAccommodatie: Sportpark Schrav
+ enhof\nVeld: Hoofdveld A\nScheidsrechter: R.S. Baars\nControleer bij las
+ t-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32546/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

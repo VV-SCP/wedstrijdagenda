@@ -12,9 +12,9 @@ UID:wedstrijd-32402@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T200000
 DTEND;TZID=Europe/Amsterdam:20260918T220000
-SUMMARY:Leones 35+3 - SCP 35+2
-DESCRIPTION:Competitie\nVeld: 1 B\nControleer bij last-minute wijzigingen
-  altijd Voetbal.nl.
+SUMMARY:Leones 35+3 - SCP 35+2 (7 - 0)
+DESCRIPTION:Competitie\nEindstand: 7 - 0\nVeld: 1 B\nControleer bij last-
+ minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32402/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -24,9 +24,9 @@ UID:wedstrijd-32408@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T203000
 DTEND;TZID=Europe/Amsterdam:20261002T223000
-SUMMARY:VDS'25 35+1 - SCP 35+2
-DESCRIPTION:Competitie\nVeld: 1 B\nControleer bij last-minute wijzigingen
-  altijd Voetbal.nl.
+SUMMARY:VDS'25 35+1 - SCP 35+2 (2 - 2)
+DESCRIPTION:Competitie\nEindstand: 2 - 2\nVeld: 1 B\nControleer bij last-
+ minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32408/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

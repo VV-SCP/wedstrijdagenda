@@ -12,9 +12,10 @@ UID:wedstrijd-32525@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T113000
 DTEND;TZID=Europe/Amsterdam:20260905T133000
-SUMMARY:Kesteren O11-2 - SJO SCP/DSZ O11-2
-DESCRIPTION:Competitie\nVeld: 3 A - kunstgrasC\nScheidsrechter: Anoniem\n
- Controleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Kesteren O11-2 - SJO SCP/DSZ O11-2 (3 - 7)
+DESCRIPTION:Competitie\nEindstand: 3 - 7\nVeld: 3 A - kunstgrasC\nScheids
+ rechter: Anoniem\nControleer bij last-minute wijzigingen altijd Voetbal.
+ nl.
 URL:https://www.vv-scp.nl/524/32525/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -24,10 +25,10 @@ UID:wedstrijd-32532@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T100000
 DTEND;TZID=Europe/Amsterdam:20260912T120000
-SUMMARY:SJO SCP/DSZ O11-2 - Uchta O11-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld A\nScheidsrechter: A. Kocken\nControleer bij last-minute wijzigingen
-  altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O11-2 - Uchta O11-1JM (10 - 3)
+DESCRIPTION:Competitie\nEindstand: 10 - 3\nAccommodatie: Sportpark Schrav
+ enhof\nVeld: Hoofdveld A\nScheidsrechter: A. Kocken\nControleer bij last
+ -minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32532/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,9 +39,9 @@ UID:wedstrijd-32527@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T084500
 DTEND;TZID=Europe/Amsterdam:20260919T104500
-SUMMARY:DIO '30 O11-2 - SJO SCP/DSZ O11-2
-DESCRIPTION:Competitie\nVeld: 4 A\nScheidsrechter: B Kuypers\nControleer 
- bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:DIO '30 O11-2 - SJO SCP/DSZ O11-2 (6 - 2)
+DESCRIPTION:Competitie\nEindstand: 6 - 2\nVeld: 4 A\nScheidsrechter: B Ku
+ ypers\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32527/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -50,9 +51,9 @@ UID:wedstrijd-32533@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T090000
 DTEND;TZID=Europe/Amsterdam:20260926T110000
-SUMMARY:SJO Victoria-SCD O11-1JM - SJO SCP/DSZ O11-2
-DESCRIPTION:Competitie\nVeld: 1 A\nScheidsrechter: J.L.W. Hopman\nControl
- eer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SJO Victoria-SCD O11-1JM - SJO SCP/DSZ O11-2 (4 - 3)
+DESCRIPTION:Competitie\nEindstand: 4 - 3\nVeld: 1 A\nScheidsrechter: J.L.
+ W. Hopman\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32533/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -62,9 +63,9 @@ UID:wedstrijd-32529@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T100000
 DTEND;TZID=Europe/Amsterdam:20261003T120000
-SUMMARY:SJO SCP/DSZ O11-2 - AAC-Olympia O11-1JM
-DESCRIPTION:Competitie\nVeld: 2 A\nScheidsrechter: D. Wolken\nControleer 
- bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O11-2 - AAC-Olympia O11-1JM (13 - 1)
+DESCRIPTION:Competitie\nEindstand: 13 - 1\nVeld: 2 A\nScheidsrechter: D. 
+ Wolken\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32529/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -74,9 +75,9 @@ UID:wedstrijd-32734@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T103000
 DTEND;TZID=Europe/Amsterdam:20261024T123000
-SUMMARY:Beuningse Boys O11-3 - SJO SCP/DSZ O11-2
-DESCRIPTION:Competitie\nVeld: 3 B\nScheidsrechter: V.H.M. Janssen\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Beuningse Boys O11-3 - SJO SCP/DSZ O11-2 (5 - 5)
+DESCRIPTION:Competitie\nEindstand: 5 - 5\nVeld: 3 B\nScheidsrechter: V.H.
+ M. Janssen\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32734/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

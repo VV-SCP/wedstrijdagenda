@@ -37,10 +37,10 @@ UID:wedstrijd-32629@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T121500
 DTEND;TZID=Europe/Amsterdam:20260905T141500
-SUMMARY:SJO SCP/DSZ O14-1 - Ewijk O14-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
- eidsrechter: A.P.J. Peters\nControleer bij last-minute wijzigingen altij
- d Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O14-1 - Ewijk O14-1JM (16 - 2)
+DESCRIPTION:Competitie\nEindstand: 16 - 2\nAccommodatie: Sportpark Schrav
+ enhof\nVeld: 2\nScheidsrechter: A.P.J. Peters\nControleer bij last-minut
+ e wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32629/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -51,9 +51,9 @@ UID:wedstrijd-32624@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T104500
 DTEND;TZID=Europe/Amsterdam:20260912T124500
-SUMMARY:Alverna O14-1 - SJO SCP/DSZ O14-1
-DESCRIPTION:Competitie\nVeld: 2\nScheidsrechter: P. Beelen\nControleer bi
- j last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Alverna O14-1 - SJO SCP/DSZ O14-1 (7 - 6)
+DESCRIPTION:Competitie\nEindstand: 7 - 6\nVeld: 2\nScheidsrechter: P. Bee
+ len\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32624/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -63,10 +63,10 @@ UID:wedstrijd-32628@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T103000
 DTEND;TZID=Europe/Amsterdam:20260919T123000
-SUMMARY:SJO SCP/DSZ O14-1 - AWC O14-2JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: A.J. Jansen\nControleer bij last-minute wijzigingen
-  altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O14-1 - AWC O14-2JM (1 - 1)
+DESCRIPTION:Competitie\nEindstand: 1 - 1\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: A.J. Jansen\nControleer bij last-
+ minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32628/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -77,9 +77,9 @@ UID:wedstrijd-32634@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T110000
 DTEND;TZID=Europe/Amsterdam:20260926T130000
-SUMMARY:SCE O14-1 - SJO SCP/DSZ O14-1
-DESCRIPTION:Competitie\nVeld: 3\nScheidsrechter: T. Hendriks\nControleer 
- bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SCE O14-1 - SJO SCP/DSZ O14-1 (1 - 5)
+DESCRIPTION:Competitie\nEindstand: 1 - 5\nVeld: 3\nScheidsrechter: T. Hen
+ driks\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32634/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -89,9 +89,9 @@ UID:wedstrijd-32635@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T110000
 DTEND;TZID=Europe/Amsterdam:20261003T130000
-SUMMARY:SJO SCP/DSZ O14-1 - WVW O14-2
-DESCRIPTION:Competitie\nVeld: 1\nScheidsrechter: A.J. Jansen\nControleer 
- bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O14-1 - WVW O14-2 (5 - 0)
+DESCRIPTION:Competitie\nEindstand: 5 - 0\nVeld: 1\nScheidsrechter: A.J. J
+ ansen\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32635/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

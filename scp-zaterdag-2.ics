@@ -12,10 +12,10 @@ UID:wedstrijd-32098@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260829T133000
 DTEND;TZID=Europe/Amsterdam:20260829T153000
-SUMMARY:SCP 2 - Uchta 2
-DESCRIPTION:Beker\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdveld\n
- Scheidsrechter: P. van Ooijen\nControleer bij last-minute wijzigingen al
- tijd Voetbal.nl.
+SUMMARY:SCP 2 - Uchta 2 (4 - 0)
+DESCRIPTION:Beker\nEindstand: 4 - 0\nAccommodatie: Sportpark Schravenhof\
+ nVeld: Hoofdveld\nScheidsrechter: P. van Ooijen\nControleer bij last-min
+ ute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32098/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -26,9 +26,9 @@ UID:wedstrijd-32101@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T121500
 DTEND;TZID=Europe/Amsterdam:20260905T141500
-SUMMARY:Lienden 4 - SCP 2
-DESCRIPTION:Beker\nVeld: 1\nScheidsrechter: R. Septer\nControleer bij las
- t-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Lienden 4 - SCP 2 (6 - 0)
+DESCRIPTION:Beker\nEindstand: 6 - 0\nVeld: 1\nScheidsrechter: R. Septer\n
+ Controleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32101/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,10 +38,10 @@ UID:wedstrijd-32097@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T121500
 DTEND;TZID=Europe/Amsterdam:20260912T141500
-SUMMARY:SCP 2 - Beuningse Boys 5
-DESCRIPTION:Beker\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdveld\n
- Scheidsrechter: Anoniem\nControleer bij last-minute wijzigingen altijd V
- oetbal.nl.
+SUMMARY:SCP 2 - Beuningse Boys 5 (0 - 3)
+DESCRIPTION:Beker\nEindstand: 0 - 3\nAccommodatie: Sportpark Schravenhof\
+ nVeld: Hoofdveld\nScheidsrechter: Anoniem\nControleer bij last-minute wi
+ jzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32097/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -52,10 +52,10 @@ UID:wedstrijd-32023@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T130000
 DTEND;TZID=Europe/Amsterdam:20260926T150000
-SUMMARY:SCP 2 - Uchta 2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: H.J.A. Roberts\nControleer bij last-minute wijzigin
- gen altijd Voetbal.nl.
+SUMMARY:SCP 2 - Uchta 2 (3 - 0)
+DESCRIPTION:Competitie\nEindstand: 3 - 0\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: H.J.A. Roberts\nControleer bij la
+ st-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32023/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -66,9 +66,9 @@ UID:wedstrijd-31987@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T143000
 DTEND;TZID=Europe/Amsterdam:20261003T163000
-SUMMARY:Echteld 2 - SCP 2
-DESCRIPTION:Competitie\nVeld: 2\nScheidsrechter: M. van Manen\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Echteld 2 - SCP 2 (3 - 2)
+DESCRIPTION:Competitie\nEindstand: 3 - 2\nVeld: 2\nScheidsrechter: M. van
+  Manen\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/31987/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -78,10 +78,10 @@ UID:wedstrijd-32087@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T130000
 DTEND;TZID=Europe/Amsterdam:20261010T150000
-SUMMARY:SCP 2 - Beuningse Boys 4
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: Anoniem\nControleer bij last-minute wijzigingen alt
- ijd Voetbal.nl.
+SUMMARY:SCP 2 - Beuningse Boys 4 (2 - 3)
+DESCRIPTION:Competitie\nEindstand: 2 - 3\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: Anoniem\nControleer bij last-minu
+ te wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32087/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -92,9 +92,9 @@ UID:wedstrijd-32059@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261016T200000
 DTEND;TZID=Europe/Amsterdam:20261016T220000
-SUMMARY:vv Ewijk 2 - SCP 2
-DESCRIPTION:Competitie\nVeld: 1\nScheidsrechter: F Grisel\nControleer bij
-  last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:vv Ewijk 2 - SCP 2 (4 - 1)
+DESCRIPTION:Competitie\nEindstand: 4 - 1\nVeld: 1\nScheidsrechter: F Gris
+ el\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32059/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

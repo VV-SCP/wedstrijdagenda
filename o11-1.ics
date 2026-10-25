@@ -12,10 +12,10 @@ UID:wedstrijd-32657@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T101500
 DTEND;TZID=Europe/Amsterdam:20260905T121500
-SUMMARY:SJO SCP/DSZ O11-1 - Leones O11-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2 B\nS
- cheidsrechter: H.J.M. Claassen\nControleer bij last-minute wijzigingen a
- ltijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O11-1 - Leones O11-2 (3 - 5)
+DESCRIPTION:Competitie\nEindstand: 3 - 5\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: 2 B\nScheidsrechter: H.J.M. Claassen\nControleer bij last-mi
+ nute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32657/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -26,9 +26,9 @@ UID:wedstrijd-32654@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T110000
 DTEND;TZID=Europe/Amsterdam:20260912T130000
-SUMMARY:SKV O11-4JM - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nVeld: F-SKV B\nControleer bij last-minute wijzigi
- ngen altijd Voetbal.nl.
+SUMMARY:SKV O11-4JM - SJO SCP/DSZ O11-1 (6 - 7)
+DESCRIPTION:Competitie\nEindstand: 6 - 7\nVeld: F-SKV B\nControleer bij l
+ ast-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32654/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,9 +38,9 @@ UID:wedstrijd-32661@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260921T183000
 DTEND;TZID=Europe/Amsterdam:20260921T203000
-SUMMARY:Unitas '28 O11-1JM - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nVeld: 2 A\nScheidsrechter: S. van Kessel\nControl
- eer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Unitas '28 O11-1JM - SJO SCP/DSZ O11-1 (3 - 3)
+DESCRIPTION:Competitie\nEindstand: 3 - 3\nVeld: 2 A\nScheidsrechter: S. v
+ an Kessel\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32661/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -50,10 +50,10 @@ UID:wedstrijd-32663@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T103000
 DTEND;TZID=Europe/Amsterdam:20260926T123000
-SUMMARY:SJO SCP/DSZ O11-1 - Kesteren O11-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld B\nScheidsrechter: H.J.M. Claassen\nControleer bij last-minute wijzi
- gingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O11-1 - Kesteren O11-1JM (6 - 1)
+DESCRIPTION:Competitie\nEindstand: 6 - 1\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld B\nScheidsrechter: H.J.M. Claassen\nControleer bij
+  last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32663/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -64,9 +64,9 @@ UID:wedstrijd-32655@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T100000
 DTEND;TZID=Europe/Amsterdam:20261003T120000
-SUMMARY:Uchta O11-2 - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nVeld: 2 A\nScheidsrechter: T. Hoogenes\nControlee
- r bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Uchta O11-2 - SJO SCP/DSZ O11-1 (3 - 5)
+DESCRIPTION:Competitie\nEindstand: 3 - 5\nVeld: 2 A\nScheidsrechter: T. H
+ oogenes\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32655/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -76,10 +76,10 @@ UID:wedstrijd-32748@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T083000
 DTEND;TZID=Europe/Amsterdam:20261024T103000
-SUMMARY:SJO SCP/DSZ O11-1 - Bennekom O11-5JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld A\nScheidsrechter: H.J.M. Claassen\nControleer bij last-minute wijzi
- gingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O11-1 - Bennekom O11-5JM (6 - 9)
+DESCRIPTION:Competitie\nEindstand: 6 - 9\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld A\nScheidsrechter: H.J.M. Claassen\nControleer bij
+  last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32748/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

@@ -12,10 +12,10 @@ UID:wedstrijd-32648@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T121500
 DTEND;TZID=Europe/Amsterdam:20260905T141500
-SUMMARY:SJO SCP/DSZ O17-1 - Lienden O17-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 1\nSch
- eidsrechter: S.W.L. Smits\nControleer bij last-minute wijzigingen altijd
-  Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O17-1 - Lienden O17-1 (1 - 12)
+DESCRIPTION:Competitie\nEindstand: 1 - 12\nAccommodatie: Sportpark Schrav
+ enhof\nVeld: 1\nScheidsrechter: S.W.L. Smits\nControleer bij last-minute
+  wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32648/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -26,9 +26,9 @@ UID:wedstrijd-32647@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T123000
 DTEND;TZID=Europe/Amsterdam:20260912T143000
-SUMMARY:SVHA O17-1 - SJO SCP/DSZ O17-1
-DESCRIPTION:Competitie\nVeld: 2\nScheidsrechter: EWJA Scholten\nControlee
- r bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SVHA O17-1 - SJO SCP/DSZ O17-1 (3 - 1)
+DESCRIPTION:Competitie\nEindstand: 3 - 1\nVeld: 2\nScheidsrechter: EWJA S
+ cholten\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32647/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,10 +38,10 @@ UID:wedstrijd-32649@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260921T201500
 DTEND;TZID=Europe/Amsterdam:20260921T221500
-SUMMARY:SJO SCP/DSZ O17-1 - Leones O17-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 1\nSch
- eidsrechter: T.J.H.M. Beck\nControleer bij last-minute wijzigingen altij
- d Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O17-1 - Leones O17-2 (1 - 5)
+DESCRIPTION:Competitie\nEindstand: 1 - 5\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: 1\nScheidsrechter: T.J.H.M. Beck\nControleer bij last-minute
+  wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32649/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -52,10 +52,10 @@ UID:wedstrijd-32642@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T103000
 DTEND;TZID=Europe/Amsterdam:20260926T123000
-SUMMARY:SJO SCP/DSZ O17-1 - Blauw Wit O17-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
- eidsrechter: W. Hol\nControleer bij last-minute wijzigingen altijd Voetb
- al.nl.
+SUMMARY:SJO SCP/DSZ O17-1 - Blauw Wit O17-1 (6 - 2)
+DESCRIPTION:Competitie\nEindstand: 6 - 2\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: 2\nScheidsrechter: W. Hol\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32642/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -66,9 +66,9 @@ UID:wedstrijd-32650@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T123000
 DTEND;TZID=Europe/Amsterdam:20261003T143000
-SUMMARY:Woezik O17-2 - SJO SCP/DSZ O17-1
-DESCRIPTION:Competitie\nVeld: 3\nScheidsrechter: P.A. van der Burgt\nCont
- roleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Woezik O17-2 - SJO SCP/DSZ O17-1 (3 - 3)
+DESCRIPTION:Competitie\nEindstand: 3 - 3\nVeld: 3\nScheidsrechter: P.A. v
+ an der Burgt\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32650/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -78,9 +78,10 @@ UID:wedstrijd-32859@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T130000
 DTEND;TZID=Europe/Amsterdam:20261024T150000
-SUMMARY:Trekvogels O17-1 - SJO SCP/DSZ O17-1
-DESCRIPTION:Competitie\nVeld: 2 - Kunstgras\nScheidsrechter: J. Stoppels\
- nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Trekvogels O17-1 - SJO SCP/DSZ O17-1 (4 - 3)
+DESCRIPTION:Competitie\nEindstand: 4 - 3\nVeld: 2 - Kunstgras\nScheidsrec
+ hter: J. Stoppels\nControleer bij last-minute wijzigingen altijd Voetbal
+ .nl.
 URL:https://www.vv-scp.nl/524/32859/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

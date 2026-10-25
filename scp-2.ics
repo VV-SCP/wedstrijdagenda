@@ -12,10 +12,10 @@ UID:wedstrijd-32106@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260830T110000
 DTEND;TZID=Europe/Amsterdam:20260830T130000
-SUMMARY:SCP 2 - VDS'25 2
-DESCRIPTION:Beker\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdveld\n
- Scheidsrechter: H.J.A. Roberts\nControleer bij last-minute wijzigingen a
- ltijd Voetbal.nl.
+SUMMARY:SCP 2 - VDS'25 2 (0 - 4)
+DESCRIPTION:Beker\nEindstand: 0 - 4\nAccommodatie: Sportpark Schravenhof\
+ nVeld: Hoofdveld\nScheidsrechter: H.J.A. Roberts\nControleer bij last-mi
+ nute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32106/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -26,9 +26,9 @@ UID:wedstrijd-32105@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260906T110000
 DTEND;TZID=Europe/Amsterdam:20260906T130000
-SUMMARY:AWC 2 - SCP 2
-DESCRIPTION:Beker\nVeld: 6\nScheidsrechter: B. Kersten\nControleer bij la
- st-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:AWC 2 - SCP 2 (10 - 0)
+DESCRIPTION:Beker\nEindstand: 10 - 0\nVeld: 6\nScheidsrechter: B. Kersten
+ \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32105/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,10 +38,10 @@ UID:wedstrijd-32108@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T110000
 DTEND;TZID=Europe/Amsterdam:20260913T130000
-SUMMARY:SCP 2 - Aquila 2
-DESCRIPTION:Beker\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdveld\n
- Scheidsrechter: R. van Tiem\nControleer bij last-minute wijzigingen alti
- jd Voetbal.nl.
+SUMMARY:SCP 2 - Aquila 2 (3 - 3)
+DESCRIPTION:Beker\nEindstand: 3 - 3\nAccommodatie: Sportpark Schravenhof\
+ nVeld: Hoofdveld\nScheidsrechter: R. van Tiem\nControleer bij last-minut
+ e wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32108/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -52,10 +52,10 @@ UID:wedstrijd-32303@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T110000
 DTEND;TZID=Europe/Amsterdam:20260927T130000
-SUMMARY:SCP 2 - Spero 3
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
- eidsrechter: P.L.J. van Zagten\nControleer bij last-minute wijzigingen a
- ltijd Voetbal.nl.
+SUMMARY:SCP 2 - Spero 3 (0 - 3)
+DESCRIPTION:Competitie\nEindstand: 0 - 3\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: 2\nScheidsrechter: P.L.J. van Zagten\nControleer bij last-mi
+ nute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32303/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -66,9 +66,10 @@ UID:wedstrijd-32266@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T113000
 DTEND;TZID=Europe/Amsterdam:20261004T133000
-SUMMARY:DIOSA 2 - SCP 2
-DESCRIPTION:Competitie\nVeld: 1\nScheidsrechter: T.J.A.M. Raaijmakers\nCo
- ntroleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:DIOSA 2 - SCP 2 (3 - 3)
+DESCRIPTION:Competitie\nEindstand: 3 - 3\nVeld: 1\nScheidsrechter: T.J.A.
+ M. Raaijmakers\nControleer bij last-minute wijzigingen altijd Voetbal.nl
+ .
 URL:https://www.vv-scp.nl/524/32266/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -78,10 +79,10 @@ UID:wedstrijd-32352@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T110000
 DTEND;TZID=Europe/Amsterdam:20261011T130000
-SUMMARY:SCP 2 - Blauw Wit 3
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: P.L.J. van Zagten\nControleer bij last-minute wijzi
- gingen altijd Voetbal.nl.
+SUMMARY:SCP 2 - Blauw Wit 3 (4 - 2)
+DESCRIPTION:Competitie\nEindstand: 4 - 2\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: P.L.J. van Zagten\nControleer bij
+  last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32352/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

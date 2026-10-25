@@ -12,9 +12,9 @@ UID:wedstrijd-32502@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T150000
 DTEND;TZID=Europe/Amsterdam:20260905T170000
-SUMMARY:SKV O19-1 - SJO SCP/DSZ O19-1
-DESCRIPTION:Competitie\nVeld: B-SKV\nScheidsrechter: S. Kersten\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SKV O19-1 - SJO SCP/DSZ O19-1 (0 - 2)
+DESCRIPTION:Competitie\nEindstand: 0 - 2\nVeld: B-SKV\nScheidsrechter: S.
+  Kersten\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32502/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -24,10 +24,10 @@ UID:wedstrijd-32491@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T150000
 DTEND;TZID=Europe/Amsterdam:20260912T170000
-SUMMARY:SJO SCP/DSZ O19-1 - DIO '30 O19-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: S.W.L. Smits\nControleer bij last-minute wijziginge
- n altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O19-1 - DIO '30 O19-2 (0 - 0)
+DESCRIPTION:Competitie\nEindstand: 0 - 0\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: S.W.L. Smits\nControleer bij last
+ -minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32491/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,9 +38,9 @@ UID:wedstrijd-32496@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T153000
 DTEND;TZID=Europe/Amsterdam:20260919T173000
-SUMMARY:Bennekom O19-4 - SJO SCP/DSZ O19-1
-DESCRIPTION:Competitie\nVeld: 2\nScheidsrechter: M.R. van Asperen\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Bennekom O19-4 - SJO SCP/DSZ O19-1 (1 - 5)
+DESCRIPTION:Competitie\nEindstand: 1 - 5\nVeld: 2\nScheidsrechter: M.R. v
+ an Asperen\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32496/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -50,10 +50,10 @@ UID:wedstrijd-32503@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T153000
 DTEND;TZID=Europe/Amsterdam:20260926T173000
-SUMMARY:SJO SCP/DSZ O19-1 - vv Ewijk O19-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: S.W.L. Smits\nControleer bij last-minute wijziginge
- n altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O19-1 - vv Ewijk O19-1 (2 - 3)
+DESCRIPTION:Competitie\nEindstand: 2 - 3\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: S.W.L. Smits\nControleer bij last
+ -minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32503/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -64,9 +64,9 @@ UID:wedstrijd-32492@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T120000
 DTEND;TZID=Europe/Amsterdam:20261003T140000
-SUMMARY:Bennekom O19-2 - SJO SCP/DSZ O19-1
-DESCRIPTION:Competitie\nVeld: 4\nScheidsrechter: R. Fransen\nControleer b
- ij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Bennekom O19-2 - SJO SCP/DSZ O19-1 (2 - 1)
+DESCRIPTION:Competitie\nEindstand: 2 - 1\nVeld: 4\nScheidsrechter: R. Fra
+ nsen\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32492/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

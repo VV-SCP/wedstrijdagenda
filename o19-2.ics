@@ -24,9 +24,9 @@ UID:wedstrijd-32566@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T130000
 DTEND;TZID=Europe/Amsterdam:20260905T150000
-SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - Uchta O19-1JM
-DESCRIPTION:Competitie\nVeld: 2\nScheidsrechter: J.M.J.G van de Kamp\nCon
- troleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - Uchta O19-1JM (2 - 6)
+DESCRIPTION:Competitie\nEindstand: 2 - 6\nVeld: 2\nScheidsrechter: J.M.J.
+ G van de Kamp\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32566/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -36,9 +36,9 @@ UID:wedstrijd-32561@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DTEND;TZID=Europe/Amsterdam:20260912T150000
-SUMMARY:Excelsior Z. O19-3 - SJO SCP/DSZ -DIO'30 O19-2
-DESCRIPTION:Competitie\nVeld: 1\nScheidsrechter: M. Aghamir\nControleer b
- ij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Excelsior Z. O19-3 - SJO SCP/DSZ -DIO'30 O19-2 (1 - 1)
+DESCRIPTION:Competitie\nEindstand: 1 - 1\nVeld: 1\nScheidsrechter: M. Agh
+ amir\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32561/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -48,10 +48,10 @@ UID:wedstrijd-32567@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T130000
 DTEND;TZID=Europe/Amsterdam:20260919T150000
-SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - Union O19-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: A.J. Jansen\nControleer bij last-minute wijzigingen
-  altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - Union O19-1 (2 - 2)
+DESCRIPTION:Competitie\nEindstand: 2 - 2\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: A.J. Jansen\nControleer bij last-
+ minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32567/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -62,10 +62,10 @@ UID:wedstrijd-32564@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T130000
 DTEND;TZID=Europe/Amsterdam:20260926T150000
-SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - SC Bemmel O19-3
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
- eidsrechter: A.J. Jansen\nControleer bij last-minute wijzigingen altijd 
- Voetbal.nl.
+SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - SC Bemmel O19-3 (0 - 2)
+DESCRIPTION:Competitie\nEindstand: 0 - 2\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: 2\nScheidsrechter: A.J. Jansen\nControleer bij last-minute w
+ ijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32564/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -76,10 +76,10 @@ UID:wedstrijd-32565@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T120000
 DTEND;TZID=Europe/Amsterdam:20261003T140000
-SUMMARY:Kesteren O19-1 - SJO SCP/DSZ -DIO'30 O19-2
-DESCRIPTION:Competitie\nVeld: 1 - Hoofdgras\nScheidsrechter: M.C. Jansen 
- Cosio Martinez\nControleer bij last-minute wijzigingen altijd Voetbal.nl
- .
+SUMMARY:Kesteren O19-1 - SJO SCP/DSZ -DIO'30 O19-2 (0 - 2)
+DESCRIPTION:Competitie\nEindstand: 0 - 2\nVeld: 1 - Hoofdgras\nScheidsrec
+ hter: M.C. Jansen Cosio Martinez\nControleer bij last-minute wijzigingen
+  altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32565/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -89,9 +89,9 @@ UID:wedstrijd-32741@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T150000
 DTEND;TZID=Europe/Amsterdam:20261024T170000
-SUMMARY:Quick 1888 O19-2 - SJO SCP/DSZ -DIO'30 O19-2
-DESCRIPTION:Competitie\nVeld: 3\nScheidsrechter: S. Inan\nControleer bij 
- last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Quick 1888 O19-2 - SJO SCP/DSZ -DIO'30 O19-2 (4 - 4)
+DESCRIPTION:Competitie\nEindstand: 4 - 4\nVeld: 3\nScheidsrechter: S. Ina
+ n\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32741/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

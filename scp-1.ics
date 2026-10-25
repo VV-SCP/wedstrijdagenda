@@ -12,10 +12,10 @@ UID:wedstrijd-31961@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260830T140000
 DTEND;TZID=Europe/Amsterdam:20260830T160000
-SUMMARY:SCP 1 - AAC-Olympia 1
-DESCRIPTION:Beker\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdveld\n
- Scheidsrechter: M.C. Geerlings\nControleer bij last-minute wijzigingen a
- ltijd Voetbal.nl.
+SUMMARY:SCP 1 - AAC-Olympia 1 (5 - 0)
+DESCRIPTION:Beker\nEindstand: 5 - 0\nAccommodatie: Sportpark Schravenhof\
+ nVeld: Hoofdveld\nScheidsrechter: M.C. Geerlings\nControleer bij last-mi
+ nute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/31961/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -26,9 +26,9 @@ UID:wedstrijd-31963@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260906T140000
 DTEND;TZID=Europe/Amsterdam:20260906T160000
-SUMMARY:Victoria '25 1 - SCP 1
-DESCRIPTION:Beker\nVeld: 1\nScheidsrechter: M.P.G.J. Wels\nControleer bij
-  last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Victoria '25 1 - SCP 1 (3 - 0)
+DESCRIPTION:Beker\nEindstand: 3 - 0\nVeld: 1\nScheidsrechter: M.P.G.J. We
+ ls\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/31963/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,9 +38,9 @@ UID:wedstrijd-31959@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T143000
 DTEND;TZID=Europe/Amsterdam:20260913T163000
-SUMMARY:Krayenhoff 1 - SCP 1
-DESCRIPTION:Beker\nVeld: 1- Krayenhoff\nScheidsrechter: F. Akbulut\nContr
- oleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Krayenhoff 1 - SCP 1 (5 - 0)
+DESCRIPTION:Beker\nEindstand: 5 - 0\nVeld: 1- Krayenhoff\nScheidsrechter:
+  F. Akbulut\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/31959/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -50,9 +50,9 @@ UID:wedstrijd-32241@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T140000
 DTEND;TZID=Europe/Amsterdam:20260920T160000
-SUMMARY:RODA '28 1 - SCP 1
-DESCRIPTION:Competitie\nVeld: 1\nScheidsrechter: P. Klaassen\nControleer 
- bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:RODA '28 1 - SCP 1 (1 - 1)
+DESCRIPTION:Competitie\nEindstand: 1 - 1\nVeld: 1\nScheidsrechter: P. Kla
+ assen\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32241/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -62,10 +62,10 @@ UID:wedstrijd-32180@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T140000
 DTEND;TZID=Europe/Amsterdam:20260927T160000
-SUMMARY:SCP 1 - Alverna 1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: R. Kuiper\nControleer bij last-minute wijzigingen a
- ltijd Voetbal.nl.
+SUMMARY:SCP 1 - Alverna 1 (2 - 3)
+DESCRIPTION:Competitie\nEindstand: 2 - 3\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: R. Kuiper\nControleer bij last-mi
+ nute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32180/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -76,9 +76,9 @@ UID:wedstrijd-32116@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T140000
 DTEND;TZID=Europe/Amsterdam:20261004T160000
-SUMMARY:Niftrik 1 - SCP 1
-DESCRIPTION:Competitie\nVeld: 1\nScheidsrechter: J.R.E.M. Merkus\nControl
- eer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Niftrik 1 - SCP 1 (4 - 1)
+DESCRIPTION:Competitie\nEindstand: 4 - 1\nVeld: 1\nScheidsrechter: J.R.E.
+ M. Merkus\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32116/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -88,10 +88,10 @@ UID:wedstrijd-32197@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T140000
 DTEND;TZID=Europe/Amsterdam:20261011T160000
-SUMMARY:SCP 1 - AVIOS/DBV 1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: D. Boerakker\nControleer bij last-minute wijziginge
- n altijd Voetbal.nl.
+SUMMARY:SCP 1 - AVIOS/DBV 1 (1 - 1)
+DESCRIPTION:Competitie\nEindstand: 1 - 1\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: D. Boerakker\nControleer bij last
+ -minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32197/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

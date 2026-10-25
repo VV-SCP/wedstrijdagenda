@@ -12,9 +12,9 @@ UID:wedstrijd-32699@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T090000
 DTEND;TZID=Europe/Amsterdam:20260905T110000
-SUMMARY:DIO '30 O13-3 - SJO SCP/DSZ O13-1
-DESCRIPTION:Competitie\nVeld: 5\nScheidsrechter: J.M.J.G van de Kamp\nCon
- troleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:DIO '30 O13-3 - SJO SCP/DSZ O13-1 (2 - 6)
+DESCRIPTION:Competitie\nEindstand: 2 - 6\nVeld: 5\nScheidsrechter: J.M.J.
+ G van de Kamp\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32699/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -24,10 +24,10 @@ UID:wedstrijd-32697@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T101500
 DTEND;TZID=Europe/Amsterdam:20260912T121500
-SUMMARY:SJO SCP/DSZ O13-1 - Beuningse Boys O13-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
- eidsrechter: W. Hol\nControleer bij last-minute wijzigingen altijd Voetb
- al.nl.
+SUMMARY:SJO SCP/DSZ O13-1 - Beuningse Boys O13-2 (2 - 3)
+DESCRIPTION:Competitie\nEindstand: 2 - 3\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: 2\nScheidsrechter: W. Hol\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32697/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,9 +38,9 @@ UID:wedstrijd-32696@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T090000
 DTEND;TZID=Europe/Amsterdam:20260919T110000
-SUMMARY:SJO Victoria-SCD O13-1JM - SJO SCP/DSZ O13-1
-DESCRIPTION:Competitie\nVeld: 1\nScheidsrechter: M. Kolvenbach\nControlee
- r bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SJO Victoria-SCD O13-1JM - SJO SCP/DSZ O13-1 (3 - 3)
+DESCRIPTION:Competitie\nEindstand: 3 - 3\nVeld: 1\nScheidsrechter: M. Kol
+ venbach\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32696/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -50,9 +50,9 @@ UID:wedstrijd-32692@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T103000
 DTEND;TZID=Europe/Amsterdam:20260926T123000
-SUMMARY:SJO SCP/DSZ O13-1 - ST AVIOS/DBV O13-1
-DESCRIPTION:Competitie\nVeld: 1\nControleer bij last-minute wijzigingen a
- ltijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O13-1 - ST AVIOS/DBV O13-1 (3 - 1)
+DESCRIPTION:Competitie\nEindstand: 3 - 1\nVeld: 1\nControleer bij last-mi
+ nute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32692/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -62,9 +62,9 @@ UID:wedstrijd-32693@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T103000
 DTEND;TZID=Europe/Amsterdam:20261003T123000
-SUMMARY:SVHA O13-1 - SJO SCP/DSZ O13-1
-DESCRIPTION:Competitie\nVeld: 2\nScheidsrechter: K.M. van Dijk\nControlee
- r bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SVHA O13-1 - SJO SCP/DSZ O13-1 (1 - 5)
+DESCRIPTION:Competitie\nEindstand: 1 - 5\nVeld: 2\nScheidsrechter: K.M. v
+ an Dijk\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32693/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -74,10 +74,10 @@ UID:wedstrijd-32829@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T103000
 DTEND;TZID=Europe/Amsterdam:20261024T123000
-SUMMARY:SJO SCP/DSZ O13-1 - SJO Victoria-SCD O13-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: E. Aalbers\nControleer bij last-minute wijzigingen 
- altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O13-1 - SJO Victoria-SCD O13-1JM (5 - 3)
+DESCRIPTION:Competitie\nEindstand: 5 - 3\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld\nScheidsrechter: E. Aalbers\nControleer bij last-m
+ inute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32829/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

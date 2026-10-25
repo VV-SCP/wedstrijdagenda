@@ -12,9 +12,9 @@ UID:wedstrijd-32541@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T124500
 DTEND;TZID=Europe/Amsterdam:20260905T144500
-SUMMARY:DIO '30 O12-3 - SJO SCP/DSZ O12-2
-DESCRIPTION:Competitie\nVeld: 4 A\nScheidsrechter: K. de Jong\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:DIO '30 O12-3 - SJO SCP/DSZ O12-2 (4 - 11)
+DESCRIPTION:Competitie\nEindstand: 4 - 11\nVeld: 4 A\nScheidsrechter: K. 
+ de Jong\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32541/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -24,10 +24,10 @@ UID:wedstrijd-32542@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T100000
 DTEND;TZID=Europe/Amsterdam:20260912T120000
-SUMMARY:SJO SCP/DSZ O12-2 - SJO Victoria-SCD O12-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld B\nScheidsrechter: J.T. Geurts\nControleer bij last-minute wijziging
- en altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O12-2 - SJO Victoria-SCD O12-1JM (3 - 11)
+DESCRIPTION:Competitie\nEindstand: 3 - 11\nAccommodatie: Sportpark Schrav
+ enhof\nVeld: Hoofdveld B\nScheidsrechter: J.T. Geurts\nControleer bij la
+ st-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32542/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -38,9 +38,9 @@ UID:wedstrijd-32543@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T120000
 DTEND;TZID=Europe/Amsterdam:20260919T140000
-SUMMARY:Aquila O12-1 - SJO SCP/DSZ O12-2
-DESCRIPTION:Competitie\nVeld: 3 A\nScheidsrechter: B. van der Meulen\nCon
- troleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:Aquila O12-1 - SJO SCP/DSZ O12-2 (7 - 6)
+DESCRIPTION:Competitie\nEindstand: 7 - 6\nVeld: 3 A\nScheidsrechter: B. v
+ an der Meulen\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32543/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -50,10 +50,10 @@ UID:wedstrijd-32545@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T103000
 DTEND;TZID=Europe/Amsterdam:20260926T123000
-SUMMARY:SJO SCP/DSZ O12-2 - AAC-Olympia O12-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld A\nScheidsrechter: J.T. Geurts\nControleer bij last-minute wijziging
- en altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O12-2 - AAC-Olympia O12-1JM (3 - 5)
+DESCRIPTION:Competitie\nEindstand: 3 - 5\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld A\nScheidsrechter: J.T. Geurts\nControleer bij las
+ t-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32545/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -64,10 +64,10 @@ UID:wedstrijd-32828@vv-scp.nl
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T103000
 DTEND;TZID=Europe/Amsterdam:20261024T123000
-SUMMARY:SJO SCP/DSZ O12-2 - DIO '30 O12-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
- eidsrechter: J.T. Geurts\nControleer bij last-minute wijzigingen altijd 
- Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O12-2 - DIO '30 O12-2 (8 - 6)
+DESCRIPTION:Competitie\nEindstand: 8 - 6\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: 2\nScheidsrechter: J.T. Geurts\nControleer bij last-minute w
+ ijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32828/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
