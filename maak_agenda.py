@@ -18,7 +18,7 @@ PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
 TZ = ZoneInfo("Europe/Amsterdam")
 
 HEADERS = {
-    "User-Agent": "VV-SCP-wedstrijdagenda/8.2 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/8.3 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -443,9 +443,10 @@ def main() -> None:
 
     # Per team wordt de vaste wedstrijd-UID als sleutel gebruikt. Een API-record
     # kan daardoor nooit dubbel in dezelfde agenda terechtkomen.
-    calendar_maps: dict[str, dict[str, dict]] = {
-        team_name: {} for team_name in TEAM_FILES
-    }
+    # Maak alleen een agenda aan wanneer de API daadwerkelijk minimaal
+    # een wedstrijd voor het team teruggeeft. Teams zonder programma
+    # verschijnen daardoor niet op de overzichtspagina.
+    calendar_maps: dict[str, dict[str, dict]] = defaultdict(dict)
 
     for raw in raw_matches:
         converted = convert_match(raw)
