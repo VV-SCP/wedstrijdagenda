@@ -18,7 +18,7 @@ PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
 TZ = ZoneInfo("Europe/Amsterdam")
 
 HEADERS = {
-    "User-Agent": "VV-SCP-wedstrijdagenda/9.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/10.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -128,6 +128,27 @@ def canonical_scp_team(match: dict) -> str:
 
     upper = raw.upper()
 
+    # SCP 2 zondag en SCP Zaterdag 2 hebben in de API vaak exact dezelfde
+    # zichtbare naam. Gebruik eerst de expliciete API-vlaggen. Als die ontbreken,
+    # is zondag (weekday 6) het zondagteam en elke andere speeldag het zaterdagteam.
+    # Dit vangt ook naar vrijdag verplaatste zaterdagwedstrijden op.
+    if re.fullmatch(r"SCP(?:\s+(?:ZON|ZAT|ZATERDAG))?\s+2(?:\s*\((?:ZON|ZAT)\))?", upper):
+        if bool(match.get("bevatZaterdagteam")) or "ZAT" in upper:
+            return "SCP Zaterdag 2"
+        if bool(match.get("bevatZondagteam")) or "ZON" in upper:
+            return "SCP 2"
+
+        datum_text = clean_text(match.get("datum"))
+        try:
+            speel_dag = datetime.fromisoformat(datum_text).weekday()
+        except (TypeError, ValueError):
+            speel_dag = None
+
+        if speel_dag == 6:
+            return "SCP 2"
+        if speel_dag is not None:
+            return "SCP Zaterdag 2"
+
     # Vaste seniorenaliassen. De API kan bijvoorbeeld SCP ZAT 2,
     # SCP 2 (zat), SCP ZON 2 of SCP 2 (zon) teruggeven.
     senior_aliases = {
@@ -225,6 +246,17 @@ def normalise_result(value: object) -> str:
     return f"{match.group(1)} - {match.group(2)}" if match else ""
 
 
+def extract_url(value: object) -> str:
+    """Haal een gewone URL uit een API-veld dat soms HTML bevat."""
+    text = html.unescape(str(value or ""))
+    href_match = re.search(r'href=["\']([^"\']+)', text, flags=re.IGNORECASE)
+    if href_match:
+        return href_match.group(1)
+    if text.startswith("https://") or text.startswith("http://"):
+        return text
+    return ""
+
+
 def match_type(match: dict) -> str:
     if match.get("typeVriendschappelijk"):
         return "Vriendschappelijk"
@@ -260,9 +292,7 @@ def convert_match(raw: dict) -> tuple[str, dict] | None:
     elif raw.get("statusHerkeuring"):
         status = "herkeuring"
 
-    detail_url = clean_text(raw.get("wedstrijdDetailsUrl"))
-    if not detail_url.startswith("http"):
-        detail_url = API_URL
+    detail_url = extract_url(raw.get("wedstrijdDetailsUrl")) or API_URL
 
     is_home = bool(raw.get("isThuiswedstrijd"))
     item = {
