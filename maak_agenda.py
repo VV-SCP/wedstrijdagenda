@@ -18,7 +18,7 @@ PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
 TZ = ZoneInfo("Europe/Amsterdam")
 
 HEADERS = {
-    "User-Agent": "VV-SCP-wedstrijdagenda/10.1 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/11.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -67,8 +67,8 @@ def season_bounds(now: datetime | None = None) -> tuple[datetime, datetime]:
     return datetime(start_year, 7, 1, tzinfo=TZ), datetime(start_year + 1, 7, 1, tzinfo=TZ)
 
 
-def fetch_season_matches() -> list[dict]:
-    """Haal het gehele actuele seizoen in één API-aanvraag op."""
+def fetch_matches_by_type(program_type: int) -> list[dict]:
+    """Haal programma (1) of uitslagen (2) voor het hele seizoen op."""
     now = datetime.now(TZ)
     start, end = season_bounds(now)
     stamp = lambda value: value.strftime("%Y-%m-%dT%H:%M:%S")
@@ -80,15 +80,84 @@ def fetch_season_matches() -> list[dict]:
         "datumTot": stamp(end),
         "klantAfkorting": "SCP",
         "lang": "nl",
-        "programmaEnUitslagenType": 1,
+        "programmaEnUitslagenType": program_type,
         "vandaag": now.strftime("%Y-%m-%dT%H:%M:%S.%f"),
     }
     response = SESSION.post(API_URL, json=payload, timeout=60)
     response.raise_for_status()
     data = response.json()
     if not isinstance(data, list):
-        raise RuntimeError("De VoetbalAssist-API gaf geen wedstrijdenlijst terug.")
+        raise RuntimeError(
+            f"De VoetbalAssist-API gaf voor type {program_type} geen lijst terug."
+        )
     return data
+
+
+def match_merge_key(match: dict) -> str:
+    """Maak een stabiele sleutel om programma en uitslagen samen te voegen."""
+    wedstrijdnummer = clean_text(match.get("wedstrijdnummer"))
+    if wedstrijdnummer:
+        return f"wedstrijdnummer:{wedstrijdnummer}"
+
+    api_id = clean_text(match.get("id"))
+    if api_id:
+        return f"id:{api_id}"
+
+    return "|".join(
+        [
+            clean_text(match.get("datum")),
+            clean_text(match.get("thuisClubEnTeamNaamFriendly")).upper(),
+            clean_text(match.get("uitClubEnTeamNaamFriendly")).upper(),
+        ]
+    )
+
+
+def merge_match_records(existing: dict, incoming: dict) -> dict:
+    """Voeg twee API-records samen en behoud de meest bruikbare waarden."""
+    merged = dict(existing)
+
+    for key, value in incoming.items():
+        if value not in (None, "", [], {}):
+            merged[key] = value
+
+    # Statusvelden mogen nooit van True terugvallen naar False.
+    merged["statusAfgelast"] = bool(existing.get("statusAfgelast")) or bool(
+        incoming.get("statusAfgelast")
+    )
+    merged["statusHerkeuring"] = bool(existing.get("statusHerkeuring")) or bool(
+        incoming.get("statusHerkeuring")
+    )
+
+    # Een echte uitslag uit de uitslagenaanvraag heeft voorrang.
+    incoming_result = normalise_result(incoming.get("uitslag"))
+    existing_result = normalise_result(existing.get("uitslag"))
+    if incoming_result:
+        merged["uitslag"] = incoming_result
+    elif existing_result:
+        merged["uitslag"] = existing_result
+
+    return merged
+
+
+def fetch_season_matches() -> list[dict]:
+    """Combineer programma en uitslagen tot een unieke seizoenslijst."""
+    program_matches = fetch_matches_by_type(1)
+    result_matches = fetch_matches_by_type(2)
+
+    merged: dict[str, dict] = {}
+    for match in program_matches + result_matches:
+        key = match_merge_key(match)
+        if key in merged:
+            merged[key] = merge_match_records(merged[key], match)
+        else:
+            merged[key] = dict(match)
+
+    print(
+        f"API: {len(program_matches)} programma-records, "
+        f"{len(result_matches)} uitslag-records, "
+        f"{len(merged)} unieke wedstrijden."
+    )
+    return list(merged.values())
 
 
 def display_team_name(value: object) -> str:
