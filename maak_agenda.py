@@ -18,7 +18,7 @@ PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
 TZ = ZoneInfo("Europe/Amsterdam")
 
 HEADERS = {
-    "User-Agent": "VV-SCP-wedstrijdagenda/8.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/8.2 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -128,6 +128,18 @@ def canonical_scp_team(match: dict) -> str:
 
     upper = raw.upper()
 
+    # Senioren zaterdag/zondag eerst scheiden met de expliciete API-vlaggen.
+    # VoetbalAssist levert de zichtbare naam soms zonder '(zat)' of '(zon)'.
+    # Daarom zijn bevatZaterdagteam en bevatZondagteam leidend.
+    if not re.search(r"\bO\d+", upper):
+        senior_number = re.search(r"\bSCP\s+(\d+)\b", upper)
+        if senior_number and bool(match.get("bevatZaterdagteam")):
+            canonical = f"SCP Zaterdag {senior_number.group(1)}"
+            return canonical if canonical in TEAM_FILES else ""
+        if senior_number and bool(match.get("bevatZondagteam")):
+            canonical = f"SCP {senior_number.group(1)}"
+            return canonical if canonical in TEAM_FILES else ""
+
     # Drie bekende foutieve API-labels. Dit zijn geen aparte SCP-teams.
     fixed_aliases = {
         "SJO SCP/DSZ O13-EWIJK 1": "SJO SCP/DSZ O13-1",
@@ -159,11 +171,11 @@ def canonical_scp_team(match: dict) -> str:
 
     # Senioren: herken zaterdag, zondag, dames en 35+ zonder te gokken.
     cleaned = display_team_name(raw)
-    if "(ZAT)" in upper:
+    if re.search(r"\bSCP\s+(?:VR|VROUWEN|DAMES)\s*1\b", upper):
+        canonical = "SCP Dames 1"
+    elif "(ZAT)" in upper:
         number = re.search(r"\b(\d+)\b", upper)
         canonical = f"SCP Zaterdag {number.group(1)}" if number else ""
-    elif "DAMES" in upper or re.search(r"\bVR\s*1\b", upper):
-        canonical = "SCP Dames 1"
     elif "35+1" in upper:
         canonical = "SCP 35+1"
     elif "35+2" in upper:
@@ -431,7 +443,9 @@ def main() -> None:
 
     # Per team wordt de vaste wedstrijd-UID als sleutel gebruikt. Een API-record
     # kan daardoor nooit dubbel in dezelfde agenda terechtkomen.
-    calendar_maps: dict[str, dict[str, dict]] = defaultdict(dict)
+    calendar_maps: dict[str, dict[str, dict]] = {
+        team_name: {} for team_name in TEAM_FILES
+    }
 
     for raw in raw_matches:
         converted = convert_match(raw)
