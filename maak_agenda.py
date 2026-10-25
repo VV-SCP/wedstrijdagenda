@@ -18,7 +18,7 @@ PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
 TZ = ZoneInfo("Europe/Amsterdam")
 
 HEADERS = {
-    "User-Agent": "VV-SCP-wedstrijdagenda/7.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/8.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -57,6 +57,8 @@ TEAM_FILES = {
     "SJO SCP/DSZ O7-1": "o7-1.ics",
     "SJO SCP/DSZ O7-2": "o7-2.ics",
 }
+
+TEAM_ORDER = {name: index for index, name in enumerate(TEAM_FILES)}
 
 
 def clean_text(value: object) -> str:
@@ -338,6 +340,11 @@ def category(team_name: str) -> str:
     return "Pupillen"
 
 
+def team_sort_key(team: dict) -> int:
+    """Sorteer exact volgens TEAM_FILES: senioren, daarna jeugd van oud naar jong."""
+    return TEAM_ORDER.get(team["name"], 9999)
+
+
 def build_index(results: list[dict]) -> str:
     groups = {"Senioren": [], "Junioren": [], "Pupillen": []}
     for result in results:
@@ -348,7 +355,7 @@ def build_index(results: list[dict]) -> str:
         if not teams:
             continue
         cards = []
-        for team in sorted(teams, key=lambda item: item["name"]):
+        for team in sorted(teams, key=team_sort_key):
             name = html.escape(team["name"])
             filename = html.escape(team["output"])
             https_url = f"{PUBLIC_BASE_URL}/{filename}"
@@ -421,13 +428,21 @@ footer{{margin-top:34px;color:var(--muted)}}
 
 def main() -> None:
     raw_matches = fetch_season_matches()
-    calendars: dict[str, list[dict]] = defaultdict(list)
+
+    # Per team wordt de vaste wedstrijd-UID als sleutel gebruikt. Een API-record
+    # kan daardoor nooit dubbel in dezelfde agenda terechtkomen.
+    calendar_maps: dict[str, dict[str, dict]] = defaultdict(dict)
 
     for raw in raw_matches:
         converted = convert_match(raw)
         if converted:
             team_name, item = converted
-            calendars[team_name].append(item)
+            calendar_maps[team_name][item["uid"]] = item
+
+    calendars = {
+        team_name: list(matches_by_uid.values())
+        for team_name, matches_by_uid in calendar_maps.items()
+    }
 
     if not calendars:
         raise RuntimeError("Er zijn geen geldige SCP-teamagenda's opgebouwd.")
@@ -439,7 +454,8 @@ def main() -> None:
             print(f"Verouderd agenda-bestand verwijderd: {old_file.name}")
 
     results = []
-    for team_name, matches in sorted(calendars.items()):
+    for team_name in sorted(calendars, key=lambda name: TEAM_ORDER.get(name, 9999)):
+        matches = calendars[team_name]
         filename = TEAM_FILES[team_name]
         Path(filename).write_text(
             build_calendar(team_name, matches), encoding="utf-8", newline=""
