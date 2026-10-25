@@ -18,7 +18,7 @@ PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
 TZ = ZoneInfo("Europe/Amsterdam")
 
 HEADERS = {
-    "User-Agent": "VV-SCP-wedstrijdagenda/8.3 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/9.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -128,11 +128,34 @@ def canonical_scp_team(match: dict) -> str:
 
     upper = raw.upper()
 
+    # Vaste seniorenaliassen. De API kan bijvoorbeeld SCP ZAT 2,
+    # SCP 2 (zat), SCP ZON 2 of SCP 2 (zon) teruggeven.
+    senior_aliases = {
+        "SCP ZON 1": "SCP 1",
+        "SCP 1 (ZON)": "SCP 1",
+        "SCP ZON 2": "SCP 2",
+        "SCP 2 (ZON)": "SCP 2",
+        "SCP ZON 3": "SCP 3",
+        "SCP 3 (ZON)": "SCP 3",
+        "SCP ZAT 2": "SCP Zaterdag 2",
+        "SCP 2 (ZAT)": "SCP Zaterdag 2",
+        "SCP ZATERDAG 2": "SCP Zaterdag 2",
+        "SCP VR1 (ZON)": "SCP Dames 1",
+        "SCP VR1": "SCP Dames 1",
+        "SCP VR 1": "SCP Dames 1",
+        "SCP VROUWEN 1": "SCP Dames 1",
+        "SCP DAMES 1": "SCP Dames 1",
+        "SCP 35+1": "SCP 35+1",
+        "SCP 35+2": "SCP 35+2",
+    }
+    if upper in senior_aliases:
+        return senior_aliases[upper]
+
     # Senioren zaterdag/zondag eerst scheiden met de expliciete API-vlaggen.
     # VoetbalAssist levert de zichtbare naam soms zonder '(zat)' of '(zon)'.
     # Daarom zijn bevatZaterdagteam en bevatZondagteam leidend.
     if not re.search(r"\bO\d+", upper):
-        senior_number = re.search(r"\bSCP\s+(\d+)\b", upper)
+        senior_number = re.search(r"\bSCP(?:\s+(?:ZAT|ZON|ZATERDAG))?\s+(\d+)\b", upper)
         if senior_number and bool(match.get("bevatZaterdagteam")):
             canonical = f"SCP Zaterdag {senior_number.group(1)}"
             return canonical if canonical in TEAM_FILES else ""
