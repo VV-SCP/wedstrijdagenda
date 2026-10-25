@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import hashlib
 import html
+import json
 import re
 from collections import defaultdict
 from datetime import datetime, timedelta
@@ -12,13 +13,15 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+from bs4 import BeautifulSoup
 
 API_URL = "https://site-api.voetbalassi.st/SCP/front/programmaenuitslagen/PostWedstrijden"
 PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
+CACHE_FILE = Path("uitslagen_cache.json")
 TZ = ZoneInfo("Europe/Amsterdam")
 
 HEADERS = {
-    "User-Agent": "VV-SCP-wedstrijdagenda/11.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/12.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -67,8 +70,8 @@ def season_bounds(now: datetime | None = None) -> tuple[datetime, datetime]:
     return datetime(start_year, 7, 1, tzinfo=TZ), datetime(start_year + 1, 7, 1, tzinfo=TZ)
 
 
-def fetch_matches_by_type(program_type: int) -> list[dict]:
-    """Haal programma (1) of uitslagen (2) voor het hele seizoen op."""
+def fetch_season_matches() -> list[dict]:
+    """Haal het volledige actuele seizoen in een API-aanvraag op."""
     now = datetime.now(TZ)
     start, end = season_bounds(now)
     stamp = lambda value: value.strftime("%Y-%m-%dT%H:%M:%S")
@@ -80,29 +83,26 @@ def fetch_matches_by_type(program_type: int) -> list[dict]:
         "datumTot": stamp(end),
         "klantAfkorting": "SCP",
         "lang": "nl",
-        "programmaEnUitslagenType": program_type,
+        "programmaEnUitslagenType": 1,
         "vandaag": now.strftime("%Y-%m-%dT%H:%M:%S.%f"),
     }
     response = SESSION.post(API_URL, json=payload, timeout=60)
     response.raise_for_status()
     data = response.json()
     if not isinstance(data, list):
-        raise RuntimeError(
-            f"De VoetbalAssist-API gaf voor type {program_type} geen lijst terug."
-        )
+        raise RuntimeError("De VoetbalAssist-API gaf geen wedstrijdenlijst terug.")
+    print(f"API: {len(data)} programmarecords opgehaald.")
     return data
 
 
-def match_merge_key(match: dict) -> str:
-    """Maak een stabiele sleutel om programma en uitslagen samen te voegen."""
+def result_cache_key(match: dict) -> str:
+    """Gebruik bij voorkeur het officiële wedstrijdnummer als cachesleutel."""
     wedstrijdnummer = clean_text(match.get("wedstrijdnummer"))
     if wedstrijdnummer:
         return f"wedstrijdnummer:{wedstrijdnummer}"
-
     api_id = clean_text(match.get("id"))
     if api_id:
         return f"id:{api_id}"
-
     return "|".join(
         [
             clean_text(match.get("datum")),
@@ -112,52 +112,132 @@ def match_merge_key(match: dict) -> str:
     )
 
 
-def merge_match_records(existing: dict, incoming: dict) -> dict:
-    """Voeg twee API-records samen en behoud de meest bruikbare waarden."""
-    merged = dict(existing)
+def load_result_cache() -> dict[str, str]:
+    """Lees eerder gevonden eindstanden; een ontbrekende cache is normaal."""
+    if not CACHE_FILE.exists():
+        return {}
+    try:
+        data = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"WAARSCHUWING: uitslagencache kon niet worden gelezen: {exc}")
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    return {
+        clean_text(key): normalise_result(value)
+        for key, value in data.items()
+        if clean_text(key) and normalise_result(value)
+    }
 
-    for key, value in incoming.items():
-        if value not in (None, "", [], {}):
-            merged[key] = value
 
-    # Statusvelden mogen nooit van True terugvallen naar False.
-    merged["statusAfgelast"] = bool(existing.get("statusAfgelast")) or bool(
-        incoming.get("statusAfgelast")
+def save_result_cache(cache: dict[str, str]) -> None:
+    """Sla alleen geldige eindstanden in een stabiele volgorde op."""
+    cleaned = {
+        key: result
+        for key, result in sorted(cache.items())
+        if normalise_result(result)
+    }
+    CACHE_FILE.write_text(
+        json.dumps(cleaned, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
     )
-    merged["statusHerkeuring"] = bool(existing.get("statusHerkeuring")) or bool(
-        incoming.get("statusHerkeuring")
-    )
-
-    # Een echte uitslag uit de uitslagenaanvraag heeft voorrang.
-    incoming_result = normalise_result(incoming.get("uitslag"))
-    existing_result = normalise_result(existing.get("uitslag"))
-    if incoming_result:
-        merged["uitslag"] = incoming_result
-    elif existing_result:
-        merged["uitslag"] = existing_result
-
-    return merged
 
 
-def fetch_season_matches() -> list[dict]:
-    """Combineer programma en uitslagen tot een unieke seizoenslijst."""
-    program_matches = fetch_matches_by_type(1)
-    result_matches = fetch_matches_by_type(2)
+def result_from_detail_page(match: dict) -> str:
+    """Lees een eindstand eenmalig van de openbare wedstrijddetailpagina."""
+    url = extract_url(match.get("wedstrijdDetailsUrl"))
+    if not url.startswith("https://www.vv-scp.nl/"):
+        return ""
 
-    merged: dict[str, dict] = {}
-    for match in program_matches + result_matches:
-        key = match_merge_key(match)
-        if key in merged:
-            merged[key] = merge_match_records(merged[key], match)
-        else:
-            merged[key] = dict(match)
+    try:
+        response = SESSION.get(url, timeout=20)
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        print(f"WAARSCHUWING: uitslag niet opgehaald voor {url}: {exc}")
+        return ""
 
+    soup = BeautifulSoup(response.text, "html.parser")
+    candidates = [
+        clean_text(element.get_text(" ", strip=True))
+        for element in soup.find_all(["h1", "h2", "h3", "h4", "p", "div"])
+    ]
+    page_text = clean_text(soup.get_text(" ", strip=True))
+
+    home_names = {
+        clean_text(match.get("thuisClubEnTeamNaamFriendly")),
+        display_team_name(match.get("thuisClubEnTeamNaamFriendly")),
+    }
+    away_names = {
+        clean_text(match.get("uitClubEnTeamNaamFriendly")),
+        display_team_name(match.get("uitClubEnTeamNaamFriendly")),
+    }
+
+    for home in sorted(home_names, key=len, reverse=True):
+        for away in sorted(away_names, key=len, reverse=True):
+            if not home or not away:
+                continue
+            pattern = re.compile(
+                rf"{re.escape(home)}\s+(\d+)\s*-\s*(\d+)\s+{re.escape(away)}",
+                flags=re.IGNORECASE,
+            )
+            for text in candidates + [page_text]:
+                found = pattern.search(text)
+                if found:
+                    return f"{found.group(1)} - {found.group(2)}"
+
+    return ""
+
+
+def enrich_results(matches: list[dict]) -> tuple[list[dict], int]:
+    """Gebruik API/cache en bezoek alleen nieuwe gespeelde wedstrijden zonder uitslag."""
+    cache = load_result_cache()
+    now = datetime.now(TZ)
+    detail_requests = 0
+
+    for match in matches:
+        key = result_cache_key(match)
+        api_result = normalise_result(match.get("uitslag"))
+
+        if api_result:
+            match["uitslag"] = api_result
+            cache[key] = api_result
+            continue
+
+        cached_result = normalise_result(cache.get(key))
+        if cached_result:
+            match["uitslag"] = cached_result
+            continue
+
+        if match.get("statusAfgelast"):
+            continue
+
+        try:
+            start = parse_datetime(match.get("datum"))
+        except (TypeError, ValueError):
+            continue
+
+        # Pas twee uur na de aftrap controleren, zodat geen tussenstand wordt opgeslagen.
+        if start + timedelta(hours=2) > now:
+            continue
+
+        detail_requests += 1
+        detail_result = result_from_detail_page(match)
+        if detail_result:
+            match["uitslag"] = detail_result
+            cache[key] = detail_result
+            print(
+                "Nieuwe uitslag opgeslagen: "
+                f"{display_team_name(match.get('thuisClubEnTeamNaamFriendly'))} "
+                f"{detail_result} "
+                f"{display_team_name(match.get('uitClubEnTeamNaamFriendly'))}"
+            )
+
+    save_result_cache(cache)
     print(
-        f"API: {len(program_matches)} programma-records, "
-        f"{len(result_matches)} uitslag-records, "
-        f"{len(merged)} unieke wedstrijden."
+        f"Uitslagencache: {len(cache)} uitslagen; "
+        f"{detail_requests} detailpagina's gecontroleerd."
     )
-    return list(merged.values())
+    return matches, detail_requests
 
 
 def display_team_name(value: object) -> str:
@@ -348,6 +428,7 @@ def build_index(results: list[dict]) -> str:
 
 def main() -> None:
     raw_matches = fetch_season_matches()
+    raw_matches, _ = enrich_results(raw_matches)
     calendars: dict[str, dict[str, dict]] = defaultdict(dict)
     for raw in raw_matches:
         converted = convert_match(raw)
