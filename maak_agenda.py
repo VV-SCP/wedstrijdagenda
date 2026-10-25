@@ -345,6 +345,7 @@ def category(team_name: str) -> str:
 
 
 def build_index(results: list[dict]) -> str:
+    """Maak een mobiele overzichtspagina met echte agenda-abonnementen."""
     groups = {"Senioren": [], "Junioren": [], "Pupillen": []}
     for result in results:
         groups[category(result["name"])].append(result)
@@ -353,35 +354,99 @@ def build_index(results: list[dict]) -> str:
     for group_name, teams in groups.items():
         if not teams:
             continue
+
         cards = []
         for team in sorted(teams, key=lambda item: item["name"]):
             name = html.escape(team["name"])
             filename = html.escape(team["output"])
+            https_url = f"{PUBLIC_BASE_URL}/{filename}"
+            webcal_url = https_url.replace("https://", "webcal://", 1)
+
             cards.append(
-                f'<article><h3>{name}</h3><p>{team["count"]} wedstrijden</p>'
-                f'<a class="button" href="{filename}">Agenda openen</a>'
-                f'<p class="url">{PUBLIC_BASE_URL}/{filename}</p></article>'
+                f'<article class="card">'
+                f'<h3>{name}</h3>'
+                f'<p class="count">{team["count"]} wedstrijden</p>'
+                f'<div class="actions">'
+                f'<a class="button apple" href="{webcal_url}">Abonneren op iPhone</a>'
+                f'<button class="button android copy-link" type="button" '
+                f'data-url="{https_url}">Kopieer link voor Android</button>'
+                f'</div>'
+                f'<p class="help">Kies een abonnement, niet een eenmalige import.</p>'
+                f'<details><summary>Android-instructie</summary>'
+                f'<ol><li>Kopieer de link hierboven.</li>'
+                f'<li>Open Google Agenda in een browser en kies '
+                f'<strong>Andere agenda\'s &gt; + &gt; Via URL</strong>.</li>'
+                f'<li>Plak de link en kies <strong>Agenda toevoegen</strong>.</li></ol>'
+                f'<p class="small">Dit werkt het betrouwbaarst via de webversie van Google Agenda. '
+                f'Daarna verschijnt de agenda ook op de Android-telefoon.</p></details>'
+                f'<p class="url">{https_url}</p>'
+                f'</article>'
             )
+
         sections.append(
-            f'<section><h2>{group_name}</h2><div class="grid">{"".join(cards)}</div></section>'
+            f'<section><h2>{group_name}</h2><div class="grid">'
+            f'{"".join(cards)}</div></section>'
         )
 
     return f"""<!doctype html>
-<html lang="nl"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Wedstrijdagenda's VV SCP</title>
-<style>
-body{{font-family:system-ui,sans-serif;max-width:1100px;margin:40px auto;padding:0 18px;line-height:1.5;color:#172033}}
-.grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}}
-article{{border:1px solid #d8dee9;border-radius:12px;padding:18px;background:#fff}}
-.button{{display:inline-block;background:#116735;color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}}
-.url{{font-size:.78rem;overflow-wrap:anywhere;color:#5d6675}}small{{color:#5d6675}}
-</style></head><body>
-<h1>Wedstrijdagenda's VV SCP</h1>
-<p>Kies een team en voeg de agenda toe als abonnement op iPhone, Android of computer.</p>
-{"".join(sections)}
-<p><small>De agenda's worden ieder uur bijgewerkt. Controleer bij last-minute wijzigingen altijd Voetbal.nl.</small></p>
-</body></html>"""
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#116735">
+  <title>Wedstrijdagenda's VV SCP</title>
+  <style>
+    :root{{--green:#116735;--blue:#1565c0;--ink:#172033;--muted:#5d6675;--line:#d8dee9;--bg:#f5f7fa}}
+    *{{box-sizing:border-box}}
+    body{{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;max-width:1120px;margin:0 auto;padding:28px 18px 48px;line-height:1.5;color:var(--ink);background:var(--bg)}}
+    h1{{margin-bottom:6px}} h2{{margin-top:34px}} h3{{margin:0 0 4px}}
+    .intro{{max-width:780px}} .notice{{background:#fff7dc;border-left:4px solid #e0a800;padding:12px 14px;border-radius:8px;margin:20px 0}}
+    .grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}}
+    .card{{border:1px solid var(--line);border-radius:14px;padding:18px;background:white;box-shadow:0 2px 8px rgba(21,32,51,.05)}}
+    .count,.help,.small{{color:var(--muted)}} .count{{margin-top:0}}
+    .actions{{display:grid;gap:10px;margin:14px 0}}
+    .button{{display:block;width:100%;border:0;border-radius:9px;padding:11px 13px;color:white;text-align:center;text-decoration:none;font-weight:700;font-size:1rem;cursor:pointer}}
+    .apple{{background:var(--green)}} .android{{background:var(--blue)}}
+    .button:focus{{outline:3px solid #ffbf47;outline-offset:2px}}
+    details{{border-top:1px solid var(--line);padding-top:10px;margin-top:12px}}
+    summary{{cursor:pointer;font-weight:700}} .url{{font-size:.76rem;overflow-wrap:anywhere;color:var(--muted)}}
+    .toast{{position:sticky;bottom:16px;margin:22px auto 0;max-width:520px;background:#172033;color:white;border-radius:10px;padding:12px 14px;text-align:center;display:none}}
+    footer{{margin-top:34px;color:var(--muted)}}
+  </style>
+</head>
+<body>
+  <h1>Wedstrijdagenda's VV SCP</h1>
+  <p class="intro">Kies jouw team. Op een iPhone opent de groene knop rechtstreeks een agenda-abonnement. Voor Android kopieert de blauwe knop de abonnementslink.</p>
+  <div class="notice"><strong>Belangrijk:</strong> voeg de agenda toe als abonnement. Download of importeer het ICS-bestand niet eenmalig, want dan worden latere wijzigingen niet automatisch verwerkt.</div>
+  {"".join(sections)}
+  <div id="toast" class="toast" role="status" aria-live="polite">De agenda-link is gekopieerd.</div>
+  <footer>De agenda's worden ieder uur bijgewerkt. Controleer bij last-minute wijzigingen altijd Voetbal.nl of de teamcommunicatie.</footer>
+  <script>
+    (() => {{
+      const toast = document.getElementById('toast');
+      let timer;
+      const showMessage = (message) => {{
+        toast.textContent = message;
+        toast.style.display = 'block';
+        clearTimeout(timer);
+        timer = setTimeout(() => {{ toast.style.display = 'none'; }}, 3500);
+      }};
+
+      document.querySelectorAll('.copy-link').forEach((button) => {{
+        button.addEventListener('click', async () => {{
+          const url = button.dataset.url;
+          try {{
+            await navigator.clipboard.writeText(url);
+            showMessage('De agenda-link is gekopieerd. Plak deze bij Google Agenda > Andere agenda\'s > Via URL.');
+          }} catch (error) {{
+            window.prompt('Kopieer deze agenda-link:', url);
+          }}
+        }});
+      }});
+    }})();
+  </script>
+</body>
+</html>"""
 
 
 def main() -> None:
