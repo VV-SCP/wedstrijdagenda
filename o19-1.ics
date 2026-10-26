@@ -146,4 +146,16 @@ STATUS:CONFIRMED
 SEQUENCE:0
 LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-33291@vv-scp.nl
+DTSTAMP:20261026T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T144500
+DTEND;TZID=Europe/Amsterdam:20261212T164500
+SUMMARY:SKV O19-1 - SJO SCP/DSZ O19-1
+DESCRIPTION:Competitie\nVeld: veld A-SKV\nControleer bij last-minute wijz
+ igingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33291/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
 END:VCALENDAR
