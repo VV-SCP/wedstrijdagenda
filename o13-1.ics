@@ -138,8 +138,9 @@ DTSTAMP:20261027T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T104500
 DTEND;TZID=Europe/Amsterdam:20261205T124500
 SUMMARY:Kesteren O13-1 - SJO SCP/DSZ O13-1
-DESCRIPTION:Competitie\nVeld: veld 1 - Hoofdveld gras\nControleer bij las
- t-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 1 - Hoofdveld gras\nScheidsrechter: H.
+  van Donselaar\nControleer bij last-minute wijzigingen altijd Voetbal.nl
+ .
 URL:https://www.vv-scp.nl/524/33020/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

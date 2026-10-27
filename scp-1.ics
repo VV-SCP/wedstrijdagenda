@@ -129,8 +129,8 @@ DTSTAMP:20261027T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T140000
 DTEND;TZID=Europe/Amsterdam:20261108T160000
 SUMMARY:Aquila 1 - SCP 1
-DESCRIPTION:Competitie\nVeld: veld 1\nControleer bij last-minute wijzigin
- gen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: veld 1\nScheidsrechter: Anoniem\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32240/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
