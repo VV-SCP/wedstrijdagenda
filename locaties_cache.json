@@ -497,9 +497,12 @@
   },
   "wedstrijdnummer:5109": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
     "wedstrijd_datum": "2026-11-29T14:00:00+01:00",
-    "signature": "5011042acbf52e9d6c99"
+    "signature": "5011042acbf52e9d6c99",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark Kremershof",
+    "adres": "Kweldam 4 A, 6653 CC Deest"
   },
   "wedstrijdnummer:5159": {
     "initiele_controle_gedaan": true,
@@ -575,9 +578,12 @@
   },
   "wedstrijdnummer:5646": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
     "wedstrijd_datum": "2027-02-28T14:00:00+01:00",
-    "signature": "c140bb4fc60991c8a8ba"
+    "signature": "c140bb4fc60991c8a8ba",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark De Hoge Hof - DBV",
+    "adres": "Hogenhofstraat 10 A, 6627 KC Maasbommel"
   },
   "wedstrijdnummer:56967": {
     "initiele_controle_gedaan": true,
@@ -1303,9 +1309,12 @@
   "wedstrijdnummer:83880": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
     "wedstrijd_datum": "2026-11-07T14:00:00+01:00",
-    "signature": "1c34a059859701f8afbc"
+    "signature": "1c34a059859701f8afbc",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark De Bakenberg",
+    "adres": "Kemperbergerweg 11 B, 6816 RM Arnhem"
   },
   "wedstrijdnummer:84134": {
     "initiele_controle_gedaan": true,
@@ -1366,9 +1375,12 @@
   },
   "wedstrijdnummer:85851": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
     "wedstrijd_datum": "2026-12-05T09:45:00+01:00",
-    "signature": "95b6919f1712d6c10bee"
+    "signature": "95b6919f1712d6c10bee",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark Nieuw Balveren",
+    "adres": "Stationsstraat 24 A, 6515 AB Nijmegen"
   },
   "wedstrijdnummer:86247": {
     "initiele_controle_gedaan": true,
@@ -1647,9 +1659,12 @@
   },
   "wedstrijdnummer:95055": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
     "wedstrijd_datum": "2026-12-05T15:30:00+01:00",
-    "signature": "704ec2a9e2199ce500e2"
+    "signature": "704ec2a9e2199ce500e2",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark Ressen",
+    "adres": "Ressensestraat 30 B, 6684 DA Ressen"
   },
   "wedstrijdnummer:95185": {
     "initiele_controle_gedaan": true,
@@ -1744,9 +1759,12 @@
   },
   "wedstrijdnummer:98070": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
     "wedstrijd_datum": "2026-12-12T12:00:00+01:00",
-    "signature": "3e8c0151f4f9da35c240"
+    "signature": "3e8c0151f4f9da35c240",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark Walburgen",
+    "adres": "Nijmeegsestraat 65 B, 6691 CM Gendt"
   },
   "wedstrijdnummer:99014": {
     "initiele_controle_gedaan": true,
@@ -1783,9 +1801,12 @@
   },
   "wedstrijdnummer:99446": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
     "wedstrijd_datum": "2026-11-14T08:30:00+01:00",
-    "signature": "12a664fde0509f4623a4"
+    "signature": "12a664fde0509f4623a4",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark Ressen",
+    "adres": "Ressensestraat 30 B, 6684 DA Ressen"
   },
   "wedstrijdnummer:99675": {
     "initiele_controle_gedaan": true,

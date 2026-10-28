@@ -162,11 +162,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T140000
 DTEND;TZID=Europe/Amsterdam:20261129T160000
 SUMMARY:SCD '33 1 - SCP 1
-DESCRIPTION:Competitie\nVeld: veld 1\nControleer bij last-minute wijzigin
- gen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Kremershof\nVeld: veld 1\
+ nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32258/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Kweldam 4 A\, 6653 CC Deest
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32228@vv-scp.nl
@@ -226,11 +227,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270228T140000
 DTEND;TZID=Europe/Amsterdam:20270228T160000
 SUMMARY:AVIOS/DBV 1 - SCP 1
-DESCRIPTION:Competitie\nVeld: veld 1\nControleer bij last-minute wijzigin
- gen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoge Hof - DBV\nVeld: 
+ veld 1\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32152/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Hogenhofstraat 10 A\, 6627 KC Maasbommel
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32219@vv-scp.nl

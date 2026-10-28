@@ -88,11 +88,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T140000
 DTEND;TZID=Europe/Amsterdam:20261107T160000
 SUMMARY:SML O19-3JM - SJO SCP/DSZ O19-1
-DESCRIPTION:Competitie\nVeld: veld 1\nControleer bij last-minute wijzigin
- gen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Bakenberg\nVeld: veld 
+ 1\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32849/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Kemperbergerweg 11 B\, 6816 RM Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32850@vv-scp.nl

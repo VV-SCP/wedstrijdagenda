@@ -39,11 +39,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T083000
 DTEND;TZID=Europe/Amsterdam:20261114T103000
 SUMMARY:SC Bemmel O8-1 - SJO SCP/DSZ O8-2
-DESCRIPTION:Competitie\nVeld: veld 1 B2\nControleer bij last-minute wijzi
- gingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Ressen\nVeld: veld 1 B2\n
+ Controleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32779/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Ressensestraat 30 B\, 6684 DA Ressen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32772@vv-scp.nl
@@ -77,10 +78,11 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T094500
 DTEND;TZID=Europe/Amsterdam:20261205T114500
 SUMMARY:OSC O8-6 - SJO SCP/DSZ O8-2
-DESCRIPTION:Competitie\nVeld: veld C A1\nControleer bij last-minute wijzi
- gingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Nieuw Balveren\nVeld: vel
+ d C A1\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32762/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Stationsstraat 24 A\, 6515 AB Nijmegen
 END:VEVENT
 END:VCALENDAR

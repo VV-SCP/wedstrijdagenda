@@ -152,10 +152,11 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T120000
 DTEND;TZID=Europe/Amsterdam:20261212T140000
 SUMMARY:De Bataven O15-1 - SJO SCP/DSZ O15-1
-DESCRIPTION:Competitie\nVeld: veld 3\nControleer bij last-minute wijzigin
- gen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Walburgen\nVeld: veld 3\n
+ Controleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32752/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Nijmeegsestraat 65 B\, 6691 CM Gendt
 END:VEVENT
 END:VCALENDAR

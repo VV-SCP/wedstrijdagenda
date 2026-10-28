@@ -163,10 +163,11 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T153000
 DTEND;TZID=Europe/Amsterdam:20261205T173000
 SUMMARY:SC Bemmel O19-3 - SJO SCP/DSZ-DIO'30 O19-2
-DESCRIPTION:Competitie\nVeld: veld 5\nControleer bij last-minute wijzigin
- gen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Ressen\nVeld: veld 5\nCon
+ troleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32813/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Ressensestraat 30 B\, 6684 DA Ressen
 END:VEVENT
 END:VCALENDAR
