@@ -7,6 +7,7 @@ import hashlib
 import html
 import json
 import re
+import time
 from collections import defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -19,12 +20,12 @@ API_URL = "https://site-api.voetbalassi.st/SCP/front/programmaenuitslagen/PostWe
 PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
 CACHE_FILE = Path("uitslagen_cache.json")
 LOCATION_CACHE_FILE = Path("locaties_cache.json")
-MAX_LOCATION_REQUESTS_PER_RUN = 12
+LOCATION_REQUEST_DELAY_SECONDS = 0.15
 TZ = ZoneInfo("Europe/Amsterdam")
 
 SESSION = requests.Session()
 SESSION.headers.update({
-    "User-Agent": "VV-SCP-wedstrijdagenda/14.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/15.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -376,9 +377,11 @@ def enrich_locations(matches: list[dict]) -> None:
 
         if not cached_location_is_due(entry, match, start, now):
             continue
-        if requests_made >= MAX_LOCATION_REQUESTS_PER_RUN:
-            continue
-
+        # Bij de eerste uitvoering wordt de locatiecache volledig gevuld.
+        # Daarna worden alleen nieuwe of volgens het controleschema verlopen
+        # locaties opnieuw bekeken. Een korte pauze beperkt de belasting.
+        if requests_made:
+            time.sleep(LOCATION_REQUEST_DELAY_SECONDS)
         requests_made += 1
         accommodation, address = location_from_detail(match)
         checked_at = now.isoformat(timespec="seconds")
@@ -405,9 +408,16 @@ def enrich_locations(matches: list[dict]) -> None:
             cache[key] = entry
 
     save_location_cache(cache)
+    cached_count = sum(1 for value in cache.values() if value.get("adres"))
+    missing_count = sum(
+        1
+        for _, match in future_matches
+        if not clean_text(match.get("locatie_adres"))
+    )
     print(
-        f"Locatiecache: {sum(1 for value in cache.values() if value.get('adres'))} locaties; "
-        f"{requests_made} detailpagina's gecontroleerd."
+        f"Locatiecache: {cached_count} locaties; "
+        f"{requests_made} detailpagina's gecontroleerd; "
+        f"{missing_count} toekomstige wedstrijden nog zonder gevonden adres."
     )
 
 
