@@ -740,11 +740,13 @@
   "wedstrijdnummer:68508": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T21:56:01+01:00",
     "wedstrijd_datum": "2026-10-30T21:00:00+01:00",
     "signature": "b864eed3ecc155c18ffb",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:68589": {
     "initiele_controle_gedaan": true,
@@ -760,11 +762,13 @@
   "wedstrijdnummer:68670": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T21:56:01+01:00",
     "wedstrijd_datum": "2026-10-30T21:00:00+01:00",
     "signature": "cb3ad5faf2be84f1b91f",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:68758": {
     "initiele_controle_gedaan": true,
@@ -810,20 +814,24 @@
   "wedstrijdnummer:72553": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T21:56:01+01:00",
     "wedstrijd_datum": "2026-10-30T21:30:00+01:00",
     "signature": "31e4f71b58df09179923",
-    "accommodatie": "Sportpark",
-    "adres": "De Ringelenberg Schriksestraat 22, 6654 AN Afferden"
+    "accommodatie": "Sportpark De Ringelenberg",
+    "adres": "Schriksestraat 22, 6654 AN Afferden",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:72978": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T21:56:01+01:00",
     "wedstrijd_datum": "2026-10-30T21:00:00+01:00",
     "signature": "fba74daddeb79a0b2a69",
-    "accommodatie": "Sportpark",
-    "adres": "De Ringelenberg Schriksestraat 22, 6654 AN Afferden"
+    "accommodatie": "Sportpark De Ringelenberg",
+    "adres": "Schriksestraat 22, 6654 AN Afferden",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:73072": {
     "initiele_controle_gedaan": true,
