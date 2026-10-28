@@ -25,7 +25,7 @@ TZ = ZoneInfo("Europe/Amsterdam")
 
 SESSION = requests.Session()
 SESSION.headers.update({
-    "User-Agent": "VV-SCP-wedstrijdagenda/15.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/16.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -292,30 +292,52 @@ def save_location_cache(cache: dict[str, dict]) -> None:
     )
 
 
-def location_refresh_interval(start: datetime, now: datetime) -> timedelta:
-    """Controleer locaties vaker naarmate de wedstrijd dichterbij komt."""
+def location_check_stage(start: datetime, now: datetime) -> str:
+    """Bepaal welke eenmalige locatiecontrole voor de wedstrijd nodig is."""
     remaining = start - now
+    if remaining <= timedelta(0):
+        return "none"
     if remaining <= timedelta(hours=48):
-        return timedelta(hours=1)
-    if remaining <= timedelta(days=7):
-        return timedelta(hours=6)
-    if remaining <= timedelta(days=30):
-        return timedelta(days=2)
-    return timedelta(days=7)
+        return "48h"
+    if remaining <= timedelta(days=14):
+        return "14d"
+    return "initial"
 
 
 def cached_location_is_due(entry: dict, match: dict, start: datetime, now: datetime) -> bool:
-    if not entry.get("adres"):
+    """Controleer initieel, rond 14 dagen en rond 48 uur precies eenmaal."""
+    if start <= now:
+        return False
+
+    signature = location_signature(match)
+    if not entry:
         return True
-    if entry.get("signature") != location_signature(match):
+    if entry.get("signature") != signature:
         return True
-    try:
-        checked = datetime.fromisoformat(clean_text(entry.get("laatst_gecontroleerd")))
-        if checked.tzinfo is None:
-            checked = checked.replace(tzinfo=TZ)
-    except ValueError:
-        return True
-    return now - checked >= location_refresh_interval(start, now)
+
+    stage = location_check_stage(start, now)
+    if stage == "48h":
+        return not bool(entry.get("controle_48u_gedaan"))
+    if stage == "14d":
+        return not bool(entry.get("controle_14d_gedaan"))
+
+    # De eerste volledige vulling is al in de cache vastgelegd.
+    return not bool(entry.get("initiele_controle_gedaan"))
+
+
+def mark_location_check(entry: dict, match: dict, start: datetime, now: datetime) -> dict:
+    """Leg vast welke controlemomenten al zijn uitgevoerd, ook zonder gevonden adres."""
+    result = dict(entry)
+    stage = location_check_stage(start, now)
+    result["initiele_controle_gedaan"] = True
+    if stage in {"14d", "48h"}:
+        result["controle_14d_gedaan"] = True
+    if stage == "48h":
+        result["controle_48u_gedaan"] = True
+    result["laatst_gecontroleerd"] = now.isoformat(timespec="seconds")
+    result["wedstrijd_datum"] = start.isoformat(timespec="seconds")
+    result["signature"] = location_signature(match)
+    return result
 
 
 def location_from_detail(match: dict) -> tuple[str, str]:
@@ -384,28 +406,19 @@ def enrich_locations(matches: list[dict]) -> None:
             time.sleep(LOCATION_REQUEST_DELAY_SECONDS)
         requests_made += 1
         accommodation, address = location_from_detail(match)
-        checked_at = now.isoformat(timespec="seconds")
-
+        updated_entry = mark_location_check(entry, match, start, now)
         if address:
             match["locatie_adres"] = address
             match["locatie_accommodatie"] = accommodation
-            cache[key] = {
-                "accommodatie": accommodation,
-                "adres": address,
-                "laatst_gecontroleerd": checked_at,
-                "wedstrijd_datum": start.isoformat(timespec="seconds"),
-                "signature": location_signature(match),
-            }
+            updated_entry["accommodatie"] = accommodation
+            updated_entry["adres"] = address
             print(
                 "Locatie bijgewerkt: "
                 f"{display_team_name(match.get('thuisClubEnTeamNaamFriendly'))} - "
                 f"{display_team_name(match.get('uitClubEnTeamNaamFriendly'))}: "
                 f"{accommodation}, {address}"
             )
-        elif entry:
-            entry["laatst_gecontroleerd"] = checked_at
-            entry["signature"] = location_signature(match)
-            cache[key] = entry
+        cache[key] = updated_entry
 
     save_location_cache(cache)
     cached_count = sum(1 for value in cache.values() if value.get("adres"))
