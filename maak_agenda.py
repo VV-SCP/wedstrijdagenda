@@ -18,11 +18,13 @@ from bs4 import BeautifulSoup
 API_URL = "https://site-api.voetbalassi.st/SCP/front/programmaenuitslagen/PostWedstrijden"
 PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
 CACHE_FILE = Path("uitslagen_cache.json")
+LOCATION_CACHE_FILE = Path("locaties_cache.json")
+MAX_LOCATION_REQUESTS_PER_RUN = 12
 TZ = ZoneInfo("Europe/Amsterdam")
 
 SESSION = requests.Session()
 SESSION.headers.update({
-    "User-Agent": "VV-SCP-wedstrijdagenda/13.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/14.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -256,6 +258,159 @@ def enrich_results(matches: list[dict]) -> None:
     print(f"Uitslagencache: {len(cache)} uitslagen; {requests_made} detailpagina's gecontroleerd.")
 
 
+def location_signature(match: dict) -> str:
+    """Herken wijzigingen die een nieuwe locatiecontrole noodzakelijk maken."""
+    raw = "|".join(
+        [
+            clean_text(match.get("datum")),
+            clean_text(match.get("thuisClubEnTeamNaamFriendly")),
+            clean_text(match.get("uitClubEnTeamNaamFriendly")),
+            clean_text(match.get("isThuiswedstrijd")),
+            clean_text(match.get("verkrijgVeldtekst")),
+            extract_url(match.get("wedstrijdDetailsUrl")),
+        ]
+    )
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:20]
+
+
+def load_location_cache() -> dict[str, dict]:
+    if not LOCATION_CACHE_FILE.exists():
+        return {}
+    try:
+        data = json.loads(LOCATION_CACHE_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"WAARSCHUWING: locatiecache kon niet worden gelezen: {exc}")
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def save_location_cache(cache: dict[str, dict]) -> None:
+    LOCATION_CACHE_FILE.write_text(
+        json.dumps(dict(sorted(cache.items())), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def location_refresh_interval(start: datetime, now: datetime) -> timedelta:
+    """Controleer locaties vaker naarmate de wedstrijd dichterbij komt."""
+    remaining = start - now
+    if remaining <= timedelta(hours=48):
+        return timedelta(hours=1)
+    if remaining <= timedelta(days=7):
+        return timedelta(hours=6)
+    if remaining <= timedelta(days=30):
+        return timedelta(days=2)
+    return timedelta(days=7)
+
+
+def cached_location_is_due(entry: dict, match: dict, start: datetime, now: datetime) -> bool:
+    if not entry.get("adres"):
+        return True
+    if entry.get("signature") != location_signature(match):
+        return True
+    try:
+        checked = datetime.fromisoformat(clean_text(entry.get("laatst_gecontroleerd")))
+        if checked.tzinfo is None:
+            checked = checked.replace(tzinfo=TZ)
+    except ValueError:
+        return True
+    return now - checked >= location_refresh_interval(start, now)
+
+
+def location_from_detail(match: dict) -> tuple[str, str]:
+    """Lees accommodatie en volledig adres van de wedstrijddetailpagina."""
+    url = extract_url(match.get("wedstrijdDetailsUrl"))
+    if not url.startswith("https://www.vv-scp.nl/"):
+        return "", ""
+    try:
+        response = SESSION.get(url, timeout=20)
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        print(f"WAARSCHUWING: locatie niet opgehaald voor {url}: {exc}")
+        return "", ""
+
+    text = clean_text(BeautifulSoup(response.text, "html.parser").get_text(" ", strip=True))
+    found = re.search(
+        r"Accommodatie\s+(.+?)\s+"
+        r"([A-Za-zÀ-ÿ' .-]+\s+\d+[A-Za-z]?)\s+"
+        r"(\d{4}\s?[A-Z]{2})\s+"
+        r"([A-Za-zÀ-ÿ' .-]+?)"
+        r"(?:\s+tel\.|\s+Toon routebeschrijving|\s+Uw adres)",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if not found:
+        return "", ""
+
+    accommodation = clean_text(found.group(1))
+    street = clean_text(found.group(2))
+    postcode = clean_text(found.group(3)).upper().replace(" ", "")
+    if len(postcode) == 6:
+        postcode = f"{postcode[:4]} {postcode[4:]}"
+    place = clean_text(found.group(4)).title()
+    return accommodation, f"{street}, {postcode} {place}"
+
+
+def enrich_locations(matches: list[dict]) -> None:
+    """Verrijk toekomstige wedstrijden met een periodiek vernieuwde locatie per wedstrijd."""
+    cache = load_location_cache()
+    now = datetime.now(TZ)
+    requests_made = 0
+
+    future_matches = []
+    for match in matches:
+        try:
+            start = parse_datetime(match.get("datum"))
+        except (TypeError, ValueError):
+            continue
+        if start >= now - timedelta(hours=2):
+            future_matches.append((start, match))
+
+    for start, match in sorted(future_matches, key=lambda item: item[0]):
+        key = cache_key(match)
+        entry = cache.get(key, {})
+
+        if entry.get("adres"):
+            match["locatie_adres"] = clean_text(entry.get("adres"))
+            match["locatie_accommodatie"] = clean_text(entry.get("accommodatie"))
+
+        if not cached_location_is_due(entry, match, start, now):
+            continue
+        if requests_made >= MAX_LOCATION_REQUESTS_PER_RUN:
+            continue
+
+        requests_made += 1
+        accommodation, address = location_from_detail(match)
+        checked_at = now.isoformat(timespec="seconds")
+
+        if address:
+            match["locatie_adres"] = address
+            match["locatie_accommodatie"] = accommodation
+            cache[key] = {
+                "accommodatie": accommodation,
+                "adres": address,
+                "laatst_gecontroleerd": checked_at,
+                "wedstrijd_datum": start.isoformat(timespec="seconds"),
+                "signature": location_signature(match),
+            }
+            print(
+                "Locatie bijgewerkt: "
+                f"{display_team_name(match.get('thuisClubEnTeamNaamFriendly'))} - "
+                f"{display_team_name(match.get('uitClubEnTeamNaamFriendly'))}: "
+                f"{accommodation}, {address}"
+            )
+        elif entry:
+            entry["laatst_gecontroleerd"] = checked_at
+            entry["signature"] = location_signature(match)
+            cache[key] = entry
+
+    save_location_cache(cache)
+    print(
+        f"Locatiecache: {sum(1 for value in cache.values() if value.get('adres'))} locaties; "
+        f"{requests_made} detailpagina's gecontroleerd."
+    )
+
+
 def create_uid(match: dict) -> str:
     api_id = clean_text(match.get("id"))
     return f"wedstrijd-{api_id}@vv-scp.nl" if api_id else f"{hashlib.sha256(str(match).encode()).hexdigest()[:20]}@vv-scp.nl"
@@ -267,15 +422,14 @@ def convert_match(raw: dict) -> tuple[str, dict] | None:
         return None
     status = "afgelast" if raw.get("statusAfgelast") else "herkeuring" if raw.get("statusHerkeuring") else ""
     kind = "Vriendschappelijk" if raw.get("typeVriendschappelijk") else "Beker" if raw.get("typeBeker") else "Competitie"
-    home = bool(raw.get("isThuiswedstrijd"))
     return team, {
         "start": parse_datetime(raw.get("datum")),
         "home": display_team_name(raw.get("thuisClubEnTeamNaamFriendly")),
         "away": display_team_name(raw.get("uitClubEnTeamNaamFriendly")),
         "kind": kind, "result": normalise_result(raw.get("uitslag")), "status": status,
         "url": extract_url(raw.get("wedstrijdDetailsUrl")) or API_URL,
-        "address": "Hosterd 65, 6655 AE Puiflijk" if home else "",
-        "accommodation": "Sportpark Schravenhof" if home else "",
+        "address": clean_text(raw.get("locatie_adres")),
+        "accommodation": clean_text(raw.get("locatie_accommodatie")),
         "field": clean_text(raw.get("verkrijgVeldtekst")),
         "referee": clean_text(raw.get("scheidsrechter")),
         "remark": clean_text(raw.get("opmerking")), "uid": create_uid(raw),
@@ -342,7 +496,9 @@ def build_index(results: list[dict]) -> str:
 
 
 def main() -> None:
-    raw = fetch_matches(); enrich_results(raw)
+    raw = fetch_matches()
+    enrich_results(raw)
+    enrich_locations(raw)
     calendars: dict[str, dict[str, dict]] = defaultdict(dict)
     for match in raw:
         converted = convert_match(match)
