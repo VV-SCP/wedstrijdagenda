@@ -805,11 +805,13 @@
   "wedstrijdnummer:72288": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-28T22:53:04+01:00",
     "wedstrijd_datum": "2026-10-30T22:00:00+01:00",
     "signature": "c3ac24054a6244b09d6e",
-    "accommodatie": "Sportpark",
-    "adres": "De Ringelenberg Schriksestraat 22, 6654 AN Afferden"
+    "accommodatie": "Sportpark De Ringelenberg",
+    "adres": "Schriksestraat 22, 6654 AN Afferden",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:72553": {
     "initiele_controle_gedaan": true,
