@@ -1417,11 +1417,12 @@
   },
   "wedstrijdnummer:86815": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
-    "wedstrijd_datum": "2026-11-28T10:30:00+01:00",
-    "signature": "dd8a5a7ba2fb8b669bdf",
-    "accommodatie": "Sportpark",
-    "adres": "Lindenholt de Meeuwse Acker 2029, 6546 DZ Nijmegen"
+    "laatst_gecontroleerd": "2026-10-28T14:11:13+01:00",
+    "wedstrijd_datum": "2026-11-28T08:30:00+01:00",
+    "signature": "a23863a5f8cfe3edc9a1",
+    "accommodatie": "Sportpark Lindenholt",
+    "adres": "de Meeuwse Acker 2029, 6546 DZ Nijmegen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:87560": {
     "initiele_controle_gedaan": true,
