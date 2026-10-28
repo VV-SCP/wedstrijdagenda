@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VV SCP//Wedstrijdagenda SJO SCP/DSZ O11-2//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SJO SCP/DSZ O11-2
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:wedstrijd-32525@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T113000
+DTEND;TZID=Europe/Amsterdam:20260905T133000
+SUMMARY:Kesteren O11-2 - SJO SCP/DSZ O11-2 (3 - 7)
+DESCRIPTION:Competitie\nEindstand: 3 - 7\nVeld: 3 A - kunstgrasC\nScheids
+ rechter: Anoniem\nControleer bij last-minute wijzigingen altijd Voetbal.
+ nl.
+URL:https://www.vv-scp.nl/524/32525/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32532@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T100000
+DTEND;TZID=Europe/Amsterdam:20260912T120000
+SUMMARY:SJO SCP/DSZ O11-2 - Uchta O11-1JM (10 - 3)
+DESCRIPTION:Competitie\nEindstand: 10 - 3\nAccommodatie: Sportpark Schrav
+ enhof\nVeld: Hoofdveld A\nScheidsrechter: A. Kocken\nControleer bij last
+ -minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32532/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32527@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T084500
+DTEND;TZID=Europe/Amsterdam:20260919T104500
+SUMMARY:DIO '30 O11-2 - SJO SCP/DSZ O11-2 (6 - 2)
+DESCRIPTION:Competitie\nEindstand: 6 - 2\nVeld: 4 A\nScheidsrechter: B Ku
+ ypers\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32527/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32533@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T090000
+DTEND;TZID=Europe/Amsterdam:20260926T110000
+SUMMARY:SJO Victoria-SCD O11-1JM - SJO SCP/DSZ O11-2 (4 - 3)
+DESCRIPTION:Competitie\nEindstand: 4 - 3\nVeld: 1 A\nScheidsrechter: J.L.
+ W. Hopman\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32533/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32529@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T100000
+DTEND;TZID=Europe/Amsterdam:20261003T120000
+SUMMARY:SJO SCP/DSZ O11-2 - AAC-Olympia O11-1JM (13 - 1)
+DESCRIPTION:Competitie\nEindstand: 13 - 1\nVeld: 2 A\nScheidsrechter: D. 
+ Wolken\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32529/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32734@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T103000
+DTEND;TZID=Europe/Amsterdam:20261024T123000
+SUMMARY:Beuningse Boys O11-3 - SJO SCP/DSZ O11-2 (5 - 5)
+DESCRIPTION:Competitie\nEindstand: 5 - 5\nVeld: 3 B\nScheidsrechter: V.H.
+ M. Janssen\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32734/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32888@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T103000
+DTEND;TZID=Europe/Amsterdam:20261031T123000
+SUMMARY:SJO SCP/DSZ O11-2 - Leones O11-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 2
+  B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32888/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32900@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T103000
+DTEND;TZID=Europe/Amsterdam:20261107T123000
+SUMMARY:Unitas '28 O11-1JM - SJO SCP/DSZ O11-2
+DESCRIPTION:Competitie\nVeld: veld 2 A\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32900/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32891@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T100000
+DTEND;TZID=Europe/Amsterdam:20261114T120000
+SUMMARY:SJO SCP/DSZ O11-2 - Kesteren O11-1JM
+DESCRIPTION:Competitie\nVeld: veld 2 A\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32891/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32889@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T101500
+DTEND;TZID=Europe/Amsterdam:20261121T121500
+SUMMARY:Woezik O11-4JM - SJO SCP/DSZ O11-2
+DESCRIPTION:Competitie\nVeld: veld 2 B\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32889/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32901@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T103000
+DTEND;TZID=Europe/Amsterdam:20261128T123000
+SUMMARY:SCE O11-3 - SJO SCP/DSZ O11-2
+DESCRIPTION:Competitie\nVeld: veld 4 A\nControleer bij last-minute wijzig
+ ingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32901/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32896@vv-scp.nl
+DTSTAMP:20261028T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T103000
+DTEND;TZID=Europe/Amsterdam:20261205T123000
+SUMMARY:SJO SCP/DSZ O11-2 - Quick 1888 O11-3
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32896/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+END:VCALENDAR
