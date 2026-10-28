@@ -25,13 +25,11 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T101500
 DTEND;TZID=Europe/Amsterdam:20260912T121500
 SUMMARY:SJO SCP/DSZ O13-1 - Beuningse Boys O13-2 (2 - 3)
-DESCRIPTION:Competitie\nEindstand: 2 - 3\nAccommodatie: Sportpark Schrave
- nhof\nVeld: 2\nScheidsrechter: W. Hol\nControleer bij last-minute wijzig
- ingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nEindstand: 2 - 3\nVeld: 2\nScheidsrechter: W. Hol
+ \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32697/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32696@vv-scp.nl
@@ -75,13 +73,11 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T103000
 DTEND;TZID=Europe/Amsterdam:20261024T123000
 SUMMARY:SJO SCP/DSZ O13-1 - SJO Victoria-SCD O13-1JM (5 - 3)
-DESCRIPTION:Competitie\nEindstand: 5 - 3\nAccommodatie: Sportpark Schrave
- nhof\nVeld: Hoofdveld\nScheidsrechter: E. Aalbers\nControleer bij last-m
- inute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nEindstand: 5 - 3\nVeld: Hoofdveld\nScheidsrechter
+ : E. Aalbers\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32829/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33016@vv-scp.nl
@@ -89,11 +85,13 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T120000
 DTEND;TZID=Europe/Amsterdam:20261031T140000
 SUMMARY:Blauw Geel '55 O13-4 - SJO SCP/DSZ O13-1
-DESCRIPTION:Competitie\nVeld: veld C\nScheidsrechter: P. van Beek\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld C\nScheidsrec
+ hter: P. van Beek\nControleer bij last-minute wijzigingen altijd Voetbal
+ .nl.
 URL:https://www.vv-scp.nl/524/33016/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Peppelensteeg Peppelensteeg 5\, 6715 CV Ede
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33011@vv-scp.nl
@@ -101,11 +99,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T130000
 DTEND;TZID=Europe/Amsterdam:20261107T150000
 SUMMARY:SJO SCP/DSZ O13-1 - SKV O13-4JM
-DESCRIPTION:Competitie\nVeld: veld 1\nControleer bij last-minute wijzigin
- gen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33011/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33013@vv-scp.nl
@@ -113,11 +112,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T083000
 DTEND;TZID=Europe/Amsterdam:20261114T103000
 SUMMARY:DTS '35 Ede O13-5JM - SJO SCP/DSZ O13-1
-DESCRIPTION:Competitie\nVeld: veld 4 - Veld D\nControleer bij last-minute
-  wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 4 - Veld D\nC
+ ontroleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33013/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Inschoten Inschoterweg 2\, 6715 CS Ede
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33023@vv-scp.nl
@@ -125,12 +125,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T102500
 DTEND;TZID=Europe/Amsterdam:20261128T122500
 SUMMARY:SJO SCP/DSZ O13-1 - Unitas '28 O13-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
- \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
+  bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33023/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33020@vv-scp.nl
@@ -138,11 +138,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T104500
 DTEND;TZID=Europe/Amsterdam:20261205T124500
 SUMMARY:Kesteren O13-1 - SJO SCP/DSZ O13-1
-DESCRIPTION:Competitie\nVeld: veld 1 - Hoofdveld gras\nScheidsrechter: H.
-  van Donselaar\nControleer bij last-minute wijzigingen altijd Voetbal.nl
- .
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 - Hoofdveld
+  gras\nScheidsrechter: H. van Donselaar\nControleer bij last-minute wijz
+ igingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33020/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Leede Joachim van Hoemenstraat 2\, 4041 GT Kesteren
 END:VEVENT
 END:VCALENDAR

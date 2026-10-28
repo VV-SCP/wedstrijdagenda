@@ -25,12 +25,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T200000
 DTEND;TZID=Europe/Amsterdam:20261030T220000
 SUMMARY:SCP 35+2 - VDS'25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
+ er bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32421/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32419@vv-scp.nl
@@ -38,12 +38,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T203000
 DTEND;TZID=Europe/Amsterdam:20261030T223000
 SUMMARY:Batavia 35+1 - SCP 35+2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
+ er bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32419/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32417@vv-scp.nl
@@ -51,12 +51,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T210000
 DTEND;TZID=Europe/Amsterdam:20261030T230000
 SUMMARY:SCP 35+2 - Leones 35+3
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
+ er bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32417/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32403@vv-scp.nl
@@ -64,11 +64,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T193000
 DTEND;TZID=Europe/Amsterdam:20261113T213000
 SUMMARY:Leones 35+3 - SCP 35+2
-DESCRIPTION:Competitie\nVeld: veld 1 B\nControleer bij last-minute wijzig
- ingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B\nControle
+ er bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32403/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Schaarweide Sportlaantje 2\, 6616 BD Hernen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32412@vv-scp.nl
@@ -76,11 +77,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T200000
 DTEND;TZID=Europe/Amsterdam:20261113T220000
 SUMMARY:SCP 35+2 - VDS'25 35+1
-DESCRIPTION:Competitie\nVeld: veld 1 A\nControleer bij last-minute wijzig
- ingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
+ er bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32412/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Schaarweide Sportlaantje 2\, 6616 BD Hernen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32404@vv-scp.nl
@@ -88,11 +90,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T203000
 DTEND;TZID=Europe/Amsterdam:20261113T223000
 SUMMARY:Batavia 35+1 - SCP 35+2
-DESCRIPTION:Competitie\nVeld: veld 1 B\nControleer bij last-minute wijzig
- ingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B\nControle
+ er bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32404/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Schaarweide Sportlaantje 2\, 6616 BD Hernen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32402@vv-scp.nl
@@ -100,11 +103,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T200000
 DTEND;TZID=Europe/Amsterdam:20261127T220000
 SUMMARY:Leones 35+3 - SCP 35+2 (7 - 0)
-DESCRIPTION:Competitie\nEindstand: 7 - 0\nVeld: veld 1 B\nControleer bij 
- last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nEindstand: 7 - 0\nAccommodatie: Sportpark\nVeld: 
+ veld 1 B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32402/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Hoppenhof - Batavia Hoppenhofstraat 12\, 6634 AL Batenburg
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33295@vv-scp.nl
@@ -112,11 +116,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T203000
 DTEND;TZID=Europe/Amsterdam:20261127T223000
 SUMMARY:SCP 35+2 - Batavia 35+1
-DESCRIPTION:Competitie\nVeld: veld 1 A\nControleer bij last-minute wijzig
- ingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
+ er bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33295/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Hoppenhof - Batavia Hoppenhofstraat 12\, 6634 AL Batenburg
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33297@vv-scp.nl
@@ -124,10 +129,11 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T210000
 DTEND;TZID=Europe/Amsterdam:20261127T230000
 SUMMARY:VDS'25 35+1 - SCP 35+2
-DESCRIPTION:Competitie\nVeld: veld 1 B\nControleer bij last-minute wijzig
- ingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B\nControle
+ er bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33297/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Hoppenhof - Batavia Hoppenhofstraat 12\, 6634 AL Batenburg
 END:VEVENT
 END:VCALENDAR

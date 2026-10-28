@@ -13,11 +13,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T113000
 DTEND;TZID=Europe/Amsterdam:20261031T133000
 SUMMARY:RODA '28 O7-1JM - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 1 A1a\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1a\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33243/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Het Zijvond De Peel 6\, 6658 DJ Beneden-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33251@vv-scp.nl
@@ -25,11 +26,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T115000
 DTEND;TZID=Europe/Amsterdam:20261031T135000
 SUMMARY:SJO SCP/DSZ O7-1 - Leones O7-2
-DESCRIPTION:Competitie\nVeld: veld 1 A1b\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33251/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Het Zijvond De Peel 6\, 6658 DJ Beneden-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33270@vv-scp.nl
@@ -37,11 +39,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T121000
 DTEND;TZID=Europe/Amsterdam:20261031T141000
 SUMMARY:DIO '30 O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 1 A1b\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33270/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:Het Zijvond De Peel 6\, 6658 DJ Beneden-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33274@vv-scp.nl
@@ -49,11 +52,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T083000
 DTEND;TZID=Europe/Amsterdam:20261107T103000
 SUMMARY:AWC O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 3 A1a\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 3 A1a\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33274/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33237@vv-scp.nl
@@ -61,11 +65,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T085000
 DTEND;TZID=Europe/Amsterdam:20261107T105000
 SUMMARY:SJO SCP/DSZ O7-1 - Leones O7-2
-DESCRIPTION:Competitie\nVeld: veld 3 A1b\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 3 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33237/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33244@vv-scp.nl
@@ -73,11 +78,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T091000
 DTEND;TZID=Europe/Amsterdam:20261107T111000
 SUMMARY:Beuningse Boys O7-5 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 3 A1b\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 3 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33244/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33220@vv-scp.nl
@@ -85,11 +91,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T083000
 DTEND;TZID=Europe/Amsterdam:20261114T103000
 SUMMARY:SJO SCP/DSZ O7-1 - RODA '28 O7-1JM
-DESCRIPTION:Competitie\nVeld: veld 1 A2a\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A2a\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33220/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33268@vv-scp.nl
@@ -97,11 +104,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T083000
 DTEND;TZID=Europe/Amsterdam:20261114T103000
 SUMMARY:Overasseltse Boys O7-1 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 1 A2b\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A2b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33268/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33285@vv-scp.nl
@@ -109,11 +117,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T083000
 DTEND;TZID=Europe/Amsterdam:20261114T103000
 SUMMARY:AWC O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 1 A1a\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1a\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33285/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33281@vv-scp.nl
@@ -121,11 +130,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T090000
 DTEND;TZID=Europe/Amsterdam:20261121T110000
 SUMMARY:Beuningse Boys O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 2 A1a\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 A1a\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33281/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Passelegt Ewijkseweg 11\, 6611 AG Overasselt
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33278@vv-scp.nl
@@ -133,11 +143,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T092000
 DTEND;TZID=Europe/Amsterdam:20261121T112000
 SUMMARY:SJO SCP/DSZ O7-1 - Overasseltse Boys O7-1
-DESCRIPTION:Competitie\nVeld: veld 2 A1b\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33278/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Passelegt Ewijkseweg 11\, 6611 AG Overasselt
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33272@vv-scp.nl
@@ -145,11 +156,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T094000
 DTEND;TZID=Europe/Amsterdam:20261121T114000
 SUMMARY:Beuningse Boys O7-5 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 2 A1b\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33272/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Passelegt Ewijkseweg 11\, 6611 AG Overasselt
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33275@vv-scp.nl
@@ -157,12 +169,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T083000
 DTEND;TZID=Europe/Amsterdam:20261128T103000
 SUMMARY:Beuningse Boys O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1a\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33275/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33283@vv-scp.nl
@@ -170,12 +182,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T085000
 DTEND;TZID=Europe/Amsterdam:20261128T105000
 SUMMARY:SJO SCP/DSZ O7-1 - AWC O7-3
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33283/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33260@vv-scp.nl
@@ -183,12 +195,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T091000
 DTEND;TZID=Europe/Amsterdam:20261128T111000
 SUMMARY:RODA '28 O7-1JM - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33260/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33259@vv-scp.nl
@@ -196,11 +208,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T083000
 DTEND;TZID=Europe/Amsterdam:20261205T103000
 SUMMARY:AWC O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 1 A1a\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1a\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33259/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33257@vv-scp.nl
@@ -208,11 +221,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T085000
 DTEND;TZID=Europe/Amsterdam:20261205T105000
 SUMMARY:SJO SCP/DSZ O7-1 - Overasseltse Boys O7-1
-DESCRIPTION:Competitie\nVeld: veld 1 A1b\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33257/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33226@vv-scp.nl
@@ -220,10 +234,11 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T091000
 DTEND;TZID=Europe/Amsterdam:20261205T111000
 SUMMARY:DIO '30 O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nVeld: veld 1 A1b\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
+ leer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33226/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
+LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 END:VCALENDAR
