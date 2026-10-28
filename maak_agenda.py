@@ -21,11 +21,12 @@ PUBLIC_BASE_URL = "https://vv-scp.github.io/wedstrijdagenda"
 CACHE_FILE = Path("uitslagen_cache.json")
 LOCATION_CACHE_FILE = Path("locaties_cache.json")
 LOCATION_REQUEST_DELAY_SECONDS = 0.15
+LOCATION_PARSER_VERSION = 2
 TZ = ZoneInfo("Europe/Amsterdam")
 
 SESSION = requests.Session()
 SESSION.headers.update({
-    "User-Agent": "VV-SCP-wedstrijdagenda/16.0 (+https://github.com/VV-SCP/wedstrijdagenda)",
+    "User-Agent": "VV-SCP-wedstrijdagenda/16.1 (+https://github.com/VV-SCP/wedstrijdagenda)",
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
     "Origin": "https://www.vv-scp.nl",
@@ -315,6 +316,14 @@ def cached_location_is_due(entry: dict, match: dict, start: datetime, now: datet
     if entry.get("signature") != signature:
         return True
 
+    # Alleen eerder mislukte locaties opnieuw proberen wanneer de parser is
+    # verbeterd. Reeds gevonden adressen blijven ongemoeid.
+    if (
+        not clean_text(entry.get("adres"))
+        and int(entry.get("parser_versie", 1)) < LOCATION_PARSER_VERSION
+    ):
+        return True
+
     stage = location_check_stage(start, now)
     if stage == "48h":
         return not bool(entry.get("controle_48u_gedaan"))
@@ -337,6 +346,7 @@ def mark_location_check(entry: dict, match: dict, start: datetime, now: datetime
     result["laatst_gecontroleerd"] = now.isoformat(timespec="seconds")
     result["wedstrijd_datum"] = start.isoformat(timespec="seconds")
     result["signature"] = location_signature(match)
+    result["parser_versie"] = LOCATION_PARSER_VERSION
     return result
 
 
@@ -352,11 +362,39 @@ def location_from_detail(match: dict) -> tuple[str, str]:
         print(f"WAARSCHUWING: locatie niet opgehaald voor {url}: {exc}")
         return "", ""
 
-    text = clean_text(BeautifulSoup(response.text, "html.parser").get_text(" ", strip=True))
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Voorkeursroute: behoud de regels uit de pagina. Op VoetbalAssist staan
+    # accommodatie, straat en postcode/plaats doorgaans op opeenvolgende regels.
+    lines = [clean_text(line) for line in soup.get_text("\n").splitlines()]
+    lines = [line for line in lines if line]
+    for index, line in enumerate(lines):
+        if line.lower().rstrip(":") != "accommodatie":
+            continue
+        nearby = lines[index + 1:index + 10]
+        for offset in range(max(0, len(nearby) - 2)):
+            accommodation = clean_text(nearby[offset])
+            street = clean_text(nearby[offset + 1])
+            postcode_place = clean_text(nearby[offset + 2])
+            if not re.fullmatch(r"[A-Za-zÀ-ÿ' .-]+\s+\d+\s*[A-Za-z]?", street):
+                continue
+            place_match = re.fullmatch(
+                r"(\d{4})\s*([A-Z]{2})\s+(.+)",
+                postcode_place,
+                flags=re.IGNORECASE,
+            )
+            if not place_match:
+                continue
+            postcode = f"{place_match.group(1)} {place_match.group(2).upper()}"
+            place = clean_text(place_match.group(3)).title()
+            return accommodation, f"{street}, {postcode} {place}"
+
+    # Terugval voor pagina's waar de tekst niet over afzonderlijke regels staat.
+    text = clean_text(soup.get_text(" ", strip=True))
     found = re.search(
         r"Accommodatie\s+(.+?)\s+"
-        r"([A-Za-zÀ-ÿ' .-]+\s+\d+[A-Za-z]?)\s+"
-        r"(\d{4}\s?[A-Z]{2})\s+"
+        r"([A-Za-zÀ-ÿ' .-]+\s+\d+\s*[A-Za-z]?)\s+"
+        r"(\d{4})\s*([A-Z]{2})\s+"
         r"([A-Za-zÀ-ÿ' .-]+?)"
         r"(?:\s+tel\.|\s+Toon routebeschrijving|\s+Uw adres)",
         text,
@@ -367,10 +405,8 @@ def location_from_detail(match: dict) -> tuple[str, str]:
 
     accommodation = clean_text(found.group(1))
     street = clean_text(found.group(2))
-    postcode = clean_text(found.group(3)).upper().replace(" ", "")
-    if len(postcode) == 6:
-        postcode = f"{postcode[:4]} {postcode[4:]}"
-    place = clean_text(found.group(4)).title()
+    postcode = f"{found.group(3)} {found.group(4).upper()}"
+    place = clean_text(found.group(5)).title()
     return accommodation, f"{street}, {postcode} {place}"
 
 
