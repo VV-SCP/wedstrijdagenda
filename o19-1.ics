@@ -75,12 +75,12 @@ DTSTAMP:20261028T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T153000
 DTEND;TZID=Europe/Amsterdam:20261031T173000
 SUMMARY:SJO SCP/DSZ O19-1 - Spero O19-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Veld 2
+ \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32842/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32849@vv-scp.nl
