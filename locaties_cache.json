@@ -1864,11 +1864,13 @@
   "wedstrijdnummer:99675": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-29T10:05:31+01:00",
     "wedstrijd_datum": "2026-10-31T10:00:00+01:00",
     "signature": "98e9373b27541abd9af7",
-    "accommodatie": "Sportpark",
-    "adres": "De Zeven Morgen Nieuwstraat 14, 6621 KV Dreumel"
+    "accommodatie": "Sportpark De Zeven Morgen",
+    "adres": "Nieuwstraat 14, 6621 KV Dreumel",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:99958": {
     "initiele_controle_gedaan": true,
