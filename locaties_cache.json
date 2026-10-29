@@ -146,11 +146,13 @@
   "wedstrijdnummer:105319": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-29T17:05:56+01:00",
     "wedstrijd_datum": "2026-10-31T16:15:00+01:00",
     "signature": "3b9c090e50b76e9d3612",
-    "accommodatie": "Sportpark",
-    "adres": "De Gelenberg De Gelenberg 3, 6654 AZ Afferden"
+    "accommodatie": "Sportpark De Gelenberg",
+    "adres": "De Gelenberg 3, 6654 AZ Afferden",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:105356": {
     "initiele_controle_gedaan": true,
