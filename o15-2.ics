@@ -85,13 +85,13 @@ DTSTAMP:20261029T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T101500
 DTEND;TZID=Europe/Amsterdam:20261031T121500
 SUMMARY:Woezik O15-2 - SJO SCP/DSZ O15-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 3\nScheidsrec
- hter: D. Boerakker\nControleer bij last-minute wijzigingen altijd Voetba
- l.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Woezik\nVeld: veld 3\nSch
+ eidsrechter: D. Boerakker\nControleer bij last-minute wijzigingen altijd
+  Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32919/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Woezik Suikerbergseweg 6\, 6604 AE Wijchen
+LOCATION:Suikerbergseweg 6\, 6604 AE Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32927@vv-scp.nl
