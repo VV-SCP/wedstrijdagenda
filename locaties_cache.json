@@ -46,11 +46,12 @@
   },
   "wedstrijdnummer:101143": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-29T20:05:11+01:00",
     "wedstrijd_datum": "2026-12-12T08:30:00+01:00",
-    "signature": "01294620d6d4d15d339a",
-    "accommodatie": "Sportpark",
-    "adres": "De Schoonhorst Energieweg 45, 6541 CW Nijmegen"
+    "signature": "bcc365d422b670c0b2da",
+    "accommodatie": "Sportpark De Schoonhorst",
+    "adres": "Energieweg 45, 6541 CW Nijmegen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:101289": {
     "initiele_controle_gedaan": true,
@@ -538,11 +539,12 @@
   },
   "wedstrijdnummer:52568": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
-    "wedstrijd_datum": "2026-11-21T16:30:00+01:00",
-    "signature": "102420802f9065890d8b",
-    "accommodatie": "Sportpark",
-    "adres": "De Schoonhorst Energieweg 45, 6541 CW Nijmegen"
+    "laatst_gecontroleerd": "2026-10-29T20:05:11+01:00",
+    "wedstrijd_datum": "2026-11-21T16:00:00+01:00",
+    "signature": "9cb85de5c3d7b1ecc8b4",
+    "accommodatie": "Sportpark De Schoonhorst",
+    "adres": "Energieweg 45, 6541 CW Nijmegen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:52970": {
     "initiele_controle_gedaan": true,

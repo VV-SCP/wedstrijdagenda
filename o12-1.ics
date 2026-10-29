@@ -153,11 +153,12 @@ DTSTAMP:20261029T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T083000
 DTEND;TZID=Europe/Amsterdam:20261212T103000
 SUMMARY:Blauw Wit O12-1 - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: Veld 2- Blauw Wit 
- A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Schoonhorst\nVeld: Vel
+ d 1- Blauw Wit A\nControleer bij last-minute wijzigingen altijd Voetbal.
+ nl.
 URL:https://www.vv-scp.nl/524/32858/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Schoonhorst Energieweg 45\, 6541 CW Nijmegen
+LOCATION:Energieweg 45\, 6541 CW Nijmegen
 END:VEVENT
 END:VCALENDAR
