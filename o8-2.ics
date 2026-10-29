@@ -13,12 +13,12 @@ DTSTAMP:20261029T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T090000
 DTEND;TZID=Europe/Amsterdam:20261031T110000
 SUMMARY:Beuningse Boys O8-3 - SJO SCP/DSZ O8-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 3 B2\nControl
- eer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Ooigraaf\nVeld: veld 3
+  B2\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32770/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Ooigraaf Ooigraaf 2\, 6641 TZ Beuningen
+LOCATION:Ooigraaf 2\, 6641 TZ Beuningen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32774@vv-scp.nl
