@@ -87,12 +87,12 @@ DTSTAMP:20261029T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T114500
 DTEND;TZID=Europe/Amsterdam:20261031T134500
 SUMMARY:RKSV Driel O11-3 - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2 B - Veld B\
- nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Driel\nVeld: veld 2 B - V
+ eld B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32988/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Driel Dorpsstraat 13\, 6665 CB Driel
+LOCATION:Dorpsstraat 13\, 6665 CB Driel
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33001@vv-scp.nl

@@ -977,11 +977,13 @@
   "wedstrijdnummer:81246": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-29T11:58:51+01:00",
     "wedstrijd_datum": "2026-10-31T11:30:00+01:00",
     "signature": "eb3ae539696e9c9ed1de",
-    "accommodatie": "Sportpark",
-    "adres": "Het Zijvond De Peel 6, 6658 DJ Beneden-Leeuwen"
+    "accommodatie": "Sportpark Het Zijvond",
+    "adres": "De Peel 6, 6658 DJ Beneden-Leeuwen",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81250": {
     "initiele_controle_gedaan": true,
@@ -1039,11 +1041,13 @@
   "wedstrijdnummer:81353": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-29T11:58:51+01:00",
     "wedstrijd_datum": "2026-10-31T11:50:00+01:00",
     "signature": "e5fdbe027378af412550",
-    "accommodatie": "Sportpark",
-    "adres": "Het Zijvond De Peel 6, 6658 DJ Beneden-Leeuwen"
+    "accommodatie": "Sportpark Het Zijvond",
+    "adres": "De Peel 6, 6658 DJ Beneden-Leeuwen",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81355": {
     "initiele_controle_gedaan": true,
@@ -1608,11 +1612,13 @@
   "wedstrijdnummer:92540": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-29T11:58:51+01:00",
     "wedstrijd_datum": "2026-10-31T11:45:00+01:00",
     "signature": "6de8452d00262c3e8b65",
-    "accommodatie": "Sportpark",
-    "adres": "Driel Dorpsstraat 13, 6665 CB Driel"
+    "accommodatie": "Sportpark Driel",
+    "adres": "Dorpsstraat 13, 6665 CB Driel",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:92674": {
     "initiele_controle_gedaan": true,
