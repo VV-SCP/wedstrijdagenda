@@ -85,13 +85,13 @@ DTSTAMP:20261029T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T120000
 DTEND;TZID=Europe/Amsterdam:20261031T140000
 SUMMARY:Blauw Geel '55 O13-4 - SJO SCP/DSZ O13-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld C\nScheidsrec
- hter: P. van Beek\nControleer bij last-minute wijzigingen altijd Voetbal
- .nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Peppelensteeg\nVeld: veld
+  C\nScheidsrechter: P. van Beek\nControleer bij last-minute wijzigingen 
+ altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33016/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Peppelensteeg Peppelensteeg 5\, 6715 CV Ede
+LOCATION:Peppelensteeg 5\, 6715 CV Ede
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33011@vv-scp.nl

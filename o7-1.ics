@@ -39,12 +39,12 @@ DTSTAMP:20261029T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T121000
 DTEND;TZID=Europe/Amsterdam:20261031T141000
 SUMMARY:DIO '30 O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 1
+  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33270/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Het Zijvond De Peel 6\, 6658 DJ Beneden-Leeuwen
+LOCATION:De Peel 6\, 6658 DJ Beneden-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33274@vv-scp.nl

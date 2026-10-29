@@ -440,12 +440,13 @@
   "wedstrijdnummer:40027": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T18:57:46+01:00",
+    "laatst_gecontroleerd": "2026-10-29T12:56:31+01:00",
     "wedstrijd_datum": "2026-10-31T12:45:00+01:00",
     "signature": "78b4036ad7b4b5f722ff",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:42642": {
     "initiele_controle_gedaan": true,
@@ -1032,11 +1033,13 @@
   "wedstrijdnummer:81316": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-29T12:56:31+01:00",
     "wedstrijd_datum": "2026-10-31T12:10:00+01:00",
     "signature": "b19f8820369b8e7682b7",
-    "accommodatie": "Sportpark",
-    "adres": "Het Zijvond De Peel 6, 6658 DJ Beneden-Leeuwen"
+    "accommodatie": "Sportpark Het Zijvond",
+    "adres": "De Peel 6, 6658 DJ Beneden-Leeuwen",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81353": {
     "initiele_controle_gedaan": true,
@@ -1368,11 +1371,13 @@
   "wedstrijdnummer:84134": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-29T12:56:31+01:00",
     "wedstrijd_datum": "2026-10-31T12:00:00+01:00",
     "signature": "7e0352893799fadce0f7",
-    "accommodatie": "Sportpark",
-    "adres": "Peppelensteeg Peppelensteeg 5, 6715 CV Ede"
+    "accommodatie": "Sportpark Peppelensteeg",
+    "adres": "Peppelensteeg 5, 6715 CV Ede",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:84277": {
     "initiele_controle_gedaan": true,
@@ -1696,12 +1701,13 @@
   "wedstrijdnummer:94775": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T18:57:46+01:00",
+    "laatst_gecontroleerd": "2026-10-29T12:56:31+01:00",
     "wedstrijd_datum": "2026-10-31T12:45:00+01:00",
     "signature": "4702e4250944ad366bc9",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:94797": {
     "initiele_controle_gedaan": true,
