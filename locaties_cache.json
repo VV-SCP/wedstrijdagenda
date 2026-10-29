@@ -10,12 +10,13 @@
   "wedstrijdnummer:100190": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T18:57:46+01:00",
+    "laatst_gecontroleerd": "2026-10-29T16:12:19+01:00",
     "wedstrijd_datum": "2026-10-31T15:30:00+01:00",
     "signature": "50e36bc9ccdf2440920c",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:100791": {
     "initiele_controle_gedaan": true,
