@@ -25,8 +25,8 @@ DTSTAMP:20261030T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T200000
 DTEND;TZID=Europe/Amsterdam:20261030T220000
 SUMMARY:SCP 35+2 - VDS'25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 1 A\nC
+ ontroleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32421/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -64,12 +64,12 @@ DTSTAMP:20261030T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T193000
 DTEND;TZID=Europe/Amsterdam:20261113T213000
 SUMMARY:Leones 35+3 - SCP 35+2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schaarweide\nVeld: veld 1
+  B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32403/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schaarweide Sportlaantje 2\, 6616 BD Hernen
+LOCATION:Sportlaantje 2\, 6616 BD Hernen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32412@vv-scp.nl
@@ -77,12 +77,12 @@ DTSTAMP:20261030T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T200000
 DTEND;TZID=Europe/Amsterdam:20261113T220000
 SUMMARY:SCP 35+2 - VDS'25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schaarweide\nVeld: veld 1
+  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32412/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schaarweide Sportlaantje 2\, 6616 BD Hernen
+LOCATION:Sportlaantje 2\, 6616 BD Hernen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32404@vv-scp.nl

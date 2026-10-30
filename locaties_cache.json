@@ -792,19 +792,23 @@
   },
   "wedstrijdnummer:68919": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-30T20:08:53+01:00",
     "wedstrijd_datum": "2026-11-13T19:30:00+01:00",
     "signature": "6085b159411139f3b3b9",
-    "accommodatie": "Sportpark",
-    "adres": "Schaarweide Sportlaantje 2, 6616 BD Hernen"
+    "accommodatie": "Sportpark Schaarweide",
+    "adres": "Sportlaantje 2, 6616 BD Hernen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:68998": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-30T20:08:53+01:00",
     "wedstrijd_datum": "2026-11-13T20:00:00+01:00",
     "signature": "8951aa4ff9feb1bcc5d7",
-    "accommodatie": "Sportpark",
-    "adres": "Schaarweide Sportlaantje 2, 6616 BD Hernen"
+    "accommodatie": "Sportpark Schaarweide",
+    "adres": "Sportlaantje 2, 6616 BD Hernen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:7152": {
     "initiele_controle_gedaan": true,
