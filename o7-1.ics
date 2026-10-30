@@ -13,8 +13,8 @@ DTSTAMP:20261030T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T113000
 DTEND;TZID=Europe/Amsterdam:20261031T133000
 SUMMARY:RODA '28 O7-1JM - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 1
-  A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 2
+  A2b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33243/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -26,8 +26,8 @@ DTSTAMP:20261030T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T115000
 DTEND;TZID=Europe/Amsterdam:20261031T135000
 SUMMARY:SJO SCP/DSZ O7-1 - Leones O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 1
-  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 2
+  A2a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33251/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -39,8 +39,8 @@ DTSTAMP:20261030T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T121000
 DTEND;TZID=Europe/Amsterdam:20261031T141000
 SUMMARY:DIO '30 O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 1
-  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 2
+  A2b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33270/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

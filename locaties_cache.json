@@ -983,9 +983,9 @@
   "wedstrijdnummer:81246": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-29T11:58:51+01:00",
+    "laatst_gecontroleerd": "2026-10-30T12:54:18+01:00",
     "wedstrijd_datum": "2026-10-31T11:30:00+01:00",
-    "signature": "eb3ae539696e9c9ed1de",
+    "signature": "caaae35a2c20ce44213f",
     "accommodatie": "Sportpark Het Zijvond",
     "adres": "De Peel 6, 6658 DJ Beneden-Leeuwen",
     "controle_48u_gedaan": true,
@@ -1038,9 +1038,9 @@
   "wedstrijdnummer:81316": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-29T12:56:31+01:00",
+    "laatst_gecontroleerd": "2026-10-30T12:54:18+01:00",
     "wedstrijd_datum": "2026-10-31T12:10:00+01:00",
-    "signature": "b19f8820369b8e7682b7",
+    "signature": "779fb1dd8285d3b485d7",
     "accommodatie": "Sportpark Het Zijvond",
     "adres": "De Peel 6, 6658 DJ Beneden-Leeuwen",
     "controle_48u_gedaan": true,
@@ -1049,9 +1049,9 @@
   "wedstrijdnummer:81353": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-29T11:58:51+01:00",
+    "laatst_gecontroleerd": "2026-10-30T12:54:18+01:00",
     "wedstrijd_datum": "2026-10-31T11:50:00+01:00",
-    "signature": "e5fdbe027378af412550",
+    "signature": "58ef5ae88fb61fbb33de",
     "accommodatie": "Sportpark Het Zijvond",
     "adres": "De Peel 6, 6658 DJ Beneden-Leeuwen",
     "controle_48u_gedaan": true,
@@ -1766,11 +1766,12 @@
   },
   "wedstrijdnummer:95999": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
-    "wedstrijd_datum": "2026-11-21T15:00:00+01:00",
-    "signature": "2f2740a8c98435a425bb",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "laatst_gecontroleerd": "2026-10-30T12:54:18+01:00",
+    "wedstrijd_datum": "2026-11-21T09:30:00+01:00",
+    "signature": "69e5418a427c077bc6d6",
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "parser_versie": 2
   },
   "wedstrijdnummer:96017": {
     "initiele_controle_gedaan": true,
