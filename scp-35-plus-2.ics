@@ -51,8 +51,8 @@ DTSTAMP:20261030T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T210000
 DTEND;TZID=Europe/Amsterdam:20261030T230000
 SUMMARY:SCP 35+2 - Leones 35+3
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 1 A\nC
+ ontroleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32417/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
