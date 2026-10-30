@@ -24,13 +24,12 @@ UID:wedstrijd-32421@vv-scp.nl
 DTSTAMP:20261030T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T200000
 DTEND;TZID=Europe/Amsterdam:20261030T220000
-SUMMARY:SCP 35+2 - VDS'25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 1 A\nC
- ontroleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SCP 35+2 - VDS'25 35+1 (3 - 0)
+DESCRIPTION:Competitie\nEindstand: 3 - 0\nVeld: 1 A\nControleer bij last-
+ minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32421/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32419@vv-scp.nl
@@ -38,12 +37,11 @@ DTSTAMP:20261030T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T203000
 DTEND;TZID=Europe/Amsterdam:20261030T223000
 SUMMARY:Batavia 35+1 - SCP 35+2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 1 A\nC
- ontroleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 1 A\nControleer bij last-minute wijzigingen
+  altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32419/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32417@vv-scp.nl
