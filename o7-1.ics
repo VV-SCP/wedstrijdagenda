@@ -91,12 +91,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T083000
 DTEND;TZID=Europe/Amsterdam:20261114T103000
 SUMMARY:SJO SCP/DSZ O7-1 - RODA '28 O7-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A2a\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Wijchert\nVeld: veld 1
+  A2a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33220/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
+LOCATION:de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33268@vv-scp.nl
@@ -104,12 +104,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T083000
 DTEND;TZID=Europe/Amsterdam:20261114T103000
 SUMMARY:Overasseltse Boys O7-1 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A2b\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Wijchert\nVeld: veld 1
+  A2b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33268/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
+LOCATION:de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33285@vv-scp.nl
@@ -117,12 +117,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T083000
 DTEND;TZID=Europe/Amsterdam:20261114T103000
 SUMMARY:AWC O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1a\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Wijchert\nVeld: veld 1
+  A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33285/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
+LOCATION:de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33281@vv-scp.nl

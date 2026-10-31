@@ -112,12 +112,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T084500
 DTEND;TZID=Europe/Amsterdam:20261114T104500
 SUMMARY:DIO '30 O15-2 - SJO SCP/DSZ O15-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 5\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Gelenberg\nVeld: veld 
+ 5\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32911/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
+LOCATION:De Gelenberg 3\, 6654 AZ Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32921@vv-scp.nl

@@ -138,11 +138,13 @@
   },
   "wedstrijdnummer:104243": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T08:59:44+01:00",
     "wedstrijd_datum": "2026-11-14T08:45:00+01:00",
     "signature": "b3c2359e50ee34fc5879",
-    "accommodatie": "Sportpark",
-    "adres": "De Gelenberg De Gelenberg 3, 6654 AZ Afferden"
+    "accommodatie": "Sportpark De Gelenberg",
+    "adres": "De Gelenberg 3, 6654 AZ Afferden",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:105319": {
     "initiele_controle_gedaan": true,
@@ -181,11 +183,13 @@
   },
   "wedstrijdnummer:105916": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T08:59:44+01:00",
     "wedstrijd_datum": "2026-11-14T08:30:00+01:00",
     "signature": "c02879b783a905fb367e",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:10592": {
     "initiele_controle_gedaan": true,
@@ -1164,27 +1168,33 @@
   },
   "wedstrijdnummer:81832": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T08:59:44+01:00",
     "wedstrijd_datum": "2026-11-14T08:30:00+01:00",
     "signature": "19e5b49d3e8e98f923cc",
-    "accommodatie": "Sportpark",
-    "adres": "De Wijchert de Wijchert 1, 6603 AH Wijchen"
+    "accommodatie": "Sportpark De Wijchert",
+    "adres": "de Wijchert 1, 6603 AH Wijchen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81906": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T08:59:44+01:00",
     "wedstrijd_datum": "2026-11-14T08:30:00+01:00",
     "signature": "63e76bb04c0527dd0a26",
-    "accommodatie": "Sportpark",
-    "adres": "De Wijchert de Wijchert 1, 6603 AH Wijchen"
+    "accommodatie": "Sportpark De Wijchert",
+    "adres": "de Wijchert 1, 6603 AH Wijchen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81935": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T08:59:44+01:00",
     "wedstrijd_datum": "2026-11-14T08:30:00+01:00",
     "signature": "9b2cc4fb05c5dfb8e821",
-    "accommodatie": "Sportpark",
-    "adres": "De Wijchert de Wijchert 1, 6603 AH Wijchen"
+    "accommodatie": "Sportpark De Wijchert",
+    "adres": "de Wijchert 1, 6603 AH Wijchen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81984": {
     "initiele_controle_gedaan": true,
@@ -1417,11 +1427,13 @@
   },
   "wedstrijdnummer:84364": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T08:59:44+01:00",
     "wedstrijd_datum": "2026-11-14T08:30:00+01:00",
     "signature": "6caed415f36402b00811",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:84563": {
     "initiele_controle_gedaan": true,
@@ -1713,11 +1725,13 @@
   },
   "wedstrijdnummer:94429": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T08:59:44+01:00",
     "wedstrijd_datum": "2026-11-14T08:30:00+01:00",
     "signature": "aaae6b43ecc44655de91",
-    "accommodatie": "Sportpark",
-    "adres": "De Blatenplak Blatenplak 49, 6644 CH Ewijk"
+    "accommodatie": "Sportpark De Blatenplak",
+    "adres": "Blatenplak 49, 6644 CH Ewijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:94775": {
     "initiele_controle_gedaan": true,
@@ -1732,11 +1746,13 @@
   },
   "wedstrijdnummer:94797": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T08:59:44+01:00",
     "wedstrijd_datum": "2026-11-14T08:30:00+01:00",
     "signature": "7bf9b57f2a83577428f6",
-    "accommodatie": "Sportpark",
-    "adres": "Inschoten Inschoterweg 2, 6715 CS Ede"
+    "accommodatie": "Sportpark Inschoten",
+    "adres": "Inschoterweg 2, 6715 CS Ede",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:94932": {
     "initiele_controle_gedaan": true,
@@ -1893,12 +1909,13 @@
   },
   "wedstrijdnummer:99446": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
+    "laatst_gecontroleerd": "2026-10-31T08:59:44+01:00",
     "wedstrijd_datum": "2026-11-14T08:30:00+01:00",
     "signature": "12a664fde0509f4623a4",
     "parser_versie": 2,
     "accommodatie": "Sportpark Ressen",
-    "adres": "Ressensestraat 30 B, 6684 DA Ressen"
+    "adres": "Ressensestraat 30 B, 6684 DA Ressen",
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:99675": {
     "initiele_controle_gedaan": true,
