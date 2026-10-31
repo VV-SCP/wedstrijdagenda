@@ -74,14 +74,12 @@ UID:wedstrijd-32842@vv-scp.nl
 DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T153000
 DTEND;TZID=Europe/Amsterdam:20261031T173000
-SUMMARY:SJO SCP/DSZ O19-1 - Spero O19-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
- eidsrechter: S.W.L. Smits\nControleer bij last-minute wijzigingen altijd
-  Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O19-1 - Spero O19-2 (1 - 1)
+DESCRIPTION:Competitie\nEindstand: 1 - 1\nVeld: 2\nScheidsrechter: S.W.L.
+  Smits\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32842/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32849@vv-scp.nl
