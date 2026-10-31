@@ -8,20 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:wedstrijd-32770@vv-scp.nl
-DTSTAMP:20261031T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T090000
-DTEND;TZID=Europe/Amsterdam:20261031T110000
-SUMMARY:Beuningse Boys O8-3 - SJO SCP/DSZ O8-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Ooigraaf\nVeld: veld 3
-  B2\nScheidsrechter: D. Stevens\nControleer bij last-minute wijzigingen 
- altijd Voetbal.nl.
-URL:https://www.vv-scp.nl/524/32770/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:Ooigraaf 2\, 6641 TZ Beuningen
-END:VEVENT
-BEGIN:VEVENT
 UID:wedstrijd-32774@vv-scp.nl
 DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T083000
