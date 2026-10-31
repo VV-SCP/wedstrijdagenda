@@ -125,12 +125,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T124500
 DTEND;TZID=Europe/Amsterdam:20261114T144500
 SUMMARY:SCW '23 8 - SCP 2
-DESCRIPTION:Competitie\nAccommodatie: Wilhelmina\nVeld: veld 1\nControlee
- r bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Wilhelmina sportpark\nVeld: veld 1\
+ nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32031/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:sportpark Sportlaan 2\, 6866 NA Heelsum
+LOCATION:Sportlaan 2\, 6866 NA Heelsum
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32022@vv-scp.nl

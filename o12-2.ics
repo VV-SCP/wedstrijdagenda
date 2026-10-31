@@ -75,13 +75,11 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T100000
 DTEND;TZID=Europe/Amsterdam:20261031T120000
 SUMMARY:Aquila O12-1 - SJO SCP/DSZ O12-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Zeven Morgen\nVeld: 3 
- A\nScheidsrechter: H. Spexgoor\nControleer bij last-minute wijzigingen a
- ltijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 3 A\nScheidsrechter: H. Spexgoor\nControlee
+ r bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33051/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Nieuwstraat 14\, 6621 KV Dreumel
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33067@vv-scp.nl

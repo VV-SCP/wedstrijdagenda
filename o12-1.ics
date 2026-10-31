@@ -74,14 +74,13 @@ UID:wedstrijd-32884@vv-scp.nl
 DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T103000
 DTEND;TZID=Europe/Amsterdam:20261031T123000
-SUMMARY:SJO SCP/DSZ O12-1 - Woezik O12-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld A\nScheidsrechter: R.S. Baars\nControleer bij last-minute wijziginge
- n altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O12-1 - Woezik O12-1JM (3 - 5)
+DESCRIPTION:Competitie\nEindstand: 3 - 5\nVeld: Hoofdveld A\nScheidsrecht
+ er: R.S. Baars\nControleer bij last-minute wijzigingen altijd Voetbal.nl
+ .
 URL:https://www.vv-scp.nl/524/32884/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32882@vv-scp.nl

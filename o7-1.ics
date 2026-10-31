@@ -8,32 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:wedstrijd-33251@vv-scp.nl
-DTSTAMP:20261031T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T115000
-DTEND;TZID=Europe/Amsterdam:20261031T135000
-SUMMARY:SJO SCP/DSZ O7-1 - Leones O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 2
-  A2a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
-URL:https://www.vv-scp.nl/524/33251/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:De Peel 6\, 6658 DJ Beneden-Leeuwen
-END:VEVENT
-BEGIN:VEVENT
-UID:wedstrijd-33270@vv-scp.nl
-DTSTAMP:20261031T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T121000
-DTEND;TZID=Europe/Amsterdam:20261031T141000
-SUMMARY:DIO '30 O7-3 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 2
-  A2b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
-URL:https://www.vv-scp.nl/524/33270/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:De Peel 6\, 6658 DJ Beneden-Leeuwen
-END:VEVENT
-BEGIN:VEVENT
 UID:wedstrijd-33274@vv-scp.nl
 DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T083000

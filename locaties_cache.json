@@ -421,11 +421,13 @@
   },
   "wedstrijdnummer:30233": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T12:48:18+01:00",
     "wedstrijd_datum": "2026-11-14T12:45:00+01:00",
     "signature": "fa1d6af27a933195a32c",
-    "accommodatie": "Wilhelmina",
-    "adres": "sportpark Sportlaan 2, 6866 NA Heelsum"
+    "accommodatie": "Wilhelmina sportpark",
+    "adres": "Sportlaan 2, 6866 NA Heelsum",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:31364": {
     "initiele_controle_gedaan": true,
@@ -1892,11 +1894,13 @@
   },
   "wedstrijdnummer:96493": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T12:48:18+01:00",
     "wedstrijd_datum": "2026-11-14T12:40:00+01:00",
     "signature": "3053881b53cbba04041a",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:97035": {
     "initiele_controle_gedaan": true,
