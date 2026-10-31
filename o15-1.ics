@@ -74,9 +74,9 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T124500
 DTEND;TZID=Europe/Amsterdam:20261031T144500
 SUMMARY:SJO SCP/DSZ O15-1 - SKV O15-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Veld 2
- \nScheidsrechter: W. Hol\nControleer bij last-minute wijzigingen altijd 
- Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
+ eidsrechter: W. Hol\nControleer bij last-minute wijzigingen altijd Voetb
+ al.nl.
 URL:https://www.vv-scp.nl/524/33116/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

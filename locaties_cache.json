@@ -64,12 +64,13 @@
   },
   "wedstrijdnummer:101851": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
+    "laatst_gecontroleerd": "2026-10-31T14:00:51+01:00",
     "wedstrijd_datum": "2026-11-14T13:00:00+01:00",
     "signature": "0cf48dc2f3af928f2bc1",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:102077": {
     "initiele_controle_gedaan": true,

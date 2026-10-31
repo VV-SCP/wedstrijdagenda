@@ -84,14 +84,12 @@ UID:wedstrijd-33016@vv-scp.nl
 DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T120000
 DTEND;TZID=Europe/Amsterdam:20261031T140000
-SUMMARY:Blauw Geel '55 O13-4 - SJO SCP/DSZ O13-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Peppelensteeg\nVeld: C\nS
- cheidsrechter: P. van Beek\nControleer bij last-minute wijzigingen altij
- d Voetbal.nl.
+SUMMARY:Blauw Geel '55 O13-4 - SJO SCP/DSZ O13-1 (1 - 8)
+DESCRIPTION:Competitie\nEindstand: 1 - 8\nVeld: C\nScheidsrechter: P. van
+  Beek\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33016/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Peppelensteeg 5\, 6715 CV Ede
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33011@vv-scp.nl
