@@ -97,14 +97,13 @@ UID:wedstrijd-32046@vv-scp.nl
 DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T124500
 DTEND;TZID=Europe/Amsterdam:20261031T144500
-SUMMARY:SCP 2 - SDOO 3
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: P. van Ooijen\nControleer bij last-minute wijziging
- en altijd Voetbal.nl.
+SUMMARY:SCP 2 - SDOO 3 (2 - 2)
+DESCRIPTION:Competitie\nEindstand: 2 - 2\nVeld: Hoofdveld\nScheidsrechter
+ : P. van Ooijen\nControleer bij last-minute wijzigingen altijd Voetbal.n
+ l.
 URL:https://www.vv-scp.nl/524/32046/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32044@vv-scp.nl
