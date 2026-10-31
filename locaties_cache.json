@@ -97,11 +97,13 @@
   },
   "wedstrijdnummer:102774": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T11:48:51+01:00",
     "wedstrijd_datum": "2026-11-14T11:30:00+01:00",
     "signature": "3533941a3ea524744194",
-    "accommodatie": "De",
-    "adres": "Goffert complex De Eendracht Steinweglaan 3, 6532 AE Nijmegen"
+    "accommodatie": "De Goffert complex De Eendracht",
+    "adres": "Steinweglaan 3, 6532 AE Nijmegen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:103817": {
     "initiele_controle_gedaan": true,
@@ -1180,27 +1182,33 @@
   },
   "wedstrijdnummer:81652": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T11:48:51+01:00",
     "wedstrijd_datum": "2026-11-14T11:40:00+01:00",
     "signature": "92d4f2bee4fe4aa69009",
-    "accommodatie": "Sportpark",
-    "adres": "De Gelenberg De Gelenberg 3, 6654 AZ Afferden"
+    "accommodatie": "Sportpark De Gelenberg",
+    "adres": "De Gelenberg 3, 6654 AZ Afferden",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81716": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T11:48:51+01:00",
     "wedstrijd_datum": "2026-11-14T11:00:00+01:00",
     "signature": "7fd59dbced5155bbdc6e",
-    "accommodatie": "Sportpark",
-    "adres": "De Gelenberg De Gelenberg 3, 6654 AZ Afferden"
+    "accommodatie": "Sportpark De Gelenberg",
+    "adres": "De Gelenberg 3, 6654 AZ Afferden",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81772": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T11:48:51+01:00",
     "wedstrijd_datum": "2026-11-14T11:20:00+01:00",
     "signature": "e1af7bff22bfaa402a82",
-    "accommodatie": "Sportpark",
-    "adres": "De Gelenberg De Gelenberg 3, 6654 AZ Afferden"
+    "accommodatie": "Sportpark De Gelenberg",
+    "adres": "De Gelenberg 3, 6654 AZ Afferden",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81832": {
     "initiele_controle_gedaan": true,
@@ -1707,12 +1715,13 @@
   },
   "wedstrijdnummer:92731": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
+    "laatst_gecontroleerd": "2026-10-31T11:48:51+01:00",
     "wedstrijd_datum": "2026-11-14T11:00:00+01:00",
     "signature": "e11429ec7196f3e6072a",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:92789": {
     "initiele_controle_gedaan": true,

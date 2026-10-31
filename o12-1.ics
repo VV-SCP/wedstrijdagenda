@@ -102,12 +102,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T113000
 DTEND;TZID=Europe/Amsterdam:20261114T133000
 SUMMARY:NEC O12-2JM - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nAccommodatie: De\nVeld: veld 5 A\nControleer bij 
- last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: De Goffert complex De Eendracht\nVe
+ ld: veld 5 A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32871/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Goffert complex De Eendracht Steinweglaan 3\, 6532 AE Nijmegen
+LOCATION:Steinweglaan 3\, 6532 AE Nijmegen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32875@vv-scp.nl

@@ -52,12 +52,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T110000
 DTEND;TZID=Europe/Amsterdam:20261114T130000
 SUMMARY:SJO SCP/DSZ O7-2 - DIO '30 O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 4 A1b\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Gelenberg\nVeld: veld 
+ 4 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33178/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
+LOCATION:De Gelenberg 3\, 6654 AZ Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33189@vv-scp.nl
@@ -65,12 +65,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T112000
 DTEND;TZID=Europe/Amsterdam:20261114T132000
 SUMMARY:Leones O7-1 - SJO SCP/DSZ O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 4 A1b\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Gelenberg\nVeld: veld 
+ 4 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33189/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
+LOCATION:De Gelenberg 3\, 6654 AZ Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33127@vv-scp.nl
@@ -78,12 +78,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T114000
 DTEND;TZID=Europe/Amsterdam:20261114T134000
 SUMMARY:DIO '30 O7-1 - SJO SCP/DSZ O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 4 A1a\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Gelenberg\nVeld: veld 
+ 4 A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33127/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Gelenberg De Gelenberg 3\, 6654 AZ Afferden
+LOCATION:De Gelenberg 3\, 6654 AZ Afferden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33157@vv-scp.nl
