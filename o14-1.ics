@@ -97,9 +97,9 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T103000
 DTEND;TZID=Europe/Amsterdam:20261031T123000
 SUMMARY:SJO SCP/DSZ O14-1 - Orion O14-3
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Veld 2
- \nScheidsrechter: A.J. Jansen\nControleer bij last-minute wijzigingen al
- tijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
+ eidsrechter: A.J. Jansen\nControleer bij last-minute wijzigingen altijd 
+ Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33041/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

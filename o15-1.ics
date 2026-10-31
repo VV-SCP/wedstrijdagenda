@@ -101,12 +101,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T130000
 DTEND;TZID=Europe/Amsterdam:20261114T150000
 SUMMARY:SJO SCP/DSZ O15-1 - SCE O15-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoge Berg - DSZ\nVeld:
+  veld 1\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33114/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
+LOCATION:Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33096@vv-scp.nl

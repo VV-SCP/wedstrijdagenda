@@ -65,12 +65,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T085000
 DTEND;TZID=Europe/Amsterdam:20261107T105000
 SUMMARY:SJO SCP/DSZ O7-1 - Leones O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 3 A1b\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoge Berg - DSZ\nVeld:
+  veld 3 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33237/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
+LOCATION:Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33244@vv-scp.nl
@@ -78,12 +78,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T091000
 DTEND;TZID=Europe/Amsterdam:20261107T111000
 SUMMARY:Beuningse Boys O7-5 - SJO SCP/DSZ O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 3 A1b\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoge Berg - DSZ\nVeld:
+  veld 3 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33244/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
+LOCATION:Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33220@vv-scp.nl

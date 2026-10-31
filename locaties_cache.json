@@ -29,11 +29,12 @@
   "wedstrijdnummer:100917": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-07T10:30:00+01:00",
-    "signature": "dc96ce2f7916bfecd4c0",
-    "accommodatie": "Sportpark",
-    "adres": "De Hoge Berg - DSZ Trambaan 1, 6657 CE Boven-Leeuwen"
+    "signature": "e8c46c478675c4217746",
+    "accommodatie": "Sportpark De Hoge Berg - DSZ",
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:101095": {
     "initiele_controle_gedaan": true,
@@ -63,11 +64,12 @@
   },
   "wedstrijdnummer:101851": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-14T13:00:00+01:00",
-    "signature": "f105c810acc9d7ccecd7",
-    "accommodatie": "Sportpark",
-    "adres": "De Hoge Berg - DSZ Trambaan 1, 6657 CE Boven-Leeuwen"
+    "signature": "0cf48dc2f3af928f2bc1",
+    "accommodatie": "Sportpark De Hoge Berg - DSZ",
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:102077": {
     "initiele_controle_gedaan": true,
@@ -103,12 +105,13 @@
   },
   "wedstrijdnummer:103817": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T16:05:41+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-14T10:00:00+01:00",
-    "signature": "444e13f6d4b57fbe65a0",
+    "signature": "456c94d80c882d73f467",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:10386": {
     "initiele_controle_gedaan": true,
@@ -260,11 +263,12 @@
   "wedstrijdnummer:108442": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-07T11:00:00+01:00",
-    "signature": "04c7a7c3c5b96c700899",
-    "accommodatie": "Sportpark",
-    "adres": "De Hoge Berg - DSZ Trambaan 1, 6657 CE Boven-Leeuwen"
+    "signature": "8f73ad15dedd97797e56",
+    "accommodatie": "Sportpark De Hoge Berg - DSZ",
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:108883": {
     "initiele_controle_gedaan": true,
@@ -1087,6 +1091,16 @@
     "parser_versie": 2,
     "controle_48u_gedaan": true
   },
+  "wedstrijdnummer:81518": {
+    "initiele_controle_gedaan": true,
+    "controle_14d_gedaan": true,
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
+    "wedstrijd_datum": "2026-11-07T09:10:00+01:00",
+    "signature": "3b4859c1d536ef0d343f",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark De Hoge Berg - DSZ",
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen"
+  },
   "wedstrijdnummer:81523": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
@@ -1099,12 +1113,22 @@
   "wedstrijdnummer:81541": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T16:05:41+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-07T08:30:00+01:00",
-    "signature": "c6f65578ced3ebed24d8",
+    "signature": "71ca5f33101b51a85735",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
     "parser_versie": 2
+  },
+  "wedstrijdnummer:81552": {
+    "initiele_controle_gedaan": true,
+    "controle_14d_gedaan": true,
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
+    "wedstrijd_datum": "2026-11-07T08:30:00+01:00",
+    "signature": "a6ecb4c3b0be5cdc009e",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark De Hoge Berg - DSZ",
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen"
   },
   "wedstrijdnummer:81569": {
     "initiele_controle_gedaan": true,
@@ -1115,23 +1139,35 @@
     "accommodatie": "Sportpark",
     "adres": "De Zandakkers De Zandakkers 43, 6674 DH Herveld"
   },
+  "wedstrijdnummer:81593": {
+    "initiele_controle_gedaan": true,
+    "controle_14d_gedaan": true,
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
+    "wedstrijd_datum": "2026-11-07T08:50:00+01:00",
+    "signature": "13d2ad46677f04e28088",
+    "parser_versie": 2,
+    "accommodatie": "Sportpark De Hoge Berg - DSZ",
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen"
+  },
   "wedstrijdnummer:81616": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-07T09:10:00+01:00",
-    "signature": "b81d7ceea122fda77559",
-    "accommodatie": "Sportpark",
-    "adres": "De Hoge Berg - DSZ Trambaan 1, 6657 CE Boven-Leeuwen"
+    "signature": "1551c16bd1946238b6fa",
+    "accommodatie": "Sportpark De Hoge Berg - DSZ",
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:81644": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-07T08:50:00+01:00",
-    "signature": "4ee152e3e3b8fd8ab208",
-    "accommodatie": "Sportpark",
-    "adres": "De Hoge Berg - DSZ Trambaan 1, 6657 CE Boven-Leeuwen"
+    "signature": "eb55dac35f4b97581aa1",
+    "accommodatie": "Sportpark De Hoge Berg - DSZ",
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:81646": {
     "initiele_controle_gedaan": true,
@@ -1411,11 +1447,13 @@
   },
   "wedstrijdnummer:84277": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-14T10:30:00+01:00",
     "signature": "2057304cc08437129f08",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:84351": {
     "initiele_controle_gedaan": true,
@@ -1587,9 +1625,9 @@
   "wedstrijdnummer:90430": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T15:10:33+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-07T13:00:00+01:00",
-    "signature": "720c8b2e102120c8e764",
+    "signature": "55779065d12bb1224faa",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
     "parser_versie": 2
@@ -1606,11 +1644,12 @@
   "wedstrijdnummer:91435": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-07T08:30:00+01:00",
-    "signature": "3437b6c6f964e63ae0b0",
-    "accommodatie": "Sportpark",
-    "adres": "De Hoge Berg - DSZ Trambaan 1, 6657 CE Boven-Leeuwen"
+    "signature": "1daf4817d10937dd4fec",
+    "accommodatie": "Sportpark De Hoge Berg - DSZ",
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:91843": {
     "initiele_controle_gedaan": true,
@@ -1668,9 +1707,9 @@
   },
   "wedstrijdnummer:92731": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T16:05:41+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-14T11:00:00+01:00",
-    "signature": "57d28aec81a078feacb7",
+    "signature": "e11429ec7196f3e6072a",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
     "parser_versie": 2
@@ -1834,11 +1873,13 @@
   },
   "wedstrijdnummer:96456": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
     "wedstrijd_datum": "2026-11-14T10:45:00+01:00",
     "signature": "60b12d9c0339978fa38c",
-    "accommodatie": "Sportpark",
-    "adres": "'t Kasteel Stationsstraat 30, 6675 AW Valburg"
+    "accommodatie": "Sportpark 't Kasteel",
+    "adres": "Stationsstraat 30, 6675 AW Valburg",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:96493": {
     "initiele_controle_gedaan": true,

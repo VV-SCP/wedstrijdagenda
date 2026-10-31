@@ -85,9 +85,9 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T101500
 DTEND;TZID=Europe/Amsterdam:20261031T121500
 SUMMARY:Woezik O15-2 - SJO SCP/DSZ O15-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Woezik\nVeld: veld 3\nSch
- eidsrechter: D. Boerakker\nControleer bij last-minute wijzigingen altijd
-  Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Woezik\nVeld: 3\nScheidsr
+ echter: D. Boerakker\nControleer bij last-minute wijzigingen altijd Voet
+ bal.nl.
 URL:https://www.vv-scp.nl/524/32919/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -99,12 +99,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T110000
 DTEND;TZID=Europe/Amsterdam:20261107T130000
 SUMMARY:SJO SCP/DSZ O15-2 - Orion O15-5
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoge Berg - DSZ\nVeld:
+  veld 1\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32927/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
+LOCATION:Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32911@vv-scp.nl

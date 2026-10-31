@@ -13,12 +13,12 @@ DTSTAMP:20261031T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T083000
 DTEND;TZID=Europe/Amsterdam:20261107T103000
 SUMMARY:SJO SCP/DSZ O8-2 - Spero O8-3JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1\nControl
- eer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoge Berg - DSZ\nVeld:
+  veld 1 A1\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32774/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Hoge Berg - DSZ Trambaan 1\, 6657 CE Boven-Leeuwen
+LOCATION:Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32779@vv-scp.nl
