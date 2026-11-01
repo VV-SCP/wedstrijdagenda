@@ -109,14 +109,12 @@ UID:wedstrijd-32117@vv-scp.nl
 DTSTAMP:20261101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T140000
 DTEND;TZID=Europe/Amsterdam:20261101T160000
-SUMMARY:SCP 1 - DIOSA 1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: Anoniem\nControleer bij last-minute wijzigingen alt
- ijd Voetbal.nl.
+SUMMARY:SCP 1 - DIOSA 1 (2 - 1)
+DESCRIPTION:Competitie\nEindstand: 2 - 1\nVeld: Hoofdveld\nScheidsrechter
+ : Anoniem\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32117/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32240@vv-scp.nl
