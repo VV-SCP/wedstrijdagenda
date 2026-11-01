@@ -137,12 +137,12 @@ DTSTAMP:20261101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T140000
 DTEND;TZID=Europe/Amsterdam:20261115T160000
 SUMMARY:SCP 1 - Nijmegen 1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+ \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32249/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32209@vv-scp.nl
