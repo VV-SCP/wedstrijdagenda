@@ -36,15 +36,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32949@vv-scp.nl
 DTSTAMP:20261101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T100000
-DTEND;TZID=Europe/Amsterdam:20261121T120000
+DTSTART;TZID=Europe/Amsterdam:20261121T090000
+DTEND;TZID=Europe/Amsterdam:20261121T110000
 SUMMARY:Eendracht '30 O10-1 - SJO SCP/DSZ O10-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1\nControl
- eer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Maasvallei\nVeld: veld
+  2 B2\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32949/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Maasvallei Bovensteweg 61\, 6585 KB Mook
+LOCATION:Bovensteweg 61\, 6585 KB Mook
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32950@vv-scp.nl
