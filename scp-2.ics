@@ -111,12 +111,12 @@ DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T110000
 DTEND;TZID=Europe/Amsterdam:20261108T130000
 SUMMARY:Aquila 2 - SCP 2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Zeven Morgen\nVeld: ve
+ ld 2\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32385/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Zeven Morgen Nieuwstraat 14\, 6621 KV Dreumel
+LOCATION:Nieuwstraat 14\, 6621 KV Dreumel
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32269@vv-scp.nl
