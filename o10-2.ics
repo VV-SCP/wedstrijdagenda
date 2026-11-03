@@ -8,6 +8,19 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
+UID:wedstrijd-33299@vv-scp.nl
+DTSTAMP:20261103T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261104T183000
+DTEND;TZID=Europe/Amsterdam:20261104T203000
+SUMMARY:SJO SCP/DSZ O10-2 - Nijmegen O10-1
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  A1\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/33299/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
 UID:wedstrijd-32960@vv-scp.nl
 DTSTAMP:20261103T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T103000
