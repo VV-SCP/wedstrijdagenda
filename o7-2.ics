@@ -49,11 +49,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33178@vv-scp.nl
 DTSTAMP:20261104T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T110000
-DTEND;TZID=Europe/Amsterdam:20261114T130000
+DTSTART;TZID=Europe/Amsterdam:20261114T084500
+DTEND;TZID=Europe/Amsterdam:20261114T104500
 SUMMARY:SJO SCP/DSZ O7-2 - DIO '30 O7-2
 DESCRIPTION:Competitie\nAccommodatie: Sportpark De Gelenberg\nVeld: veld 
- 4 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+ 3 A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33178/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -62,11 +62,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33189@vv-scp.nl
 DTSTAMP:20261104T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T112000
-DTEND;TZID=Europe/Amsterdam:20261114T132000
+DTSTART;TZID=Europe/Amsterdam:20261114T090500
+DTEND;TZID=Europe/Amsterdam:20261114T110500
 SUMMARY:Leones O7-1 - SJO SCP/DSZ O7-2
 DESCRIPTION:Competitie\nAccommodatie: Sportpark De Gelenberg\nVeld: veld 
- 4 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+ 3 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33189/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -75,11 +75,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33127@vv-scp.nl
 DTSTAMP:20261104T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T114000
-DTEND;TZID=Europe/Amsterdam:20261114T134000
+DTSTART;TZID=Europe/Amsterdam:20261114T092500
+DTEND;TZID=Europe/Amsterdam:20261114T112500
 SUMMARY:DIO '30 O7-1 - SJO SCP/DSZ O7-2
 DESCRIPTION:Competitie\nAccommodatie: Sportpark De Gelenberg\nVeld: veld 
- 4 A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+ 3 A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33127/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
