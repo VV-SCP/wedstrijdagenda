@@ -1862,11 +1862,12 @@
   },
   "wedstrijdnummer:95196": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-04T22:03:43+01:00",
     "wedstrijd_datum": "2026-11-21T09:00:00+01:00",
-    "signature": "76aa12ec04225c8ac063",
-    "accommodatie": "Sportpark",
-    "adres": "De Maasvallei Bovensteweg 61, 6585 KB Mook"
+    "signature": "176b036dd8292581237d",
+    "accommodatie": "Sportpark De Maasvallei",
+    "adres": "Bovensteweg 61, 6585 KB Mook",
+    "parser_versie": 2
   },
   "wedstrijdnummer:95963": {
     "initiele_controle_gedaan": true,
