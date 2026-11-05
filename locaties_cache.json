@@ -142,11 +142,13 @@
   "wedstrijdnummer:104150": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-05T17:18:21+01:00",
     "wedstrijd_datum": "2026-11-07T17:15:00+01:00",
     "signature": "0078b6a8966462d85d1b",
-    "accommodatie": "Sportpark",
-    "adres": "De Pas De Pas 3, 6662 BK Elst"
+    "accommodatie": "Sportpark De Pas",
+    "adres": "De Pas 3, 6662 BK Elst",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:104243": {
     "initiele_controle_gedaan": true,
@@ -479,11 +481,13 @@
   "wedstrijdnummer:42642": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-05T17:18:21+01:00",
     "wedstrijd_datum": "2026-11-07T16:15:00+01:00",
     "signature": "5d872bc7e85517060997",
-    "accommodatie": "Sportpark",
-    "adres": "De Wijchert de Wijchert 1, 6603 AH Wijchen"
+    "accommodatie": "Sportpark De Wijchert",
+    "adres": "de Wijchert 1, 6603 AH Wijchen",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:44546": {
     "initiele_controle_gedaan": true,
