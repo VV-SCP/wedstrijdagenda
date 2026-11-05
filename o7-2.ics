@@ -13,12 +13,12 @@ DTSTAMP:20261105T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T083000
 DTEND;TZID=Europe/Amsterdam:20261107T103000
 SUMMARY:SJO SCP/DSZ O7-2 - DIO '30 O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Zandakkers\nVeld: veld
+  1 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33158/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Zandakkers De Zandakkers 43\, 6674 DH Herveld
+LOCATION:De Zandakkers 43\, 6674 DH Herveld
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33155@vv-scp.nl

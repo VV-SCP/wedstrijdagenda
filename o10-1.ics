@@ -13,12 +13,12 @@ DTSTAMP:20261105T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T083000
 DTEND;TZID=Europe/Amsterdam:20261107T103000
 SUMMARY:Lienden O10-2 - SJO SCP/DSZ O10-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 B1\nControl
- eer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Abdijhof\nVeld: veld 1
+  B1\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33072/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Abdijhof Molenstraat 18\, 4033 AV Lienden
+LOCATION:Molenstraat 18\, 4033 AV Lienden
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33081@vv-scp.nl
