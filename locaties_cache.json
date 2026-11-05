@@ -29,12 +29,13 @@
   "wedstrijdnummer:100917": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-02T22:53:43+01:00",
+    "laatst_gecontroleerd": "2026-11-05T11:22:54+01:00",
     "wedstrijd_datum": "2026-11-07T10:30:00+01:00",
     "signature": "e8c46c478675c4217746",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:101095": {
     "initiele_controle_gedaan": true,
@@ -252,12 +253,13 @@
   "wedstrijdnummer:106860": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-04T02:20:36+01:00",
+    "laatst_gecontroleerd": "2026-11-05T11:22:54+01:00",
     "wedstrijd_datum": "2026-11-07T10:30:00+01:00",
     "signature": "ab653ce0e25267bc54a2",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:108331": {
     "initiele_controle_gedaan": true,
@@ -273,12 +275,13 @@
   "wedstrijdnummer:108442": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-04T02:20:36+01:00",
+    "laatst_gecontroleerd": "2026-11-05T11:22:54+01:00",
     "wedstrijd_datum": "2026-11-07T11:00:00+01:00",
     "signature": "8f73ad15dedd97797e56",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:108883": {
     "initiele_controle_gedaan": true,
@@ -1685,12 +1688,13 @@
   "wedstrijdnummer:91333": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-04T02:20:36+01:00",
+    "laatst_gecontroleerd": "2026-11-05T11:22:54+01:00",
     "wedstrijd_datum": "2026-11-07T10:30:00+01:00",
     "signature": "06498bf90d5561fe52d5",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:91435": {
     "initiele_controle_gedaan": true,
@@ -1916,12 +1920,13 @@
   "wedstrijdnummer:96198": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-04T02:20:36+01:00",
+    "laatst_gecontroleerd": "2026-11-05T11:22:54+01:00",
     "wedstrijd_datum": "2026-11-07T10:30:00+01:00",
     "signature": "824bb251d4dfc293f141",
     "accommodatie": "Sportpark De Parken (Unitas '28)",
     "adres": "Parkenstraat 0, 6659 BD Wamel",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:9639": {
     "initiele_controle_gedaan": true,
@@ -1963,11 +1968,13 @@
   "wedstrijdnummer:97413": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-05T11:22:54+01:00",
     "wedstrijd_datum": "2026-11-07T11:15:00+01:00",
     "signature": "58d3dc07491272972fa6",
-    "accommodatie": "Sportpark",
-    "adres": "Vossenpels Jo Eversstraat 2, 6663 HA Lent"
+    "accommodatie": "Sportpark Vossenpels",
+    "adres": "Jo Eversstraat 2, 6663 HA Lent",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:98070": {
     "initiele_controle_gedaan": true,
@@ -1990,11 +1997,13 @@
   "wedstrijdnummer:99057": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-05T11:22:54+01:00",
     "wedstrijd_datum": "2026-11-07T10:30:00+01:00",
     "signature": "fff75e4d310f83ab463d",
-    "accommodatie": "Sportpark",
-    "adres": "De Ooigraaf Ooigraaf 2, 6641 TZ Beuningen"
+    "accommodatie": "Sportpark De Ooigraaf",
+    "adres": "Ooigraaf 2, 6641 TZ Beuningen",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:99370": {
     "initiele_controle_gedaan": true,

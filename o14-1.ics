@@ -109,12 +109,12 @@ DTSTAMP:20261105T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T111500
 DTEND;TZID=Europe/Amsterdam:20261107T131500
 SUMMARY:DVOL O14-3 - SJO SCP/DSZ O14-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 3\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Vossenpels\nVeld: veld 3\
+ nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33048/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Vossenpels Jo Eversstraat 2\, 6663 HA Lent
+LOCATION:Jo Eversstraat 2\, 6663 HA Lent
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33040@vv-scp.nl
