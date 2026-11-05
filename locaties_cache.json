@@ -1109,21 +1109,24 @@
   "wedstrijdnummer:81518": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
+    "laatst_gecontroleerd": "2026-11-05T10:15:15+01:00",
     "wedstrijd_datum": "2026-11-07T09:10:00+01:00",
     "signature": "3b4859c1d536ef0d343f",
     "parser_versie": 2,
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
-    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen"
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:81523": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-05T10:15:15+01:00",
     "wedstrijd_datum": "2026-11-07T09:10:00+01:00",
     "signature": "acef0e722ccfa14fd5e6",
-    "accommodatie": "Sportpark",
-    "adres": "De Zandakkers De Zandakkers 43, 6674 DH Herveld"
+    "accommodatie": "Sportpark De Zandakkers",
+    "adres": "De Zandakkers 43, 6674 DH Herveld",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81541": {
     "initiele_controle_gedaan": true,
@@ -1161,41 +1164,46 @@
   "wedstrijdnummer:81593": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-31T10:52:30+01:00",
+    "laatst_gecontroleerd": "2026-11-05T10:15:15+01:00",
     "wedstrijd_datum": "2026-11-07T08:50:00+01:00",
     "signature": "13d2ad46677f04e28088",
     "parser_versie": 2,
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
-    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen"
+    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:81616": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-04T02:20:36+01:00",
+    "laatst_gecontroleerd": "2026-11-05T10:15:15+01:00",
     "wedstrijd_datum": "2026-11-07T09:10:00+01:00",
     "signature": "1551c16bd1946238b6fa",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:81644": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-04T02:20:36+01:00",
+    "laatst_gecontroleerd": "2026-11-05T10:15:15+01:00",
     "wedstrijd_datum": "2026-11-07T08:50:00+01:00",
     "signature": "eb55dac35f4b97581aa1",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:81646": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-05T10:15:15+01:00",
     "wedstrijd_datum": "2026-11-07T08:50:00+01:00",
     "signature": "32b585f9d4f67a3000b3",
-    "accommodatie": "Sportpark",
-    "adres": "De Zandakkers De Zandakkers 43, 6674 DH Herveld"
+    "accommodatie": "Sportpark De Zandakkers",
+    "adres": "De Zandakkers 43, 6674 DH Herveld",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:81652": {
     "initiele_controle_gedaan": true,
