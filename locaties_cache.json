@@ -1472,12 +1472,13 @@
   "wedstrijdnummer:83880": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
+    "laatst_gecontroleerd": "2026-11-05T14:27:03+01:00",
     "wedstrijd_datum": "2026-11-07T14:00:00+01:00",
     "signature": "1c34a059859701f8afbc",
     "parser_versie": 2,
     "accommodatie": "Sportpark De Bakenberg",
-    "adres": "Kemperbergerweg 11 B, 6816 RM Arnhem"
+    "adres": "Kemperbergerweg 11 B, 6816 RM Arnhem",
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:84134": {
     "initiele_controle_gedaan": true,
@@ -1613,12 +1614,13 @@
   "wedstrijdnummer:88059": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-04T02:20:36+01:00",
+    "laatst_gecontroleerd": "2026-11-05T14:27:03+01:00",
     "wedstrijd_datum": "2026-11-07T14:00:00+01:00",
     "signature": "723f79d2262bbb343243",
     "accommodatie": "Sportpark De Pas",
     "adres": "De Pas 3, 6662 BK Elst",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:88253": {
     "initiele_controle_gedaan": true,
