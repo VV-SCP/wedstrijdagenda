@@ -1642,11 +1642,13 @@
   "wedstrijdnummer:88840": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-05T16:11:08+01:00",
     "wedstrijd_datum": "2026-11-07T14:30:00+01:00",
     "signature": "fb6ffca5f58e80d1c960",
-    "accommodatie": "Sportpark",
-    "adres": "De Broeklanden Broekkant 39, 6581 AC Malden"
+    "accommodatie": "Sportpark De Broeklanden",
+    "adres": "Broekkant 39, 6581 AC Malden",
+    "controle_48u_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:89269": {
     "initiele_controle_gedaan": true,
