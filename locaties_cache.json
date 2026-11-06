@@ -123,12 +123,13 @@
   "wedstrijdnummer:10386": {
     "initiele_controle_gedaan": true,
     "controle_14d_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-03T12:06:47+01:00",
+    "laatst_gecontroleerd": "2026-11-06T11:16:16+01:00",
     "wedstrijd_datum": "2026-11-08T11:00:00+01:00",
     "signature": "b4a364b00e65dc31d516",
     "accommodatie": "Sportpark De Zeven Morgen",
     "adres": "Nieuwstraat 14, 6621 KV Dreumel",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:103909": {
     "initiele_controle_gedaan": true,
@@ -896,9 +897,9 @@
   },
   "wedstrijdnummer:73602": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-30T21:53:49+01:00",
-    "wedstrijd_datum": "2026-11-13T21:00:00+01:00",
-    "signature": "3f52787b6110616e439e",
+    "laatst_gecontroleerd": "2026-11-06T11:16:16+01:00",
+    "wedstrijd_datum": "2026-11-13T20:00:00+01:00",
+    "signature": "60bd433e12ab2228698d",
     "accommodatie": "Sportpark De Hoeken",
     "adres": "Keizerstraat 102, 4053 HK Ijzendoorn",
     "controle_14d_gedaan": true,
@@ -906,9 +907,9 @@
   },
   "wedstrijdnummer:73867": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-30T22:50:31+01:00",
-    "wedstrijd_datum": "2026-11-13T22:00:00+01:00",
-    "signature": "be000a45cb9e2d14f5db",
+    "laatst_gecontroleerd": "2026-11-06T11:16:16+01:00",
+    "wedstrijd_datum": "2026-11-13T21:30:00+01:00",
+    "signature": "8e668f3a33c56d875de3",
     "accommodatie": "Sportpark De Hoeken",
     "adres": "Keizerstraat 102, 4053 HK Ijzendoorn",
     "controle_14d_gedaan": true,
@@ -916,9 +917,9 @@
   },
   "wedstrijdnummer:74292": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-30T20:55:29+01:00",
-    "wedstrijd_datum": "2026-11-13T20:30:00+01:00",
-    "signature": "0b14d9027f1597f284fc",
+    "laatst_gecontroleerd": "2026-11-06T11:16:16+01:00",
+    "wedstrijd_datum": "2026-11-13T21:00:00+01:00",
+    "signature": "0f64545e1137060f077a",
     "accommodatie": "Sportpark De Hoeken",
     "adres": "Keizerstraat 102, 4053 HK Ijzendoorn",
     "controle_14d_gedaan": true,
@@ -926,9 +927,9 @@
   },
   "wedstrijdnummer:74386": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-30T21:53:49+01:00",
-    "wedstrijd_datum": "2026-11-13T21:30:00+01:00",
-    "signature": "49a545e7a238f420e364",
+    "laatst_gecontroleerd": "2026-11-06T11:16:16+01:00",
+    "wedstrijd_datum": "2026-11-13T22:00:00+01:00",
+    "signature": "7767ec60f5e1da1c1dae",
     "accommodatie": "Sportpark De Hoeken",
     "adres": "Keizerstraat 102, 4053 HK Ijzendoorn",
     "controle_14d_gedaan": true,
