@@ -153,11 +153,11 @@ DTSTAMP:20261106T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T144500
 DTEND;TZID=Europe/Amsterdam:20261212T164500
 SUMMARY:SKV O19-1 - SJO SCP/DSZ O19-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld A-SKV\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Zoom\nVeld: veld B-SKV
+ \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33291/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Zoom Zoomweg 4\, 6704 PE Wageningen
+LOCATION:Zoomweg 4\, 6704 PE Wageningen
 END:VEVENT
 END:VCALENDAR

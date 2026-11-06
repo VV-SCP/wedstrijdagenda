@@ -20,11 +20,12 @@
   },
   "wedstrijdnummer:100791": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-06T13:06:57+01:00",
     "wedstrijd_datum": "2026-12-12T14:45:00+01:00",
-    "signature": "69c819a1b7d97bcf1517",
-    "accommodatie": "Sportpark",
-    "adres": "De Zoom Zoomweg 4, 6704 PE Wageningen"
+    "signature": "cd43101fae4f05a9f9ea",
+    "accommodatie": "Sportpark De Zoom",
+    "adres": "Zoomweg 4, 6704 PE Wageningen",
+    "parser_versie": 2
   },
   "wedstrijdnummer:100917": {
     "initiele_controle_gedaan": true,
