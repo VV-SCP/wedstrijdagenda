@@ -1288,21 +1288,23 @@
   },
   "wedstrijdnummer:82057": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-07T03:11:29+01:00",
+    "laatst_gecontroleerd": "2026-11-07T10:05:39+01:00",
     "wedstrijd_datum": "2026-11-21T09:40:00+01:00",
     "signature": "93818b26d5b3c36377e9",
     "accommodatie": "Sportpark De Passelegt",
     "adres": "Ewijkseweg 11, 6611 AG Overasselt",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:82085": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-07T03:11:29+01:00",
+    "laatst_gecontroleerd": "2026-11-07T10:05:39+01:00",
     "wedstrijd_datum": "2026-11-21T09:20:00+01:00",
     "signature": "c2b676a2edc5404b6f24",
     "accommodatie": "Sportpark De Passelegt",
     "adres": "Ewijkseweg 11, 6611 AG Overasselt",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:82108": {
     "initiele_controle_gedaan": true,
@@ -1781,11 +1783,13 @@
   },
   "wedstrijdnummer:92674": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-07T10:05:39+01:00",
     "wedstrijd_datum": "2026-11-21T10:00:00+01:00",
     "signature": "43966f2846d0890ce5e9",
-    "accommodatie": "Sportpark",
-    "adres": "De Wijchert de Wijchert 1, 6603 AH Wijchen"
+    "accommodatie": "Sportpark De Wijchert",
+    "adres": "de Wijchert 1, 6603 AH Wijchen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:92731": {
     "initiele_controle_gedaan": true,
@@ -1928,12 +1932,13 @@
   },
   "wedstrijdnummer:95999": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-07T03:11:29+01:00",
+    "laatst_gecontroleerd": "2026-11-07T10:05:39+01:00",
     "wedstrijd_datum": "2026-11-21T09:30:00+01:00",
     "signature": "69e5418a427c077bc6d6",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:96017": {
     "initiele_controle_gedaan": true,

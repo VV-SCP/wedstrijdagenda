@@ -8,19 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:wedstrijd-33176@vv-scp.nl
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T091000
-DTEND;TZID=Europe/Amsterdam:20261107T111000
-SUMMARY:SVHA O7-1JM - SJO SCP/DSZ O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Zandakkers\nVeld: veld
-  1 A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
-URL:https://www.vv-scp.nl/524/33176/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:De Zandakkers 43\, 6674 DH Herveld
-END:VEVENT
-BEGIN:VEVENT
 UID:wedstrijd-33178@vv-scp.nl
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T084500

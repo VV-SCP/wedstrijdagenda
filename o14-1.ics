@@ -135,12 +135,12 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T100000
 DTEND;TZID=Europe/Amsterdam:20261121T120000
 SUMMARY:AWC O14-2JM - SJO SCP/DSZ O14-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Wijchert\nVeld: veld 2
+ \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33039/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Wijchert de Wijchert 1\, 6603 AH Wijchen
+LOCATION:de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33045@vv-scp.nl
