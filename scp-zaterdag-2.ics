@@ -110,14 +110,12 @@ UID:wedstrijd-32044@vv-scp.nl
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T161500
 DTEND;TZID=Europe/Amsterdam:20261107T181500
-SUMMARY:AWC 4 - SCP 2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Wijchert\nVeld: 6\nSch
- eidsrechter: M. de Keijzer\nControleer bij last-minute wijzigingen altij
- d Voetbal.nl.
+SUMMARY:AWC 4 - SCP 2 (1 - 3)
+DESCRIPTION:Competitie\nEindstand: 1 - 3\nVeld: 6\nScheidsrechter: M. de 
+ Keijzer\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32044/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:de Wijchert 1\, 6603 AH Wijchen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32031@vv-scp.nl
