@@ -2000,12 +2000,13 @@
   },
   "wedstrijdnummer:97035": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-07T03:11:29+01:00",
+    "laatst_gecontroleerd": "2026-11-07T11:54:42+01:00",
     "wedstrijd_datum": "2026-11-21T11:30:00+01:00",
     "signature": "c838708e547dba8d1d9f",
     "accommodatie": "Sportpark De Blatenplak",
     "adres": "Blatenplak 49, 6644 CH Ewijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:97413": {
     "initiele_controle_gedaan": true,
