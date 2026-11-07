@@ -96,14 +96,12 @@ UID:wedstrijd-33011@vv-scp.nl
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T130000
 DTEND;TZID=Europe/Amsterdam:20261107T150000
-SUMMARY:SJO SCP/DSZ O13-1 - SKV O13-4JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoge Berg - DSZ\nVeld:
-  2\nScheidsrechter: M. van den Heuvel\nControleer bij last-minute wijzig
- ingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O13-1 - SKV O13-4JM (9 - 3)
+DESCRIPTION:Competitie\nEindstand: 9 - 3\nVeld: 2\nScheidsrechter: M. van
+  den Heuvel\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33011/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33013@vv-scp.nl
