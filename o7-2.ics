@@ -8,32 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:wedstrijd-33158@vv-scp.nl
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T083000
-DTEND;TZID=Europe/Amsterdam:20261107T103000
-SUMMARY:SJO SCP/DSZ O7-2 - DIO '30 O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Zandakkers\nVeld: veld
-  1 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
-URL:https://www.vv-scp.nl/524/33158/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:De Zandakkers 43\, 6674 DH Herveld
-END:VEVENT
-BEGIN:VEVENT
-UID:wedstrijd-33155@vv-scp.nl
-DTSTAMP:20261107T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T085000
-DTEND;TZID=Europe/Amsterdam:20261107T105000
-SUMMARY:SVHA O7-3JM - SJO SCP/DSZ O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Zandakkers\nVeld: veld
-  1 A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
-URL:https://www.vv-scp.nl/524/33155/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:De Zandakkers 43\, 6674 DH Herveld
-END:VEVENT
-BEGIN:VEVENT
 UID:wedstrijd-33176@vv-scp.nl
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T091000
@@ -91,12 +65,12 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T083000
 DTEND;TZID=Europe/Amsterdam:20261121T103000
 SUMMARY:Excelsior Z. O7-2 - SJO SCP/DSZ O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33157/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33179@vv-scp.nl
@@ -104,12 +78,12 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T085000
 DTEND;TZID=Europe/Amsterdam:20261121T105000
 SUMMARY:SJO SCP/DSZ O7-2 - SVHA O7-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1a\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33179/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33147@vv-scp.nl
@@ -117,12 +91,12 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T091000
 DTEND;TZID=Europe/Amsterdam:20261121T111000
 SUMMARY:SJO SCP/DSZ O7-2 - Leones O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A1b\nContro
- leer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33147/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33172@vv-scp.nl
