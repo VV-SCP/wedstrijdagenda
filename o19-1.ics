@@ -114,12 +114,12 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T101500
 DTEND;TZID=Europe/Amsterdam:20261121T121500
 SUMMARY:Excelsior Z. O19-2 - SJO SCP/DSZ O19-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 2\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Leijgraaf\nVeld: veld 
+ 2\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32833/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Leijgraaf Leigraafseweg 8\, 6671 MC Zetten
+LOCATION:Leigraafseweg 8\, 6671 MC Zetten
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32834@vv-scp.nl

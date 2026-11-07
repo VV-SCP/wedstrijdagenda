@@ -100,12 +100,12 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T103000
 DTEND;TZID=Europe/Amsterdam:20261121T123000
 SUMMARY:AAC-Olympia O12-2JM - SJO SCP/DSZ O12-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1 A\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Polenkamp\nVeld: veld 
+ 1 A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33060/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:De Polenkamp Bredestraat 3\, 6631 BC Horssen
+LOCATION:Bredestraat 3\, 6631 BC Horssen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33063@vv-scp.nl

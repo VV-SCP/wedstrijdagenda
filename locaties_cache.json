@@ -175,12 +175,13 @@
   },
   "wedstrijdnummer:105356": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-07T03:11:29+01:00",
+    "laatst_gecontroleerd": "2026-11-07T10:57:46+01:00",
     "wedstrijd_datum": "2026-11-21T10:30:00+01:00",
-    "signature": "4e60ab6496d02fbd7806",
+    "signature": "e7d03b47969fac26fc11",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:105728": {
     "initiele_controle_gedaan": true,
@@ -218,11 +219,13 @@
   },
   "wedstrijdnummer:106242": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-07T10:57:46+01:00",
     "wedstrijd_datum": "2026-11-21T10:30:00+01:00",
     "signature": "d9f1f7a846d111291998",
-    "accommodatie": "Sportpark",
-    "adres": "De Polenkamp Bredestraat 3, 6631 BC Horssen"
+    "accommodatie": "Sportpark De Polenkamp",
+    "adres": "Bredestraat 3, 6631 BC Horssen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:106350": {
     "initiele_controle_gedaan": true,
@@ -1552,12 +1555,13 @@
   },
   "wedstrijdnummer:85277": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-07T03:11:29+01:00",
+    "laatst_gecontroleerd": "2026-11-07T10:57:46+01:00",
     "wedstrijd_datum": "2026-11-21T10:15:00+01:00",
     "signature": "603a5bd16af06c16f6df",
     "accommodatie": "Sportpark Woezik",
     "adres": "Suikerbergseweg 6, 6604 AE Wijchen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:85661": {
     "initiele_controle_gedaan": true,
@@ -1608,11 +1612,13 @@
   },
   "wedstrijdnummer:86593": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-07T10:57:46+01:00",
     "wedstrijd_datum": "2026-11-21T10:15:00+01:00",
     "signature": "187fcb974f44bbe0a306",
-    "accommodatie": "Sportpark",
-    "adres": "De Leijgraaf Leigraafseweg 8, 6671 MC Zetten"
+    "accommodatie": "Sportpark De Leijgraaf",
+    "adres": "Leigraafseweg 8, 6671 MC Zetten",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:86815": {
     "initiele_controle_gedaan": true,
@@ -1840,11 +1846,13 @@
   },
   "wedstrijdnummer:93444": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-07T10:57:46+01:00",
     "wedstrijd_datum": "2026-11-21T10:30:00+01:00",
     "signature": "d51d91fccffe6e87bb6e",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:93593": {
     "initiele_controle_gedaan": true,

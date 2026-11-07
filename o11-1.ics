@@ -126,8 +126,8 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T103000
 DTEND;TZID=Europe/Amsterdam:20261121T123000
 SUMMARY:SJO SCP/DSZ O11-1 - Excelsior Z. O11-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: -\nCon
- troleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
+  B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32989/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
