@@ -98,14 +98,12 @@ UID:wedstrijd-32900@vv-scp.nl
 DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T103000
 DTEND;TZID=Europe/Amsterdam:20261107T123000
-SUMMARY:Unitas '28 O11-1JM - SJO SCP/DSZ O11-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Parken (Unitas '28)\nV
- eld: 2 A\nScheidsrechter: S. van Kessel\nControleer bij last-minute wijz
- igingen altijd Voetbal.nl.
+SUMMARY:Unitas '28 O11-1JM - SJO SCP/DSZ O11-2 (5 - 4)
+DESCRIPTION:Competitie\nEindstand: 5 - 4\nVeld: 2 A\nScheidsrechter: S. v
+ an Kessel\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32900/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Parkenstraat 0\, 6659 BD Wamel
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32891@vv-scp.nl

@@ -109,8 +109,9 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T111500
 DTEND;TZID=Europe/Amsterdam:20261107T131500
 SUMMARY:DVOL O14-3 - SJO SCP/DSZ O14-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Vossenpels\nVeld: 3\nCont
- roleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Vossenpels\nVeld: 3\nSche
+ idsrechter: H.J Kelly\nControleer bij last-minute wijzigingen altijd Voe
+ tbal.nl.
 URL:https://www.vv-scp.nl/524/33048/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

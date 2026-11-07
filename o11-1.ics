@@ -99,12 +99,11 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T103000
 DTEND;TZID=Europe/Amsterdam:20261107T123000
 SUMMARY:SJO SCP/DSZ O11-1 - Kesteren O11-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: Hoofdveld B\nScheidsrechter: H.J.M. Claasse
+ n\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33001/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32996@vv-scp.nl
