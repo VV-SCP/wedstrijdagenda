@@ -97,13 +97,11 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T110000
 DTEND;TZID=Europe/Amsterdam:20261107T130000
 SUMMARY:SJO SCP/DSZ O15-2 - Orion O15-5
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoge Berg - DSZ\nVeld:
-  1\nScheidsrechter: Anoniem\nControleer bij last-minute wijzigingen alti
- jd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 1\nScheidsrechter: Anoniem\nControleer bij 
+ last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32927/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Trambaan 1\, 6657 CE Boven-Leeuwen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32911@vv-scp.nl
