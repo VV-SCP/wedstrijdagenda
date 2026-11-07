@@ -111,9 +111,9 @@ DTSTAMP:20261107T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T161500
 DTEND;TZID=Europe/Amsterdam:20261107T181500
 SUMMARY:AWC 4 - SCP 2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Wijchert\nVeld: veld 6
- \nScheidsrechter: M. de Keijzer\nControleer bij last-minute wijzigingen 
- altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Wijchert\nVeld: 6\nSch
+ eidsrechter: M. de Keijzer\nControleer bij last-minute wijzigingen altij
+ d Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32044/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
