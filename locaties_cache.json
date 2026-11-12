@@ -68,13 +68,14 @@
   },
   "wedstrijdnummer:101851": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-09T03:59:53+01:00",
+    "laatst_gecontroleerd": "2026-11-12T14:28:33+01:00",
     "wedstrijd_datum": "2026-11-14T13:00:00+01:00",
     "signature": "f105c810acc9d7ccecd7",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
     "parser_versie": 2,
-    "controle_14d_gedaan": true
+    "controle_14d_gedaan": true,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:102077": {
     "initiele_controle_gedaan": true,
@@ -448,13 +449,14 @@
   },
   "wedstrijdnummer:30233": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-31T12:48:18+01:00",
+    "laatst_gecontroleerd": "2026-11-12T14:28:33+01:00",
     "wedstrijd_datum": "2026-11-14T12:45:00+01:00",
     "signature": "fa1d6af27a933195a32c",
     "accommodatie": "Wilhelmina sportpark",
     "adres": "Sportlaan 2, 6866 NA Heelsum",
     "controle_14d_gedaan": true,
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:31364": {
     "initiele_controle_gedaan": true,
@@ -2023,13 +2025,14 @@
   },
   "wedstrijdnummer:96493": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-10T20:10:37+01:00",
+    "laatst_gecontroleerd": "2026-11-12T14:28:33+01:00",
     "wedstrijd_datum": "2026-11-14T12:40:00+01:00",
     "signature": "b44999586bb776e990a5",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
     "controle_14d_gedaan": true,
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:97035": {
     "initiele_controle_gedaan": true,
