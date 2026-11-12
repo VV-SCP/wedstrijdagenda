@@ -103,23 +103,25 @@
   },
   "wedstrijdnummer:102774": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-09T03:59:53+01:00",
+    "laatst_gecontroleerd": "2026-11-12T11:16:56+01:00",
     "wedstrijd_datum": "2026-11-14T11:00:00+01:00",
     "signature": "da0d97050a0ca9ed0b7f",
     "accommodatie": "De Goffert complex De Eendracht",
     "adres": "Steinweglaan 3, 6532 AE Nijmegen",
     "controle_14d_gedaan": true,
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:103817": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-09T03:59:53+01:00",
+    "laatst_gecontroleerd": "2026-11-12T11:16:56+01:00",
     "wedstrijd_datum": "2026-11-14T10:00:00+01:00",
     "signature": "444e13f6d4b57fbe65a0",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
     "parser_versie": 2,
-    "controle_14d_gedaan": true
+    "controle_14d_gedaan": true,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:10386": {
     "initiele_controle_gedaan": true,
@@ -1541,13 +1543,14 @@
   },
   "wedstrijdnummer:84277": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-10T20:10:37+01:00",
+    "laatst_gecontroleerd": "2026-11-12T11:16:56+01:00",
     "wedstrijd_datum": "2026-11-14T10:30:00+01:00",
     "signature": "37a4fad9648c9ecd96a8",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
     "controle_14d_gedaan": true,
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:84351": {
     "initiele_controle_gedaan": true,
@@ -1824,13 +1827,14 @@
   },
   "wedstrijdnummer:92731": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-08T21:50:13+01:00",
+    "laatst_gecontroleerd": "2026-11-12T11:16:56+01:00",
     "wedstrijd_datum": "2026-11-14T11:00:00+01:00",
     "signature": "57d28aec81a078feacb7",
     "accommodatie": "Sportpark De Hoge Berg - DSZ",
     "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
     "parser_versie": 2,
-    "controle_14d_gedaan": true
+    "controle_14d_gedaan": true,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:92789": {
     "initiele_controle_gedaan": true,
@@ -1912,13 +1916,14 @@
   },
   "wedstrijdnummer:94797": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-09T03:59:53+01:00",
+    "laatst_gecontroleerd": "2026-11-12T11:16:56+01:00",
     "wedstrijd_datum": "2026-11-14T10:30:00+01:00",
     "signature": "7029d90abb3a35c7394e",
     "accommodatie": "Sportpark Inschoten",
     "adres": "Inschoterweg 2, 6715 CS Ede",
     "controle_14d_gedaan": true,
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:94932": {
     "initiele_controle_gedaan": true,
@@ -2007,13 +2012,14 @@
   },
   "wedstrijdnummer:96456": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-09T03:59:53+01:00",
+    "laatst_gecontroleerd": "2026-11-12T11:16:56+01:00",
     "wedstrijd_datum": "2026-11-14T10:45:00+01:00",
     "signature": "60b12d9c0339978fa38c",
     "accommodatie": "Sportpark 't Kasteel",
     "adres": "Stationsstraat 30, 6675 AW Valburg",
     "controle_14d_gedaan": true,
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:96493": {
     "initiele_controle_gedaan": true,
