@@ -195,8 +195,8 @@ DTSTAMP:20261113T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T220000
 DTEND;TZID=Europe/Amsterdam:20261114T000000
 SUMMARY:SCP 35+1 - Victoria '25 35+1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoeken\nVeld: veld 2 B
- \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Hoeken\nVeld: 2 B\nCon
+ troleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32442/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
