@@ -122,11 +122,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32834@vv-scp.nl
 DTSTAMP:20261113T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T140000
-DTEND;TZID=Europe/Amsterdam:20261128T160000
+DTSTART;TZID=Europe/Amsterdam:20261128T131500
+DTEND;TZID=Europe/Amsterdam:20261128T151500
 SUMMARY:DIO '30 O19-2 - SJO SCP/DSZ O19-1
 DESCRIPTION:Competitie\nAccommodatie: Sportpark De Gelenberg\nVeld: veld 
- 2\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+ 1 - Hoofdveld\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32834/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
