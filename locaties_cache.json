@@ -745,11 +745,13 @@
   },
   "wedstrijdnummer:67445": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-13T20:10:11+01:00",
     "wedstrijd_datum": "2026-11-27T20:00:00+01:00",
     "signature": "745fc24eb39d428bc471",
-    "accommodatie": "Sportpark",
-    "adres": "De Hoppenhof - Batavia Hoppenhofstraat 12, 6634 AL Batenburg"
+    "accommodatie": "Sportpark De Hoppenhof - Batavia",
+    "adres": "Hoppenhofstraat 12, 6634 AL Batenburg",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:67607": {
     "initiele_controle_gedaan": true,
@@ -964,11 +966,13 @@
   },
   "wedstrijdnummer:74521": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-13T20:10:11+01:00",
     "wedstrijd_datum": "2026-11-27T20:00:00+01:00",
     "signature": "7c468bbc0c19242ebbf8",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:74653": {
     "initiele_controle_gedaan": true,
@@ -1028,11 +1032,13 @@
   },
   "wedstrijdnummer:75606": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-13T20:10:11+01:00",
     "wedstrijd_datum": "2026-11-27T20:00:00+01:00",
     "signature": "c8b8fe7a9b44061c1399",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:75700": {
     "initiele_controle_gedaan": true,
@@ -1831,11 +1837,11 @@
   },
   "wedstrijdnummer:92731": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-12T11:16:56+01:00",
-    "wedstrijd_datum": "2026-11-14T11:00:00+01:00",
-    "signature": "57d28aec81a078feacb7",
-    "accommodatie": "Sportpark De Hoge Berg - DSZ",
-    "adres": "Trambaan 1, 6657 CE Boven-Leeuwen",
+    "laatst_gecontroleerd": "2026-11-13T20:10:11+01:00",
+    "wedstrijd_datum": "2026-12-12T11:00:00+01:00",
+    "signature": "44af2c3d9d0064b73a65",
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
     "parser_versie": 2,
     "controle_14d_gedaan": true,
     "controle_48u_gedaan": true
