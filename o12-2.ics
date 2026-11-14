@@ -86,9 +86,10 @@ UID:wedstrijd-33067@vv-scp.nl
 DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T103000
 DTEND;TZID=Europe/Amsterdam:20261114T123000
-SUMMARY:SJO SCP/DSZ O12-2 - AWC O12-4
-DESCRIPTION:Competitie\nVeld: Hoofdveld A\nScheidsrechter: J.T. Geurts\nC
- ontroleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O12-2 - AWC O12-4 (1 - 3)
+DESCRIPTION:Competitie\nEindstand: 1 - 3\nVeld: Hoofdveld A\nScheidsrecht
+ er: J.T. Geurts\nControleer bij last-minute wijzigingen altijd Voetbal.n
+ l.
 URL:https://www.vv-scp.nl/524/33067/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
