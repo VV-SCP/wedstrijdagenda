@@ -122,13 +122,13 @@ UID:wedstrijd-32791@vv-scp.nl
 DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T151500
 DTEND;TZID=Europe/Amsterdam:20261114T171500
-SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - Kesteren O19-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ -DIO'30 O19-2 - Kesteren O19-1 (1 - 2)
+DESCRIPTION:Competitie\nEindstand: 1 - 2\nVeld: Hoofdveld\nScheidsrechter
+ : E. van Gelder\nControleer bij last-minute wijzigingen altijd Voetbal.n
+ l.
 URL:https://www.vv-scp.nl/524/32791/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32792@vv-scp.nl
