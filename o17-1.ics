@@ -121,8 +121,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33208@vv-scp.nl
 DTSTAMP:20261114T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T133000
-DTEND;TZID=Europe/Amsterdam:20261128T153000
+DTSTART;TZID=Europe/Amsterdam:20261128T134500
+DTEND;TZID=Europe/Amsterdam:20261128T154500
 SUMMARY:DVSG O17-1JM - SJO SCP/DSZ O17-1
 DESCRIPTION:Competitie\nAccommodatie: Sportpark De Horst (Groesb.)\nVeld:
   veld 2 - Theo Kersten veld\nControleer bij last-minute wijzigingen alti
