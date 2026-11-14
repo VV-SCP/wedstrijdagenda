@@ -87,13 +87,11 @@ DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T103000
 DTEND;TZID=Europe/Amsterdam:20261114T123000
 SUMMARY:SJO SCP/DSZ O12-2 - AWC O12-4
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld A\nScheidsrechter: J.T. Geurts\nControleer bij last-minute wijziging
- en altijd Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: Hoofdveld A\nScheidsrechter: J.T. Geurts\nC
+ ontroleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33067/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33060@vv-scp.nl

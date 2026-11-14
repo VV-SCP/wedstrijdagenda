@@ -112,13 +112,11 @@ DTSTAMP:20261114T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T104500
 DTEND;TZID=Europe/Amsterdam:20261114T124500
 SUMMARY:SC Valburg O11-1 - SJO SCP/DSZ O11-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark 't Kasteel\nVeld: 1 A\nSc
- heidsrechter: M. Wilke\nControleer bij last-minute wijzigingen altijd Vo
- etbal.nl.
+DESCRIPTION:Competitie\nVeld: 1 A\nScheidsrechter: M. Wilke\nControleer b
+ ij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32996/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Stationsstraat 30\, 6675 AW Valburg
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32989@vv-scp.nl
