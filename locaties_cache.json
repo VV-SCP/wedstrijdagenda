@@ -262,11 +262,13 @@
   },
   "wedstrijdnummer:106612": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-14T11:55:08+01:00",
     "wedstrijd_datum": "2026-11-28T11:15:00+01:00",
     "signature": "983a27738b76d9b3b94d",
-    "accommodatie": "Sportpark",
-    "adres": "De Gelenberg De Gelenberg 3, 6654 AZ Afferden"
+    "accommodatie": "Sportpark De Gelenberg",
+    "adres": "De Gelenberg 3, 6654 AZ Afferden",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:106860": {
     "initiele_controle_gedaan": true,
@@ -1985,12 +1987,13 @@
   },
   "wedstrijdnummer:94932": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-14T04:00:31+01:00",
+    "laatst_gecontroleerd": "2026-11-14T11:55:08+01:00",
     "wedstrijd_datum": "2026-11-28T11:15:00+01:00",
     "signature": "c785655b9e3ecfa454fa",
     "accommodatie": "Sportpark Zuid (Groesbeek)",
     "adres": "Nijerf 1, 6562 KW Groesbeek",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:95055": {
     "initiele_controle_gedaan": true,
