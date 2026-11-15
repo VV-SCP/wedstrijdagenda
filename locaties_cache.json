@@ -571,12 +571,13 @@
   },
   "wedstrijdnummer:5109": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
+    "laatst_gecontroleerd": "2026-11-15T14:08:44+01:00",
     "wedstrijd_datum": "2026-11-29T14:00:00+01:00",
     "signature": "5011042acbf52e9d6c99",
     "parser_versie": 2,
     "accommodatie": "Sportpark Kremershof",
-    "adres": "Kweldam 4 A, 6653 CC Deest"
+    "adres": "Kweldam 4 A, 6653 CC Deest",
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:5159": {
     "initiele_controle_gedaan": true,
