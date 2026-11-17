@@ -13,8 +13,8 @@ DTSTAMP:20261117T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T083000
 DTEND;TZID=Europe/Amsterdam:20261121T103000
 SUMMARY:Excelsior Z. O7-2 - SJO SCP/DSZ O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: -\nCon
+ troleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33157/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -26,8 +26,8 @@ DTSTAMP:20261117T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T085000
 DTEND;TZID=Europe/Amsterdam:20261121T105000
 SUMMARY:SJO SCP/DSZ O7-2 - SVHA O7-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
+ eld A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33179/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -39,8 +39,8 @@ DTSTAMP:20261117T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T091000
 DTEND;TZID=Europe/Amsterdam:20261121T111000
 SUMMARY:SJO SCP/DSZ O7-2 - Leones O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 1
-  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
+ eld A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33147/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
