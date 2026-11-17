@@ -130,20 +130,6 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:wedstrijd-32022@vv-scp.nl
-DTSTAMP:20261117T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T163000
-DTEND;TZID=Europe/Amsterdam:20261121T183000
-SUMMARY:Blauw Wit 5 - SCP 2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Schoonhorst\nVeld: Vel
- d 2- Blauw Wit\nControleer bij last-minute wijzigingen altijd Voetbal.nl
- .
-URL:https://www.vv-scp.nl/524/32022/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:Energieweg 45\, 6541 CW Nijmegen
-END:VEVENT
-BEGIN:VEVENT
 UID:wedstrijd-32086@vv-scp.nl
 DTSTAMP:20261117T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T124500
@@ -168,6 +154,20 @@ URL:https://www.vv-scp.nl/524/32036/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
 LOCATION:Schravenhof Hosterd 65\, 6655 AE Puiflijk
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32022@vv-scp.nl
+DTSTAMP:20261117T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T123000
+DTEND;TZID=Europe/Amsterdam:20270116T143000
+SUMMARY:Blauw Wit 5 - SCP 2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Schoonhorst\nVeld: Vel
+ d 2- Blauw Wit\nControleer bij last-minute wijzigingen altijd Voetbal.nl
+ .
+URL:https://www.vv-scp.nl/524/32022/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Energieweg 45\, 6541 CW Nijmegen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32032@vv-scp.nl
