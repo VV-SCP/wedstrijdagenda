@@ -183,13 +183,14 @@
   },
   "wedstrijdnummer:105356": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-19T12:13:46+01:00",
     "wedstrijd_datum": "2026-11-21T10:50:00+01:00",
     "signature": "167d76d751c321446de5",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
     "parser_versie": 2,
-    "controle_14d_gedaan": true
+    "controle_14d_gedaan": true,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:105728": {
     "initiele_controle_gedaan": true,
@@ -230,13 +231,14 @@
   },
   "wedstrijdnummer:106242": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-07T10:57:46+01:00",
+    "laatst_gecontroleerd": "2026-11-19T12:13:46+01:00",
     "wedstrijd_datum": "2026-11-21T10:30:00+01:00",
     "signature": "d9f1f7a846d111291998",
     "accommodatie": "Sportpark De Polenkamp",
     "adres": "Bredestraat 3, 6631 BC Horssen",
     "controle_14d_gedaan": true,
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:106350": {
     "initiele_controle_gedaan": true,
@@ -1954,13 +1956,14 @@
   },
   "wedstrijdnummer:93444": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-17T20:16:24+01:00",
+    "laatst_gecontroleerd": "2026-11-19T12:13:46+01:00",
     "wedstrijd_datum": "2026-11-21T10:30:00+01:00",
     "signature": "7eec2522d85d7b9df4d0",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
     "controle_14d_gedaan": true,
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:93593": {
     "initiele_controle_gedaan": true,
@@ -2120,13 +2123,14 @@
   },
   "wedstrijdnummer:97035": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-19T12:13:46+01:00",
     "wedstrijd_datum": "2026-11-21T11:30:00+01:00",
     "signature": "c838708e547dba8d1d9f",
     "accommodatie": "Sportpark De Blatenplak",
     "adres": "Blatenplak 49, 6644 CH Ewijk",
     "parser_versie": 2,
-    "controle_14d_gedaan": true
+    "controle_14d_gedaan": true,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:97413": {
     "initiele_controle_gedaan": true,
