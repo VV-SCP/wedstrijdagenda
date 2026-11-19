@@ -1621,13 +1621,14 @@
   },
   "wedstrijdnummer:84351": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-07T15:52:40+01:00",
+    "laatst_gecontroleerd": "2026-11-19T16:12:44+01:00",
     "wedstrijd_datum": "2026-11-21T15:30:00+01:00",
     "signature": "d66e91297ca8d35e18c5",
     "accommodatie": "Sportpark De Eikelhof",
     "adres": "Achterstraat 7, 6721 VM Bennekom",
     "controle_14d_gedaan": true,
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:84364": {
     "initiele_controle_gedaan": true,
