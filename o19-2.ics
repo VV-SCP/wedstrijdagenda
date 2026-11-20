@@ -131,19 +131,6 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:wedstrijd-32792@vv-scp.nl
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T153000
-DTEND;TZID=Europe/Amsterdam:20261121T173000
-SUMMARY:Bennekom O19-3 - SJO SCP/DSZ-DIO'30 O19-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Eikelhof\nVeld: veld 4
- \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
-URL:https://www.vv-scp.nl/524/32792/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:Achterstraat 7\, 6721 VM Bennekom
-END:VEVENT
-BEGIN:VEVENT
 UID:wedstrijd-32814@vv-scp.nl
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T111500
@@ -168,5 +155,18 @@ URL:https://www.vv-scp.nl/524/32813/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
 LOCATION:Ressensestraat 30 B\, 6684 DA Ressen
+END:VEVENT
+BEGIN:VEVENT
+UID:wedstrijd-32792@vv-scp.nl
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261209T193000
+DTEND;TZID=Europe/Amsterdam:20261209T213000
+SUMMARY:Bennekom O19-3 - SJO SCP/DSZ-DIO'30 O19-2
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Eikelhof\nVeld: veld 1
+ \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+URL:https://www.vv-scp.nl/524/32792/laatste-uitslagen/wedstrijd-details/
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Achterstraat 7\, 6721 VM Bennekom
 END:VEVENT
 END:VCALENDAR

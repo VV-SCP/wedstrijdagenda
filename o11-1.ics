@@ -134,8 +134,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33008@vv-scp.nl
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T102500
-DTEND;TZID=Europe/Amsterdam:20261128T122500
+DTSTART;TZID=Europe/Amsterdam:20261128T103000
+DTEND;TZID=Europe/Amsterdam:20261128T123000
 SUMMARY:SJO SCP/DSZ O11-1 - SKV O11-2JM
 DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: veld 2
   B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
