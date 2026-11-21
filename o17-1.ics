@@ -110,9 +110,9 @@ UID:wedstrijd-33200@vv-scp.nl
 DTSTAMP:20261121T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T130000
 DTEND;TZID=Europe/Amsterdam:20261121T150000
-SUMMARY:SJO SCP/DSZ O17-1 - Orion O17-3
-DESCRIPTION:Competitie\nVeld: Hoofdveld\nScheidsrechter: W. Hol\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O17-1 - Orion O17-3 (1 - 8)
+DESCRIPTION:Competitie\nEindstand: 1 - 8\nVeld: Hoofdveld\nScheidsrechter
+ : W. Hol\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33200/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
