@@ -1781,11 +1781,13 @@
   },
   "wedstrijdnummer:88253": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T16:02:16+01:00",
     "wedstrijd_datum": "2026-12-05T15:30:00+01:00",
     "signature": "fdbaafb831e6a78ed480",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:88788": {
     "initiele_controle_gedaan": true,
@@ -2054,12 +2056,13 @@
   },
   "wedstrijdnummer:95055": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
+    "laatst_gecontroleerd": "2026-11-21T16:02:16+01:00",
     "wedstrijd_datum": "2026-12-05T15:30:00+01:00",
     "signature": "704ec2a9e2199ce500e2",
     "parser_versie": 2,
     "accommodatie": "Sportpark Ressen",
-    "adres": "Ressensestraat 30 B, 6684 DA Ressen"
+    "adres": "Ressensestraat 30 B, 6684 DA Ressen",
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:95185": {
     "initiele_controle_gedaan": true,
