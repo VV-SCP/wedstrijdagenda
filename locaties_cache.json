@@ -565,11 +565,13 @@
   },
   "wedstrijdnummer:49991": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T12:56:57+01:00",
     "wedstrijd_datum": "2026-12-05T12:45:00+01:00",
     "signature": "07c9136c15cd869f078c",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:5069": {
     "initiele_controle_gedaan": true,
@@ -1724,12 +1726,13 @@
   },
   "wedstrijdnummer:86588": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-21T12:56:57+01:00",
     "wedstrijd_datum": "2026-12-05T12:30:00+01:00",
     "signature": "ead9a6a87137eb6008ce",
     "accommodatie": "Sportpark De Kluis",
     "adres": "Kluissestraat 2, 6581 KW Malden",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:86593": {
     "initiele_controle_gedaan": true,

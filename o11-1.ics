@@ -123,14 +123,13 @@ UID:wedstrijd-32989@vv-scp.nl
 DTSTAMP:20261121T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T105000
 DTEND;TZID=Europe/Amsterdam:20261121T125000
-SUMMARY:SJO SCP/DSZ O11-1 - Excelsior Z. O11-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld A\nScheidsrechter: H.J.M. Claassen\nControleer bij last-minute wijzi
- gingen altijd Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O11-1 - Excelsior Z. O11-1JM (7 - 3)
+DESCRIPTION:Competitie\nEindstand: 7 - 3\nVeld: Hoofdveld A\nScheidsrecht
+ er: H.J.M. Claassen\nControleer bij last-minute wijzigingen altijd Voetb
+ al.nl.
 URL:https://www.vv-scp.nl/524/32989/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33008@vv-scp.nl
