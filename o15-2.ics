@@ -121,8 +121,8 @@ DTSTAMP:20261121T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T113000
 DTEND;TZID=Europe/Amsterdam:20261121T133000
 SUMMARY:vv Ewijk O15-1 - SJO SCP/DSZ O15-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Blatenplak\nVeld: veld
-  2\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Blatenplak\nVeld: 2\nC
+ ontroleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32921/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0

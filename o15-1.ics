@@ -110,14 +110,12 @@ UID:wedstrijd-33096@vv-scp.nl
 DTSTAMP:20261121T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T093000
 DTEND;TZID=Europe/Amsterdam:20261121T113000
-SUMMARY:SJO SCP/DSZ O15-1 - Juliana '31 O15-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: 2\nSch
- eidsrechter: E. van Gelder\nControleer bij last-minute wijzigingen altij
- d Voetbal.nl.
+SUMMARY:SJO SCP/DSZ O15-1 - Juliana '31 O15-1 (3 - 3)
+DESCRIPTION:Competitie\nEindstand: 3 - 3\nVeld: 2\nScheidsrechter: E. van
+  Gelder\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33096/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33092@vv-scp.nl

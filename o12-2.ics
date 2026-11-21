@@ -101,7 +101,8 @@ DTSTART;TZID=Europe/Amsterdam:20261121T103000
 DTEND;TZID=Europe/Amsterdam:20261121T123000
 SUMMARY:AAC-Olympia O12-2JM - SJO SCP/DSZ O12-2
 DESCRIPTION:Competitie\nAccommodatie: Sportpark De Polenkamp\nVeld: 1 A\n
- Controleer bij last-minute wijzigingen altijd Voetbal.nl.
+ Scheidsrechter: Anoniem\nControleer bij last-minute wijzigingen altijd V
+ oetbal.nl.
 URL:https://www.vv-scp.nl/524/33060/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -126,11 +127,11 @@ DTSTAMP:20261121T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T113000
 DTEND;TZID=Europe/Amsterdam:20261205T133000
 SUMMARY:Orion O12-4JM - SJO SCP/DSZ O12-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 4 B\nControle
- er bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Mariënbosch\nVeld: veld 
+ 4 B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33061/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Mariënbosch Nijmeegsebaan 143\, 6525 DX Nijmegen
+LOCATION:Nijmeegsebaan 143\, 6525 DX Nijmegen
 END:VEVENT
 END:VCALENDAR

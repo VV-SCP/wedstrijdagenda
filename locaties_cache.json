@@ -83,11 +83,13 @@
   },
   "wedstrijdnummer:102077": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T11:59:15+01:00",
     "wedstrijd_datum": "2026-12-05T11:30:00+01:00",
     "signature": "3ea6a0cf7373881f3da7",
-    "accommodatie": "Sportpark",
-    "adres": "Mariënbosch Nijmeegsebaan 143, 6525 DX Nijmegen"
+    "accommodatie": "Sportpark Mariënbosch",
+    "adres": "Nijmeegsebaan 143, 6525 DX Nijmegen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:102100": {
     "initiele_controle_gedaan": true,
@@ -2181,12 +2183,13 @@
   },
   "wedstrijdnummer:99014": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-21T11:59:15+01:00",
     "wedstrijd_datum": "2026-12-05T11:30:00+01:00",
     "signature": "9016762fcb2280c433a8",
     "accommodatie": "Sportpark Bretagne",
     "adres": "Polderstraat 22, 6666 LD Heteren",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:99057": {
     "initiele_controle_gedaan": true,
