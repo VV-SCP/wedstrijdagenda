@@ -121,9 +121,9 @@ DTSTAMP:20261121T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T100000
 DTEND;TZID=Europe/Amsterdam:20261121T120000
 SUMMARY:AWC O14-2JM - SJO SCP/DSZ O14-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark De Wijchert\nVeld: veld 2
- \nScheidsrechter: M. Kerstens\nControleer bij last-minute wijzigingen al
- tijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark De Wijchert\nVeld: 2\nSch
+ eidsrechter: M. Kerstens\nControleer bij last-minute wijzigingen altijd 
+ Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33039/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -148,12 +148,12 @@ DTSTAMP:20261121T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T104500
 DTEND;TZID=Europe/Amsterdam:20261205T124500
 SUMMARY:Brakkenstein O14-2 - SJO SCP/DSZ O14-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 1\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Brakkenstein\nVeld: veld 
+ 1\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33038/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Brakkenstein Heemraadstraat 9\, 6525 TG Nijmegen
+LOCATION:Heemraadstraat 9\, 6525 TG Nijmegen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33040@vv-scp.nl

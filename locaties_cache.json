@@ -1,11 +1,13 @@
 {
   "wedstrijdnummer:100107": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T11:00:11+01:00",
     "wedstrijd_datum": "2026-12-05T10:45:00+01:00",
     "signature": "b95c3299fb4553fd5316",
-    "accommodatie": "Sportpark",
-    "adres": "Brakkenstein Heemraadstraat 9, 6525 TG Nijmegen"
+    "accommodatie": "Sportpark Brakkenstein",
+    "adres": "Heemraadstraat 9, 6525 TG Nijmegen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:100190": {
     "initiele_controle_gedaan": true,
@@ -89,12 +91,13 @@
   },
   "wedstrijdnummer:102100": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-21T11:00:11+01:00",
     "wedstrijd_datum": "2026-12-05T10:30:00+01:00",
     "signature": "6da15e15e31098451d95",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:102571": {
     "initiele_controle_gedaan": true,
@@ -141,12 +144,13 @@
   },
   "wedstrijdnummer:103909": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-21T11:00:11+01:00",
     "wedstrijd_datum": "2026-12-05T10:30:00+01:00",
     "signature": "a70c0105b27c81cc3acb",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:104150": {
     "initiele_controle_gedaan": true,
@@ -321,12 +325,13 @@
   },
   "wedstrijdnummer:109565": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-21T11:00:11+01:00",
     "wedstrijd_datum": "2026-12-05T10:45:00+01:00",
     "signature": "463c903e9a14a31d80ea",
     "accommodatie": "Sportpark De Leede",
     "adres": "Joachim van Hoemenstraat 2, 4041 GT Kesteren",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:11058": {
     "initiele_controle_gedaan": true,
@@ -1777,12 +1782,13 @@
   },
   "wedstrijdnummer:88788": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-21T11:00:11+01:00",
     "wedstrijd_datum": "2026-12-05T10:30:00+01:00",
     "signature": "2f5ce8386664eba867f4",
     "accommodatie": "Sportpark Schravenhof",
     "adres": "Hosterd 65, 6655 AE Puiflijk",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:88840": {
     "initiele_controle_gedaan": true,
