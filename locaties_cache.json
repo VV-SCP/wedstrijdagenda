@@ -205,11 +205,13 @@
   },
   "wedstrijdnummer:105800": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T08:30:00+01:00",
     "signature": "4fbc661b0a2bf3e467c0",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:105916": {
     "initiele_controle_gedaan": true,
@@ -1539,54 +1541,63 @@
   },
   "wedstrijdnummer:82586": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T08:30:00+01:00",
     "signature": "18e239cf0b12ead76a1e",
-    "accommodatie": "Sportpark",
-    "adres": "De Leijgraaf Leigraafseweg 8, 6671 MC Zetten"
+    "accommodatie": "Sportpark De Leijgraaf",
+    "adres": "Leigraafseweg 8, 6671 MC Zetten",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:82615": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T08:50:00+01:00",
     "signature": "5a590fdef784b3dc434c",
-    "accommodatie": "Sportpark",
-    "adres": "De Leijgraaf Leigraafseweg 8, 6671 MC Zetten"
+    "accommodatie": "Sportpark De Leijgraaf",
+    "adres": "Leigraafseweg 8, 6671 MC Zetten",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:82640": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T09:10:00+01:00",
     "signature": "09d39aba80bda627eea9",
-    "accommodatie": "Sportpark",
-    "adres": "De Leijgraaf Leigraafseweg 8, 6671 MC Zetten"
+    "accommodatie": "Sportpark De Leijgraaf",
+    "adres": "Leigraafseweg 8, 6671 MC Zetten",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:82708": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T08:30:00+01:00",
     "signature": "4cd6188e200bfb277d28",
     "accommodatie": "Sportpark De Wijchert",
     "adres": "de Wijchert 1, 6603 AH Wijchen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:82771": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T09:10:00+01:00",
     "signature": "01efa98565935c1e222a",
     "accommodatie": "Sportpark De Wijchert",
     "adres": "de Wijchert 1, 6603 AH Wijchen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:82808": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-19T02:28:41+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T08:50:00+01:00",
     "signature": "fe8374b2c2604859b777",
     "accommodatie": "Sportpark De Wijchert",
     "adres": "de Wijchert 1, 6603 AH Wijchen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:83880": {
     "initiele_controle_gedaan": true,
@@ -1675,20 +1686,23 @@
   },
   "wedstrijdnummer:85851": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:54:09+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T09:45:00+01:00",
     "signature": "95b6919f1712d6c10bee",
     "parser_versie": 2,
     "accommodatie": "Sportpark Nieuw Balveren",
-    "adres": "Stationsstraat 24 A, 6515 AB Nijmegen"
+    "adres": "Stationsstraat 24 A, 6515 AB Nijmegen",
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:86247": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T09:00:00+01:00",
     "signature": "fbc90fc41bcf5b2c4cad",
-    "accommodatie": "Sportpark",
-    "adres": "Schaarweide Sportlaantje 2, 6616 BD Hernen"
+    "accommodatie": "Sportpark Schaarweide",
+    "adres": "Sportlaantje 2, 6616 BD Hernen",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:8647": {
     "initiele_controle_gedaan": true,
@@ -1868,11 +1882,13 @@
   },
   "wedstrijdnummer:92215": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-10-28T10:43:48+01:00",
+    "laatst_gecontroleerd": "2026-11-21T09:59:59+01:00",
     "wedstrijd_datum": "2026-12-05T08:30:00+01:00",
     "signature": "5935ad1b71f0a7b89a46",
-    "accommodatie": "Sportpark",
-    "adres": "Schravenhof Hosterd 65, 6655 AE Puiflijk"
+    "accommodatie": "Sportpark Schravenhof",
+    "adres": "Hosterd 65, 6655 AE Puiflijk",
+    "controle_14d_gedaan": true,
+    "parser_versie": 2
   },
   "wedstrijdnummer:92332": {
     "initiele_controle_gedaan": true,
