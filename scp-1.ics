@@ -145,14 +145,12 @@ UID:wedstrijd-32209@vv-scp.nl
 DTSTAMP:20261122T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T140000
 DTEND;TZID=Europe/Amsterdam:20261122T160000
-SUMMARY:SCP 1 - SV Waalstad 1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: A. Winters\nControleer bij last-minute wijzigingen 
- altijd Voetbal.nl.
+SUMMARY:SCP 1 - SV Waalstad 1 (1 - 2)
+DESCRIPTION:Competitie\nEindstand: 1 - 2\nVeld: Hoofdveld\nScheidsrechter
+ : A. Winters\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32209/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32258@vv-scp.nl
