@@ -122,14 +122,13 @@ UID:wedstrijd-32269@vv-scp.nl
 DTSTAMP:20261122T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T110000
 DTEND;TZID=Europe/Amsterdam:20261122T130000
-SUMMARY:SCP 2 - Brakkenstein 5
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld\nScheidsrechter: P.L.J. van Zagten\nControleer bij last-minute wijzi
- gingen altijd Voetbal.nl.
+SUMMARY:SCP 2 - Brakkenstein 5 (1 - 4)
+DESCRIPTION:Competitie\nEindstand: 1 - 4\nVeld: Hoofdveld\nScheidsrechter
+ : P.L.J. van Zagten\nControleer bij last-minute wijzigingen altijd Voetb
+ al.nl.
 URL:https://www.vv-scp.nl/524/32269/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32382@vv-scp.nl
