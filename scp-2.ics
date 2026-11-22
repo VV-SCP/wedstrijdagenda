@@ -150,12 +150,12 @@ DTSTAMP:20261122T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261206T120000
 DTEND;TZID=Europe/Amsterdam:20261206T140000
 SUMMARY:VDS'25 3 - SCP 2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark\nVeld: veld 4\nControleer
-  bij last-minute wijzigingen altijd Voetbal.nl.
+DESCRIPTION:Competitie\nAccommodatie: Sportpark Schaarweide\nVeld: veld 4
+ \nControleer bij last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32325/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Schaarweide Sportlaantje 2\, 6616 BD Hernen
+LOCATION:Sportlaantje 2\, 6616 BD Hernen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32344@vv-scp.nl
