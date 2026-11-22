@@ -145,11 +145,12 @@ UID:wedstrijd-32209@vv-scp.nl
 DTSTAMP:20261122T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T140000
 DTEND;TZID=Europe/Amsterdam:20261122T160000
-SUMMARY:SCP 1 - SV Waalstad 1 (1 - 2)
-DESCRIPTION:Competitie\nEindstand: 1 - 2\nVeld: Hoofdveld\nScheidsrechter
- : A. Winters\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:AFGELAST: SCP 1 - SV Waalstad 1
+DESCRIPTION:Status: afgelast\nCompetitie\nEindstand: 1 - 2\nVeld: Afg.\nS
+ cheidsrechter: A. Winters\nControleer bij last-minute wijzigingen altijd
+  Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32209/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
+STATUS:CANCELLED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
