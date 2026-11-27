@@ -124,11 +124,12 @@ UID:wedstrijd-32876@vv-scp.nl
 DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T111500
 DTEND;TZID=Europe/Amsterdam:20261128T131500
-SUMMARY:De Treffers O12-2 - SJO SCP/DSZ O12-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Zuid (Groesbeek)\nVeld: v
- eld 3 B\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:AFGELAST: De Treffers O12-2 - SJO SCP/DSZ O12-1
+DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Zuid (G
+ roesbeek)\nVeld: veld 3 B\nControleer bij last-minute wijzigingen altijd
+  Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32876/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
+STATUS:CANCELLED
 SEQUENCE:0
 LOCATION:Nijerf 1\, 6562 KW Groesbeek
 END:VEVENT

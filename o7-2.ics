@@ -12,11 +12,12 @@ UID:wedstrijd-33172@vv-scp.nl
 DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T100000
 DTEND;TZID=Europe/Amsterdam:20261128T120000
-SUMMARY:SJO SCP/DSZ O7-2 - Leones O7-1
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 2
-  A1b\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:AFGELAST: SJO SCP/DSZ O7-2 - Leones O7-1
+DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Het Zij
+ vond\nVeld: veld 2 A1b\nControleer bij last-minute wijzigingen altijd Vo
+ etbal.nl.
 URL:https://www.vv-scp.nl/524/33172/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
+STATUS:CANCELLED
 SEQUENCE:0
 LOCATION:De Peel 6\, 6658 DJ Beneden-Leeuwen
 END:VEVENT
@@ -25,11 +26,12 @@ UID:wedstrijd-33146@vv-scp.nl
 DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T102000
 DTEND;TZID=Europe/Amsterdam:20261128T122000
-SUMMARY:DIO '30 O7-2 - SJO SCP/DSZ O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 2
-  A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:AFGELAST: DIO '30 O7-2 - SJO SCP/DSZ O7-2
+DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Het Zij
+ vond\nVeld: veld 2 A1a\nControleer bij last-minute wijzigingen altijd Vo
+ etbal.nl.
 URL:https://www.vv-scp.nl/524/33146/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
+STATUS:CANCELLED
 SEQUENCE:0
 LOCATION:De Peel 6\, 6658 DJ Beneden-Leeuwen
 END:VEVENT
@@ -38,11 +40,12 @@ UID:wedstrijd-33134@vv-scp.nl
 DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T104000
 DTEND;TZID=Europe/Amsterdam:20261128T124000
-SUMMARY:SJO SCP/DSZ O7-2 - RODA '28 O7-2
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Het Zijvond\nVeld: veld 2
-  A1a\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:AFGELAST: SJO SCP/DSZ O7-2 - RODA '28 O7-2
+DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Het Zij
+ vond\nVeld: veld 2 A1a\nControleer bij last-minute wijzigingen altijd Vo
+ etbal.nl.
 URL:https://www.vv-scp.nl/524/33134/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
+STATUS:CANCELLED
 SEQUENCE:0
 LOCATION:De Peel 6\, 6658 DJ Beneden-Leeuwen
 END:VEVENT

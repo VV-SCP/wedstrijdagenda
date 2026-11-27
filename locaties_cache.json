@@ -601,13 +601,14 @@
   },
   "wedstrijdnummer:5109": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-15T14:08:44+01:00",
+    "laatst_gecontroleerd": "2026-11-27T22:59:15+01:00",
     "wedstrijd_datum": "2026-11-29T14:00:00+01:00",
     "signature": "5011042acbf52e9d6c99",
     "parser_versie": 2,
     "accommodatie": "Sportpark Kremershof",
     "adres": "Kweldam 4 A, 6653 CC Deest",
-    "controle_14d_gedaan": true
+    "controle_14d_gedaan": true,
+    "controle_48u_gedaan": true
   },
   "wedstrijdnummer:5159": {
     "initiele_controle_gedaan": true,
@@ -1930,9 +1931,9 @@
   },
   "wedstrijdnummer:92088": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-26T10:33:36+01:00",
-    "wedstrijd_datum": "2026-11-28T10:00:00+01:00",
-    "signature": "1119a0bb1ecdbc88f30f",
+    "laatst_gecontroleerd": "2026-11-27T22:59:15+01:00",
+    "wedstrijd_datum": "2026-12-03T18:30:00+01:00",
+    "signature": "d2e8f08fc8e2fb191004",
     "accommodatie": "Sportpark De Parken (Unitas '28)",
     "adres": "Parkenstraat 0, 6659 BD Wamel",
     "controle_14d_gedaan": true,

@@ -10,8 +10,8 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:wedstrijd-33086@vv-scp.nl
 DTSTAMP:20261127T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T100000
-DTEND;TZID=Europe/Amsterdam:20261128T120000
+DTSTART;TZID=Europe/Amsterdam:20261203T183000
+DTEND;TZID=Europe/Amsterdam:20261203T203000
 SUMMARY:Unitas '28 O10-1JM - SJO SCP/DSZ O10-1
 DESCRIPTION:Competitie\nAccommodatie: Sportpark De Parken (Unitas '28)\nV
  eld: veld 1 B1\nControleer bij last-minute wijzigingen altijd Voetbal.nl
