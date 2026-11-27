@@ -12,11 +12,12 @@ UID:wedstrijd-32950@vv-scp.nl
 DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T083000
 DTEND;TZID=Europe/Amsterdam:20261128T103000
-SUMMARY:SJO SCP/DSZ O10-2 - Quick 1888 O10-3
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Hoofdv
- eld A\nControleer bij last-minute wijzigingen altijd Voetbal.nl.
+SUMMARY:AFGELAST: SJO SCP/DSZ O10-2 - Quick 1888 O10-3
+DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Schrave
+ nhof\nVeld: Hoofdveld A\nControleer bij last-minute wijzigingen altijd V
+ oetbal.nl.
 URL:https://www.vv-scp.nl/524/32950/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
+STATUS:CANCELLED
 SEQUENCE:0
 LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
