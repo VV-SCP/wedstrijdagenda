@@ -121,13 +121,11 @@ DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T103000
 DTEND;TZID=Europe/Amsterdam:20261128T123000
 SUMMARY:SJO SCP/DSZ O13-1 - Unitas '28 O13-1JM
-DESCRIPTION:Competitie\nAccommodatie: Sportpark Schravenhof\nVeld: Veld 2
- \nScheidsrechter: Anoniem\nControleer bij last-minute wijzigingen altijd
-  Voetbal.nl.
+DESCRIPTION:Competitie\nVeld: 2\nScheidsrechter: Anoniem\nControleer bij 
+ last-minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33023/laatste-uitslagen/wedstrijd-details/
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Hosterd 65\, 6655 AE Puiflijk
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33020@vv-scp.nl

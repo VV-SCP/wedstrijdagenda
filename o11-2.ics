@@ -135,13 +135,11 @@ DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T083000
 DTEND;TZID=Europe/Amsterdam:20261128T103000
 SUMMARY:AFGELAST: SCE O11-3 - SJO SCP/DSZ O11-2
-DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Lindenh
- olt\nVeld: veld 2 B\nControleer bij last-minute wijzigingen altijd Voetb
- al.nl.
+DESCRIPTION:Status: afgelast\nCompetitie\nVeld: Afg.\nControleer bij last
+ -minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/32901/laatste-uitslagen/wedstrijd-details/
 STATUS:CANCELLED
 SEQUENCE:0
-LOCATION:de Meeuwse Acker 2029\, 6546 DZ Nijmegen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-32896@vv-scp.nl

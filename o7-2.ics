@@ -8,48 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:wedstrijd-33172@vv-scp.nl
-DTSTAMP:20261128T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T100000
-DTEND;TZID=Europe/Amsterdam:20261128T120000
-SUMMARY:AFGELAST: SJO SCP/DSZ O7-2 - Leones O7-1
-DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Het Zij
- vond\nVeld: veld 2 A1b\nControleer bij last-minute wijzigingen altijd Vo
- etbal.nl.
-URL:https://www.vv-scp.nl/524/33172/laatste-uitslagen/wedstrijd-details/
-STATUS:CANCELLED
-SEQUENCE:0
-LOCATION:De Peel 6\, 6658 DJ Beneden-Leeuwen
-END:VEVENT
-BEGIN:VEVENT
-UID:wedstrijd-33146@vv-scp.nl
-DTSTAMP:20261128T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T102000
-DTEND;TZID=Europe/Amsterdam:20261128T122000
-SUMMARY:AFGELAST: DIO '30 O7-2 - SJO SCP/DSZ O7-2
-DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Het Zij
- vond\nVeld: veld 2 A1a\nControleer bij last-minute wijzigingen altijd Vo
- etbal.nl.
-URL:https://www.vv-scp.nl/524/33146/laatste-uitslagen/wedstrijd-details/
-STATUS:CANCELLED
-SEQUENCE:0
-LOCATION:De Peel 6\, 6658 DJ Beneden-Leeuwen
-END:VEVENT
-BEGIN:VEVENT
-UID:wedstrijd-33134@vv-scp.nl
-DTSTAMP:20261128T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T104000
-DTEND;TZID=Europe/Amsterdam:20261128T124000
-SUMMARY:AFGELAST: SJO SCP/DSZ O7-2 - RODA '28 O7-2
-DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Het Zij
- vond\nVeld: veld 2 A1a\nControleer bij last-minute wijzigingen altijd Vo
- etbal.nl.
-URL:https://www.vv-scp.nl/524/33134/laatste-uitslagen/wedstrijd-details/
-STATUS:CANCELLED
-SEQUENCE:0
-LOCATION:De Peel 6\, 6658 DJ Beneden-Leeuwen
-END:VEVENT
-BEGIN:VEVENT
 UID:wedstrijd-33139@vv-scp.nl
 DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T083000

@@ -108,11 +108,11 @@ UID:wedstrijd-33295@vv-scp.nl
 DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T203000
 DTEND;TZID=Europe/Amsterdam:20261127T223000
-SUMMARY:SCP 35+2 - Batavia 35+1
-DESCRIPTION:Competitie\nVeld: 1 A\nControleer bij last-minute wijzigingen
-  altijd Voetbal.nl.
+SUMMARY:AFGELAST: SCP 35+2 - Batavia 35+1
+DESCRIPTION:Status: afgelast\nCompetitie\nVeld: Afg.\nControleer bij last
+ -minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33295/laatste-uitslagen/wedstrijd-details/
-STATUS:CONFIRMED
+STATUS:CANCELLED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT

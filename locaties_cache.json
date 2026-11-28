@@ -53,12 +53,13 @@
   },
   "wedstrijdnummer:101143": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-27T13:27:14+01:00",
+    "laatst_gecontroleerd": "2026-11-28T14:02:28+01:00",
     "wedstrijd_datum": "2026-12-12T12:45:00+01:00",
     "signature": "fa57d9cb0593069402bf",
     "accommodatie": "Sportpark De Schoonhorst",
     "adres": "Energieweg 45, 6541 CW Nijmegen",
-    "parser_versie": 2
+    "parser_versie": 2,
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:101289": {
     "initiele_controle_gedaan": true,
@@ -2234,12 +2235,13 @@
   },
   "wedstrijdnummer:98070": {
     "initiele_controle_gedaan": true,
-    "laatst_gecontroleerd": "2026-11-27T13:27:14+01:00",
+    "laatst_gecontroleerd": "2026-11-28T14:02:28+01:00",
     "wedstrijd_datum": "2026-12-12T12:00:00+01:00",
     "signature": "3e8c0151f4f9da35c240",
     "parser_versie": 2,
     "accommodatie": "Sportpark Walburgen",
-    "adres": "Nijmeegsestraat 65 B, 6691 CM Gendt"
+    "adres": "Nijmeegsestraat 65 B, 6691 CM Gendt",
+    "controle_14d_gedaan": true
   },
   "wedstrijdnummer:99014": {
     "initiele_controle_gedaan": true,

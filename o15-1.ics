@@ -123,13 +123,11 @@ DTSTAMP:20261128T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T104500
 DTEND;TZID=Europe/Amsterdam:20261128T124500
 SUMMARY:AFGELAST: Brakkenstein O15-1 - SJO SCP/DSZ O15-1
-DESCRIPTION:Status: afgelast\nCompetitie\nAccommodatie: Sportpark Brakken
- stein\nVeld: veld 1\nControleer bij last-minute wijzigingen altijd Voetb
- al.nl.
+DESCRIPTION:Status: afgelast\nCompetitie\nVeld: Afg.\nControleer bij last
+ -minute wijzigingen altijd Voetbal.nl.
 URL:https://www.vv-scp.nl/524/33092/laatste-uitslagen/wedstrijd-details/
 STATUS:CANCELLED
 SEQUENCE:0
-LOCATION:Heemraadstraat 9\, 6525 TG Nijmegen
 END:VEVENT
 BEGIN:VEVENT
 UID:wedstrijd-33098@vv-scp.nl
